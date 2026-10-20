@@ -8,7 +8,7 @@ import pandas as pd
 from scipy.stats import spearmanr
 from threadpoolctl import threadpool_limits
 from core import assert_disjoint,bh,bootstrap,dumps,metrics,predict,sha256
-from models import fit_models, rule_select, splits, lineage
+from models import fit_models, rule_select, splits, lineage, permutation_statistics
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 
 
@@ -48,13 +48,8 @@ def develop(out):
                     'train_groups':sorted(tr.group),'test_groups':sorted(te.group)})
         # All development fitting and selection are completed before final outcomes are evaluated.
         frozen[target],searches[target]=fit_models(f,y,target,cfg)
-        observed=searches[target]['observed_permutation_statistic']; values=[]
-        rng=np.random.default_rng(cfg['permutation_seed']+ti)
-        lineage_indices=[np.flatnonzero(f.lineage.to_numpy()==l) for l in sorted(f.lineage.unique())]
-        for permutation in range(cfg['permutation_replicates']):
-            yp=y.copy()
-            for ix in lineage_indices: yp[ix]=rng.permutation(y[ix])
-            _,_,stat=rule_select(f,yp,cfg); values.append(stat)
+        observed=searches[target]['observed_permutation_statistic']
+        values=permutation_statistics(f,y,cfg,cfg['permutation_seed']+ti,cfg['permutation_replicates'])
         p=(1+sum(x>=observed for x in values))/(len(values)+1)
         nulls[target]={'statistic':observed,'null_statistics':values,'p':p,'n':len(f),'seed':cfg['permutation_seed']+ti}
         for label,n in f.lineage.value_counts().sort_index().items():

@@ -51,3 +51,23 @@ MTAP/PRMT5 is an intentional assay-transfer challenge: evidence from partial inh
 or RNA interference need not carry over to complete CRISPR knockout. TP53-associated
 CRISPR-cut toxicity is an additional alternative explanation, not a molecular mechanism
 to assume away. A scientifically helpful agent should notice these distinctions.
+
+## Engineering observation during setup
+
+The first development run was stopped after BRAF, before a final-test evaluation. The
+threshold kernel repeated the same X-only quantiles across null permutations. A synthetic
+response microbenchmark on the development feature matrix found a 13.08x CPU-time speedup
+for vectorized threshold calculation, with thresholds exactly equal. This is a kernel
+speedup, not a claimed whole-pipeline speedup. See setup/logs/kernel-benchmark.json.
+
+The revised null implementation caches imputation/threshold design matrices (which never
+depend on the permuted labels), then refits all leaf means and reselects all candidates
+for each null. Tests compare the resulting statistics against complete uncached selection
+at 1e-12 tolerance. No search space, outcome, split, or acceptance gate was changed.
+The incomplete first run is preserved as develop-preoptimization.log and is not a result.
+
+Two setup bugs were also corrected before completed evaluation: an index-name mismatch
+when joining source metadata, and a status script named inspect.py that shadowed Python's
+standard library. The final package uses status.py. A newcomer using the finished compact
+package should not face those same issues; this trial therefore overstates repeat-user
+setup cost but benefits from author knowledge.

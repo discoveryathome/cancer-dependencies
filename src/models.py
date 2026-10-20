@@ -39,7 +39,8 @@ def rule_bank(train,y,test,grid,cfg):
     features=list(dict.fromkeys(f for f,q in grid)); x,med=preprocess(train,features)
     xt=test[features].to_numpy(float); xt=np.where(np.isnan(xt),med,xt)
     ids=np.array([features.index(f) for f,q in grid])
-    thresholds=np.array([.5 if q is None else np.quantile(x[:,i],q) for i,(f,q) in zip(ids,grid)])
+    quantiles=np.quantile(x,cfg['rule_quantiles'],axis=0)
+    thresholds=np.array([.5 if q is None else quantiles[cfg['rule_quantiles'].index(q),i] for i,(f,q) in zip(ids,grid)])
     left=x[:,ids]<=thresholds; n=left.sum(axis=0); right_n=len(y)-n
     valid=(n>=cfg['min_leaf'])&(right_n>=cfg['min_leaf'])
     yl=(left.T@y)/np.maximum(n,1); yr=(np.sum(y)-left.T@y)/np.maximum(right_n,1)
@@ -106,3 +107,32 @@ def fit_models(train,y,target,cfg):
             models[kind+'_'+modality]=linear_fit(train,y,feats,kind,alpha,cfg)
     return models,{'rules':search,'linear':tuning,'observed_permutation_statistic':stat,
                    'rule_candidate_count':len(search),'inner_folds':len(cv)}
+
+
+def permutation_statistics(frame,y,cfg,seed,count):
+    """Cache X-only designs; refit every leaf and reselect every candidate for each null."""
+    grid=rule_grid(frame,cfg); features=list(dict.fromkeys(f for f,q in grid))
+    ids=np.array([features.index(f) for f,q in grid]); banks=[]
+    valid=np.ones(len(grid),bool)
+    for a,b in splits(frame,cfg['inner_folds'],cfg['inner_seed']):
+        tr=frame.iloc[a]; te=frame.iloc[b]
+        _,params=rule_bank(tr,y[a],te.iloc[:0],grid,cfg)
+        x,med=preprocess(tr,features); xt=te[features].to_numpy(float); xt=np.where(np.isnan(xt),med,xt)
+        left=x[:,ids]<=params['threshold']; testleft=xt[:,ids]<=params['threshold']
+        valid &=params['valid']
+        banks.append((a,b,left,testleft,params['n_left'],params['n_right'],tr,te))
+    _,full=rule_bank(frame,y,frame.iloc[:0],grid,cfg); valid &=full['valid']
+    rng=np.random.default_rng(seed); strata=[np.flatnonzero(frame.lineage.to_numpy()==l) for l in sorted(frame.lineage.unique())]
+    statistics=[]
+    for _ in range(count):
+        yp=y.copy()
+        for ix in strata: yp[ix]=rng.permutation(y[ix])
+        losses=np.zeros(len(grid)); base=0.
+        for a,b,left,testleft,n,nr,tr,te in banks:
+            sums=left.T@yp[a]; yl=sums/np.maximum(n,1); yr=(yp[a].sum()-sums)/np.maximum(nr,1)
+            pred=np.where(testleft,yl,yr)
+            losses+=np.sum((yp[b,None]-pred)**2,axis=0)
+            base+=np.sum((yp[b]-predict(lineage(tr,yp[a],cfg),te))**2)
+        best=float(np.min(losses[valid])/len(y)) if valid.any() else float(np.var(yp))
+        statistics.append(float(base/len(y)-best))
+    return statistics

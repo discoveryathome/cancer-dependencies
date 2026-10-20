@@ -1,0 +1,9 @@
+start-cancer-dependencies: not conformant: the problems below need fixing, in the repo or the hub's adapter
+  problem: discover.json $.maintainers: needs at least 1 items
+  problem: frontier record not found: discover/frontier.json
+  conventions followed: weighted task catalogue, priority log, result packages
+  convention not followed: coordination channel: manifest has no `coordination` channel
+  convention not followed: frontier `reproduce` check: frontier record has no `reproduce` command
+  convention not followed: review ledger: manifest has no `ledger`
+  Conventions are recommended, not required. The stage comes from a hub assessment of
+  the five properties (spec §3), not from this check.

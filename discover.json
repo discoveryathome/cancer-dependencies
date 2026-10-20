@@ -1,0 +1,59 @@
+{
+  "schema": "discover/v0",
+  "title": "Reproducible cancer-cell genetic dependencies",
+  "summary": "A local benchmark for compact molecular rules predicting held-out CRISPR gene effects, with lineage, leakage, uncertainty and novelty audits. Computational hypotheses only.",
+  "domains": [
+    "cancer biology",
+    "functional genomics",
+    "reproducible machine learning"
+  ],
+  "license": "MIT AND CC-BY-4.0",
+  "maintainers": [],
+  "canonical_repo": "file:///Users/colkitt/discover-work/incubatedPilots/cancer-dependencies/start-cancer-dependencies",
+  "entry": {
+    "agents": "AGENTS.md",
+    "project": "DISCOVERY.md",
+    "contributing": "DISCOVERY.md",
+    "brief": "setup/RESEARCH_BRIEF.md"
+  },
+  "frontier": "discover/frontier.json",
+  "catalog": "discover/catalog.json",
+  "priority_log": "discover/priority-log.md",
+  "packages": "research/*/",
+  "permissions": {
+    "post_messages": false,
+    "open_prs": false,
+    "maintainer_only": [
+      "merge",
+      "change-frontier",
+      "publish",
+      "open-donor-intake"
+    ]
+  },
+  "verification_profile": "benchmark",
+  "hubs": [],
+  "credit": {
+    "policy": "Preserve artifact authorship, data citations, agent provenance, negative results and independent reproduction. Name people only with agreement; no automatic authorship promise.",
+    "kinds": [
+      "contributors-file",
+      "citation",
+      "acknowledgement"
+    ]
+  },
+  "session": {
+    "default_minutes": 45,
+    "orient_fraction": 0.2,
+    "verify_fraction": 0.25
+  },
+  "review": {
+    "paused": true,
+    "note": "No maintainer has agreed. LOCAL proposal; no donor intake or hub consent. Empty maintainers intentionally blocks release-schema readiness."
+  },
+  "requirements": {
+    "ram_gb": 4,
+    "disk_gb": 2,
+    "gpu": "none",
+    "note": "Compact extraction replay is much smaller than full source acquisition. Python 3.12; measured resource details in reports."
+  },
+  "process_changed_on": "2026-10-20"
+}

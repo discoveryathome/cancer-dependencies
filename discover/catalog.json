@@ -1,0 +1,149 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 1,
+  "assessed_on": "2026-10-20",
+  "priority_log": "discover/priority-log.md",
+  "status": "LOCAL proposal, intake closed pending maintainer",
+  "tracks": [
+    {
+      "id": "replication",
+      "weight": 35,
+      "useful_outcome": "Full replay matches predictions and metrics within declared tolerances; report hardware and runtime.",
+      "tasks": [
+        {
+          "id": "replay-baseline",
+          "question": "Can another machine reproduce the frozen result?",
+          "starting_points": [
+            "README.md",
+            "research/initial/VERIFY.json"
+          ],
+          "methods": [
+            "Fresh-process replay",
+            "Hash comparison",
+            "Assay-source audit"
+          ],
+          "acceptance_gate": "Full replay matches predictions and metrics within declared tolerances; report hardware and runtime.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/verify.py"
+            ],
+            "expected": "PASS: all frozen final predictions and scores recomputed."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "weight": 30,
+      "useful_outcome": "A new scientifically meaningful failure is rejected without rejecting valid frozen results.",
+      "tasks": [
+        {
+          "id": "challenge-leakage",
+          "question": "Can a deliberately flawed contribution pass the verifier?",
+          "starting_points": [
+            "src/verify.py",
+            "tests/test_verifier.py",
+            "config/PREREGISTRATION.md"
+          ],
+          "methods": [
+            "Adversarial inputs",
+            "Identity alias audits",
+            "Nested selection review"
+          ],
+          "acceptance_gate": "A new scientifically meaningful failure is rejected without rejecting valid frozen results.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "-m",
+              "pytest",
+              "-q",
+              "tests/test_verifier.py"
+            ],
+            "expected": "8 tests pass, including altered score, prediction and identity failures."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology-audit",
+      "weight": 20,
+      "useful_outcome": "Every novelty or replication statement names sources, cohorts, limitations and a falsifiable hypothesis.",
+      "tasks": [
+        {
+          "id": "audit-transfer",
+          "question": "Which positive-control relationships survive independent assay and lineage checks?",
+          "starting_points": [
+            "reports/data_audit.json",
+            "research/initial/decisions.json",
+            "setup/RESEARCH_BRIEF.md"
+          ],
+          "methods": [
+            "Literature audit",
+            "Independent identity checks",
+            "Alternative explanations"
+          ],
+          "acceptance_gate": "Every novelty or replication statement names sources, cohorts, limitations and a falsifiable hypothesis.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "audit"
+            ],
+            "expected": "Print cohort counts, cross-study overlap and open biological caveats."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compact-models",
+      "weight": 15,
+      "useful_outcome": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+      "tasks": [
+        {
+          "id": "improve-development",
+          "question": "Can a compact model improve development validation without touching the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "trial"
+            ],
+            "expected": "Print contributor trial protocol, complexity and validation status."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ]
+        }
+      ]
+    }
+  ]
+}

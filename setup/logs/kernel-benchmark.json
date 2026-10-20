@@ -1,0 +1,1 @@
+{"slow_cpu_seconds": 0.39417899999999984, "vectorized_cpu_seconds": 0.030140999999999973, "speedup_threshold_calculation": 13.077834179357028, "thresholds_exactly_equal": true, "loops": 20}

@@ -1,0 +1,20 @@
+DEVELOPED BRAF n= 776 rule= ['hotspot:BRAF'] permutation p= 0.005
+time: command terminated abnormally
+      285.56 real        48.60 user         3.77 sys
+           164478976  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               49820  page reclaims
+                3300  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1937  voluntary context switches
+              143764  involuntary context switches
+        182005244825  instructions retired
+        105573451095  cycles elapsed
+           143016728  peak memory footprint
