@@ -1,0 +1,1252 @@
+{
+  "baseline_frozen_sha256": "86a4a33c2a91c2b92b048be1b47acc4b8c65b8462922eb6664039cb79fc7833e",
+  "best_linear": {
+    "ARID1B": "elastic_all",
+    "BRAF": "elastic_all",
+    "EGFR": "elastic_expr",
+    "ERBB2": "elastic_expr",
+    "KRAS": "elastic_all",
+    "MDM2": "ridge_all",
+    "NRAS": "elastic_all",
+    "PIK3CA": "ridge_all",
+    "PRMT5": "elastic_expr",
+    "SMARCA2": "elastic_all",
+    "SMARCA4": "elastic_expr",
+    "STAG1": "elastic_expr"
+  },
+  "elapsed_seconds": 243.05262899398804,
+  "inputs": {
+    "config/PREREGISTRATION.md": "352c9f71f5253698275ed2ea33fd0d338796ab9b0b0ff1095715c95f0a7b7329",
+    "config/benchmark.json": "b002cea5fc073b710d7fb71d1a59d05ca5455700e0ac4ae0c9d819640f9ff5df",
+    "data/gene-map.json": "38875ffb1fb17d10f40fbe855e7b6e5f2fd49d4c5b765db238cdc3215f6bb6e5",
+    "data/model-metadata.csv": "f9482614f2a5a1702f71f5a0c7ae249030e57c8b046c78129a61ec90fbffab01",
+    "data/panel-lock.json": "69d2b9aeabcca72297902455b0c26554268bdaeb7024677012289eb0c5717d93",
+    "data/panel/primary.csv": "38ac6bddbf979e814c7eb0e46d10d725a4fac78c6ab752457527a5a918681740",
+    "data/panel/sanger.csv": "004d1d3974c098d2b3642fd9f88186f8bbe76d05880f4f5b74d25847aa78bb03",
+    "data/source-lock.json": "1f80c423b4deb24aa1f677ec30275fe23f0bb8f21ad21f8da736dd0e5dd94c8b",
+    "requirements.lock": "2a8c976d4228733779011fe2212ce30171d4c539c9f6fc9d39477d1a7f2ab79c",
+    "src/benchmark.py": "2214dc05eb23db278daebab905ff9274e66a184ee1befd4b39a2a14bcfee8c53",
+    "src/core.py": "b757116542c02200c8cd7b43ba18813a1037205d607acc76160d1804bd67bed8",
+    "src/fetch_data.py": "0d3e0d58d7506f1e35caafc36a76f09a8ab25a0bde326d5f3add984a024e0cc1",
+    "src/models.py": "f70fabe7e9c9760e5ef5b5d697aeade482bfba74a317451a7f3647e2fa38ad45",
+    "src/prepare.py": "2c2e8e152687f04ebf5f9b2908666a1529ef47e2625d9cf860a5abb6d247208f"
+  },
+  "models": {
+    "ARID1B": {
+      "biology_pair": {
+        "alpha": 100,
+        "center": [
+          4.656030845877419,
+          0.0944372574385511
+        ],
+        "coef": [
+          0.0050217022032850245,
+          -0.07014996717593547
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "expr:ARID1A",
+          "damaging:ARID1A"
+        ],
+        "intercept": -0.13966073582844077,
+        "kind": "linear",
+        "medians": [
+          4.74092756032,
+          0.0
+        ],
+        "scale": [
+          0.9033677727383775,
+          0.29243608164184515
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.05192120499906892
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.051892180885170225
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.05180539772801833
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 100,
+        "center": [
+          0.0944372574385511,
+          0.007761966364812419
+        ],
+        "coef": [
+          -0.06603879512040627,
+          -0.017907032526411702
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "damaging:ARID1A",
+          "hotspot:ARID1A"
+        ],
+        "intercept": -0.13966073582844077,
+        "kind": "linear",
+        "medians": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.29243608164184515,
+          0.08775943392572641
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.053536324639654166
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.05349367582887803
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.0532312159830653
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    },
+    "BRAF": {
+      "biology_pair": {
+        "alpha": 1,
+        "center": [
+          0.0685640362225097,
+          3.0294282110955875
+        ],
+        "coef": [
+          -0.3459411855075043,
+          -0.010635900760958288
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "hotspot:BRAF",
+          "expr:BRAF"
+        ],
+        "intercept": -0.3227141379478711,
+        "kind": "linear",
+        "medians": [
+          0.0,
+          3.01970191444
+        ],
+        "scale": [
+          0.25271131585148315,
+          0.6259084681793475
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.08192563526271984
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.08195642376581576
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.08498050156299979
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 1,
+        "center": [
+          0.0685640362225097,
+          0.6052798492751802
+        ],
+        "coef": [
+          -0.2787536869502711,
+          -0.12040840362368783
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "hotspot:BRAF",
+          "expr:SOX10"
+        ],
+        "intercept": -0.3227141379478711,
+        "kind": "linear",
+        "medians": [
+          0.0,
+          0.0703893278914
+        ],
+        "scale": [
+          0.25271131585148315,
+          1.8724361844168629
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.07211520051576233
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.07211543605970909
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.07392571616494135
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    },
+    "EGFR": {
+      "biology_pair": {
+        "alpha": 1,
+        "center": [
+          3.679195136217725,
+          4.778735005351031
+        ],
+        "coef": [
+          -0.13223298518566765,
+          0.009729252360916412
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "expr:EGFR",
+          "cn:EGFR"
+        ],
+        "intercept": -0.17526663595131337,
+        "kind": "linear",
+        "medians": [
+          4.31614574229,
+          4.0
+        ],
+        "scale": [
+          2.405700716503924,
+          9.403908868029635
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.11063742598766434
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.11069031319533446
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.11145674362356353
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 1,
+        "center": [
+          4.168966267241028,
+          3.679195136217725
+        ],
+        "coef": [
+          -0.10946814812219384,
+          -0.08454083843452048
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "expr:EPCAM",
+          "expr:EGFR"
+        ],
+        "intercept": -0.17526663595131337,
+        "kind": "linear",
+        "medians": [
+          3.41006969176,
+          4.31614574229
+        ],
+        "scale": [
+          3.483138085068677,
+          2.405700716503924
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.10294255827693224
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.10294296549873211
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.10322403178742975
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    },
+    "ERBB2": {
+      "biology_pair": {
+        "alpha": 1,
+        "center": [
+          4.413251017148991,
+          4.235945837145239
+        ],
+        "coef": [
+          -0.1696482227378272,
+          -0.0010954024552126756
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "expr:ERBB2",
+          "cn:ERBB2"
+        ],
+        "intercept": -0.388470073992272,
+        "kind": "linear",
+        "medians": [
+          4.59454854955,
+          3.0
+        ],
+        "scale": [
+          1.6483328734304596,
+          12.399016361668101
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.11135721009304021
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.11136407447629366
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.11196990140355698
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 1,
+        "center": [
+          4.413251017148991,
+          4.168966267241028
+        ],
+        "coef": [
+          -0.1580786627411612,
+          -0.024084953593186267
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "expr:ERBB2",
+          "expr:EPCAM"
+        ],
+        "intercept": -0.388470073992272,
+        "kind": "linear",
+        "medians": [
+          4.59454854955,
+          3.41006969176
+        ],
+        "scale": [
+          1.6483328734304596,
+          3.483138085068677
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.10851716872800526
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.10852273347874838
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.10916269225796187
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    },
+    "KRAS": {
+      "biology_pair": {
+        "alpha": 1,
+        "center": [
+          0.14877102199223805,
+          4.028531879281642
+        ],
+        "coef": [
+          -0.48237598176409996,
+          -0.042673990546151785
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "hotspot:KRAS",
+          "expr:KRAS"
+        ],
+        "intercept": -0.8095196495028556,
+        "kind": "linear",
+        "medians": [
+          0.0,
+          3.9772799235
+        ],
+        "scale": [
+          0.35586262097559934,
+          0.9137720741198772
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.1618503278434051
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.16189502665492056
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.16770411443150007
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 1,
+        "center": [
+          0.14877102199223805,
+          4.168966267241028
+        ],
+        "coef": [
+          -0.48056363824821197,
+          -0.03388826488499778
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "hotspot:KRAS",
+          "expr:EPCAM"
+        ],
+        "intercept": -0.8095196495028556,
+        "kind": "linear",
+        "medians": [
+          0.0,
+          3.41006969176
+        ],
+        "scale": [
+          0.35586262097559934,
+          3.483138085068677
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.1632194798797291
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.16327138521977913
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.1690386925770924
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    },
+    "MDM2": {
+      "biology_pair": {
+        "alpha": 1,
+        "center": [
+          0.6468305304010349,
+          0.5019404915912031
+        ],
+        "coef": [
+          0.3560930626704794,
+          0.054115819313186354
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "damaging:TP53",
+          "hotspot:TP53"
+        ],
+        "intercept": -0.7586881598732363,
+        "kind": "linear",
+        "medians": [
+          1.0,
+          1.0
+        ],
+        "scale": [
+          0.4779548047066279,
+          0.49999623447820535
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.2214139411300024
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.22147818494569327
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.22507113521734978
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 10,
+        "center": [
+          0.6468305304010349,
+          4.842094088193337
+        ],
+        "coef": [
+          0.31028301815254034,
+          -0.17504039657598747
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "damaging:TP53",
+          "expr:MDM2"
+        ],
+        "intercept": -0.7586881598732363,
+        "kind": "linear",
+        "medians": [
+          1.0,
+          4.60110220338
+        ],
+        "scale": [
+          0.4779548047066279,
+          1.2982194713838977
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.21430352018460436
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.21414282389359443
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.21537323242992207
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    },
+    "NRAS": {
+      "biology_pair": {
+        "alpha": 1,
+        "center": [
+          0.059508408796895215,
+          5.033283429848438
+        ],
+        "coef": [
+          -0.3733774898375734,
+          -0.0011161966663934312
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "hotspot:NRAS",
+          "expr:NRAS"
+        ],
+        "intercept": -0.26508280416064417,
+        "kind": "linear",
+        "medians": [
+          0.0,
+          5.08108392869
+        ],
+        "scale": [
+          0.23657378992474382,
+          0.8433211257139185
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.066984496823687
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.06698921986279022
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.0703775812311695
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 1,
+        "center": [
+          0.059508408796895215,
+          4.413251017148991
+        ],
+        "coef": [
+          -0.3736730844277739,
+          -0.000748077932455025
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "hotspot:NRAS",
+          "expr:ERBB2"
+        ],
+        "intercept": -0.26508280416064417,
+        "kind": "linear",
+        "medians": [
+          0.0,
+          4.59454854955
+        ],
+        "scale": [
+          0.23657378992474382,
+          1.6483328734304596
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.0664299105779622
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.06653328659469127
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.07058867488293794
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    },
+    "PIK3CA": {
+      "biology_pair": {
+        "alpha": 10,
+        "center": [
+          0.10219922380336352,
+          3.305318057098267
+        ],
+        "coef": [
+          -0.15326198675039965,
+          -0.0074941651720400945
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "hotspot:PIK3CA",
+          "expr:PIK3CA"
+        ],
+        "intercept": -0.5132672105608143,
+        "kind": "linear",
+        "medians": [
+          0.0,
+          3.30012372457
+        ],
+        "scale": [
+          0.30291012273833556,
+          0.6004825874745683
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.11682245358158098
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.11678914628290248
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.11708846505663344
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 10,
+        "center": [
+          0.10219922380336352,
+          7.3803918448246595
+        ],
+        "coef": [
+          -0.14272185797388756,
+          0.06702879789548888
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "hotspot:PIK3CA",
+          "expr:VIM"
+        ],
+        "intercept": -0.5132672105608143,
+        "kind": "linear",
+        "medians": [
+          0.0,
+          8.67743776892
+        ],
+        "scale": [
+          0.30291012273833556,
+          3.8608707794959916
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.11540181165084917
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.11534681857409837
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.11538385643157469
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    },
+    "PRMT5": {
+      "biology_pair": {
+        "alpha": 100,
+        "center": [
+          1.8895217704987737,
+          3.641494176762068
+        ],
+        "coef": [
+          0.027696379533479393,
+          0.07339036287827107
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "cn:MTAP",
+          "expr:MTAP"
+        ],
+        "intercept": -1.376818647994724,
+        "kind": "linear",
+        "medians": [
+          2.0,
+          4.23496109484
+        ],
+        "scale": [
+          1.2014117125135733,
+          1.8802715298504429
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.15133530378517676
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.15129883783321071
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.151230831746097
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 10,
+        "center": [
+          3.641494176762068,
+          1.8895217704987737
+        ],
+        "coef": [
+          0.08364990413448292,
+          0.024678819937515858
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "expr:MTAP",
+          "cn:MTAP"
+        ],
+        "intercept": -1.376818647994724,
+        "kind": "linear",
+        "medians": [
+          4.23496109484,
+          2.0
+        ],
+        "scale": [
+          1.8802715298504429,
+          1.2014117125135733
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.1518242645953805
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.15181237986720741
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.15182798319047136
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    },
+    "SMARCA2": {
+      "biology_pair": {
+        "alpha": 10,
+        "center": [
+          6.081741674253982,
+          0.06338939197930142
+        ],
+        "coef": [
+          0.10798648236282758,
+          -0.0778630974363375
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "expr:SMARCA4",
+          "damaging:SMARCA4"
+        ],
+        "intercept": 0.07053634738939858,
+        "kind": "linear",
+        "medians": [
+          6.1737270989,
+          0.0
+        ],
+        "scale": [
+          1.0467663615164458,
+          0.24366201378917457
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.054726692949372824
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.0547181172156412
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.054997618511618857
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 10,
+        "center": [
+          6.081741674253982,
+          0.06338939197930142
+        ],
+        "coef": [
+          0.10798648236282758,
+          -0.0778630974363375
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "expr:SMARCA4",
+          "damaging:SMARCA4"
+        ],
+        "intercept": 0.07053634738939858,
+        "kind": "linear",
+        "medians": [
+          6.1737270989,
+          0.0
+        ],
+        "scale": [
+          1.0467663615164458,
+          0.24366201378917457
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.054726692949372824
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.0547181172156412
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.054997618511618857
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    },
+    "SMARCA4": {
+      "biology_pair": {
+        "alpha": 10,
+        "center": [
+          4.431308173319616,
+          0.007761966364812419
+        ],
+        "coef": [
+          0.11162598550686337,
+          -0.003716899130094794
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "expr:SMARCA2",
+          "damaging:SMARCA2"
+        ],
+        "intercept": -0.42983669292802856,
+        "kind": "linear",
+        "medians": [
+          4.65535182861,
+          0.0
+        ],
+        "scale": [
+          1.4450737624280758,
+          0.0877594339257264
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.1443379652998574
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.14433343094542136
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.14459269715097983
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 10,
+        "center": [
+          4.431308173319616,
+          6.081741674253982
+        ],
+        "coef": [
+          0.12849299412464568,
+          -0.11663492152116024
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "expr:SMARCA2",
+          "expr:SMARCA4"
+        ],
+        "intercept": -0.4298366929280287,
+        "kind": "linear",
+        "medians": [
+          4.65535182861,
+          6.1737270989
+        ],
+        "scale": [
+          1.4450737624280758,
+          1.0467663615164458
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.13058118265944396
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.13056725878465472
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.13128151302724309
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    },
+    "STAG1": {
+      "biology_pair": {
+        "alpha": 1,
+        "center": [
+          5.0669227676253845,
+          0.03363518758085381
+        ],
+        "coef": [
+          0.027636730201241133,
+          -0.0791826600728457
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "expr:STAG2",
+          "damaging:STAG2"
+        ],
+        "intercept": -0.1773352170110746,
+        "kind": "linear",
+        "medians": [
+          5.10685079645,
+          0.0
+        ],
+        "scale": [
+          0.8066334264001189,
+          0.18028827398711927
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.06862350414193227
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.06862424574750392
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.06878164867608107
+            }
+          ],
+          "family": "biology_pair"
+        }
+      },
+      "blind_pair": {
+        "alpha": 10,
+        "center": [
+          0.03363518758085381,
+          5.0669227676253845
+        ],
+        "coef": [
+          -0.0782961428532548,
+          0.027543325031848705
+        ],
+        "complexity": {
+          "molecular_features": 2,
+          "parameters": 3,
+          "preprocessing_features": 2,
+          "preprocessing_parameters": 6
+        },
+        "estimator": "ridge",
+        "features": [
+          "damaging:STAG2",
+          "expr:STAG2"
+        ],
+        "intercept": -0.1773352170110746,
+        "kind": "linear",
+        "medians": [
+          0.0,
+          5.10685079645
+        ],
+        "scale": [
+          0.18028827398711927,
+          0.8066334264001189
+        ],
+        "selection": {
+          "alpha_scores": [
+            {
+              "alpha": 1,
+              "inner_mse": 0.06886795784765841
+            },
+            {
+              "alpha": 10,
+              "inner_mse": 0.06885713427892402
+            },
+            {
+              "alpha": 100,
+              "inner_mse": 0.06893826462752294
+            }
+          ],
+          "family": "blind_pair"
+        }
+      }
+    }
+  },
+  "protocol_sha256": "26253a16c986b23dade7ebbe265735583adf506a80c7eac3f6729b132859f721",
+  "scales": {
+    "ARID1B": 0.05637926335330225,
+    "BRAF": 0.20157894984033256,
+    "EGFR": 0.12637357781844594,
+    "ERBB2": 0.13735459478987577,
+    "KRAS": 0.4003691440309659,
+    "MDM2": 0.37749821244103776,
+    "NRAS": 0.20503672308042195,
+    "PIK3CA": 0.13912417024029586,
+    "PRMT5": 0.16023645115918222,
+    "SMARCA2": 0.07584828564636739,
+    "SMARCA4": 0.15604214879503417,
+    "STAG1": 0.0762258100372049
+  },
+  "trial_code_sha256": "7c1c0b99de874af033dca3b2b57253540ba9e1b414460342588fd0282cc54614"
+}
