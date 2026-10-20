@@ -1,0 +1,23 @@
+Wrote /Users/colkitt/discover-work/incubatedPilots/cancer-dependencies/start-cancer-dependencies/research/starter/RESULT.json in 3.91 seconds
+rule_all mean fold skill vs lineage: 0.1524 positive folds: 5 / 5
+biology_pair mean fold skill vs lineage: 0.259 positive folds: 5 / 5
+blind_pair mean fold skill vs lineage: 0.259 positive folds: 5 / 5
+       11.79 real         3.11 user         0.50 sys
+           186040320  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               34607  page reclaims
+                 156  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1575  voluntary context switches
+                5047  involuntary context switches
+         11967999020  instructions retired
+          6182638397  cycles elapsed
+           124617520  peak memory footprint
+PASS: every eligible development model predicted exactly once; fold separation and all 15 scores verified.

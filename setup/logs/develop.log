@@ -1,22 +1,31 @@
-DEVELOPED BRAF n= 776 rule= ['hotspot:BRAF'] permutation p= 0.005
-DEVELOPED KRAS n= 776 rule= ['hotspot:KRAS'] permutation p= 0.005
-DEVELOPED NRAS n= 776 rule= ['hotspot:NRAS'] permutation p= 0.005
-time: command terminated abnormally
-      213.26 real        40.12 user         3.34 sys
-           200802304  maximum resident set size
+DEVELOPED BRAF n= 773 rule= ['hotspot:BRAF'] permutation p= 0.005
+DEVELOPED KRAS n= 773 rule= ['hotspot:KRAS'] permutation p= 0.005
+DEVELOPED NRAS n= 773 rule= ['hotspot:NRAS'] permutation p= 0.005
+DEVELOPED EGFR n= 773 rule= ['expr:EPCAM'] permutation p= 0.005
+DEVELOPED ERBB2 n= 773 rule= ['expr:ERBB2'] permutation p= 0.01
+DEVELOPED PIK3CA n= 773 rule= ['hotspot:PIK3CA'] permutation p= 0.005
+DEVELOPED SMARCA2 n= 773 rule= ['damaging:SMARCA4'] permutation p= 0.005
+DEVELOPED SMARCA4 n= 773 rule= ['expr:SMARCA2'] permutation p= 0.005
+DEVELOPED ARID1B n= 773 rule= ['damaging:ARID1A'] permutation p= 0.005
+DEVELOPED STAG1 n= 773 rule= ['expr:ARID1A'] permutation p= 0.35
+DEVELOPED MDM2 n= 773 rule= ['damaging:TP53'] permutation p= 0.005
+DEVELOPED PRMT5 n= 773 rule= ['expr:MTAP'] permutation p= 0.005
+FROZEN /Users/colkitt/discover-work/incubatedPilots/cancer-dependencies/start-cancer-dependencies/research/initial/frozen.json seconds 586.8
+      602.03 real       147.66 user        11.60 sys
+           369901568  maximum resident set size
                    0  average shared memory size
                    0  average unshared data size
                    0  average unshared stack size
-               43425  page reclaims
-                 204  page faults
+               89966  page reclaims
+                 191  page faults
                    0  swaps
                    0  block input operations
                    0  block output operations
                    0  messages sent
                    0  messages received
                    0  signals received
-                1178  voluntary context switches
-               91052  involuntary context switches
-        140310063117  instructions retired
-         82438837674  cycles elapsed
-           159187784  peak memory footprint
+                1196  voluntary context switches
+              338279  involuntary context switches
+        535212330700  instructions retired
+        311885346028  cycles elapsed
+           284689296  peak memory footprint

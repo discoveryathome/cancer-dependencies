@@ -84,3 +84,14 @@ as well as the previously excluded lineage categories and engineered models. Thi
 the stated cancer-cell eligibility requirement, not a response-based exclusion. All panels,
 identity partitions and evaluations are regenerated. No final-test predictions or scores
 had been computed or inspected. Both the correction and earlier protocol remain in git.
+
+## First bounded task completed
+
+The one-target SMARCA2 starter run used development data only and took 11.79 seconds
+including interpreter/import startup (3.91 seconds inside the evaluator; 3.61 CPU seconds;
+maximum resident set 186,040,320 bytes). Its five-fold mean skill relative to the lineage
+baseline rose from 0.1524 for the one-feature rule to 0.2590 for the biological pair.
+The blind pair matched 0.2590. Every development model was predicted exactly once and all
+15 fold/model scores were verified. See research/starter/RESULT.json and
+setup/logs/starter.log. This is checkable early progress, but not final validation and not
+evidence that the literature prior outperforms simple automatic feature selection.

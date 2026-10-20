@@ -116,8 +116,8 @@
       "useful_outcome": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
       "tasks": [
         {
-          "id": "improve-development",
-          "question": "Can a compact model improve development validation without touching the final test?",
+          "id": "compact-braf",
+          "question": "Can a compact BRAF predictor improve development validation without reusing the final test?",
           "starting_points": [
             "research/contributor-trial/SESSION.md",
             "src/models.py",
@@ -133,14 +133,418 @@
             "command": [
               ".venv/bin/python",
               "src/status.py",
-              "trial"
+              "target",
+              "--target",
+              "BRAF"
             ],
-            "expected": "Print contributor trial protocol, complexity and validation status."
+            "expected": "Print the fixed BRAF biological pair and a development-only starter command.",
+            "scope": "BRAF only; independent fresh validation required for new confirmation."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
           "claim_kind": [
             "measured",
             "observational"
+          ],
+          "overlap_terms": [
+            "BRAF",
+            "development",
+            "compact model"
+          ]
+        },
+        {
+          "id": "compact-kras",
+          "question": "Can a compact KRAS predictor improve development validation without reusing the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "target",
+              "--target",
+              "KRAS"
+            ],
+            "expected": "Print the fixed KRAS biological pair and a development-only starter command.",
+            "scope": "KRAS only; independent fresh validation required for new confirmation."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ],
+          "overlap_terms": [
+            "KRAS",
+            "development",
+            "compact model"
+          ]
+        },
+        {
+          "id": "compact-nras",
+          "question": "Can a compact NRAS predictor improve development validation without reusing the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "target",
+              "--target",
+              "NRAS"
+            ],
+            "expected": "Print the fixed NRAS biological pair and a development-only starter command.",
+            "scope": "NRAS only; independent fresh validation required for new confirmation."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ],
+          "overlap_terms": [
+            "NRAS",
+            "development",
+            "compact model"
+          ]
+        },
+        {
+          "id": "compact-egfr",
+          "question": "Can a compact EGFR predictor improve development validation without reusing the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "target",
+              "--target",
+              "EGFR"
+            ],
+            "expected": "Print the fixed EGFR biological pair and a development-only starter command.",
+            "scope": "EGFR only; independent fresh validation required for new confirmation."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ],
+          "overlap_terms": [
+            "EGFR",
+            "development",
+            "compact model"
+          ]
+        },
+        {
+          "id": "compact-erbb2",
+          "question": "Can a compact ERBB2 predictor improve development validation without reusing the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "target",
+              "--target",
+              "ERBB2"
+            ],
+            "expected": "Print the fixed ERBB2 biological pair and a development-only starter command.",
+            "scope": "ERBB2 only; independent fresh validation required for new confirmation."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ],
+          "overlap_terms": [
+            "ERBB2",
+            "development",
+            "compact model"
+          ]
+        },
+        {
+          "id": "compact-pik3ca",
+          "question": "Can a compact PIK3CA predictor improve development validation without reusing the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "target",
+              "--target",
+              "PIK3CA"
+            ],
+            "expected": "Print the fixed PIK3CA biological pair and a development-only starter command.",
+            "scope": "PIK3CA only; independent fresh validation required for new confirmation."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ],
+          "overlap_terms": [
+            "PIK3CA",
+            "development",
+            "compact model"
+          ]
+        },
+        {
+          "id": "compact-smarca2",
+          "question": "Can a compact SMARCA2 predictor improve development validation without reusing the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "target",
+              "--target",
+              "SMARCA2"
+            ],
+            "expected": "Print the fixed SMARCA2 biological pair and a development-only starter command.",
+            "scope": "SMARCA2 only; independent fresh validation required for new confirmation."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ],
+          "overlap_terms": [
+            "SMARCA2",
+            "development",
+            "compact model"
+          ]
+        },
+        {
+          "id": "compact-smarca4",
+          "question": "Can a compact SMARCA4 predictor improve development validation without reusing the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "target",
+              "--target",
+              "SMARCA4"
+            ],
+            "expected": "Print the fixed SMARCA4 biological pair and a development-only starter command.",
+            "scope": "SMARCA4 only; independent fresh validation required for new confirmation."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ],
+          "overlap_terms": [
+            "SMARCA4",
+            "development",
+            "compact model"
+          ]
+        },
+        {
+          "id": "compact-arid1b",
+          "question": "Can a compact ARID1B predictor improve development validation without reusing the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "target",
+              "--target",
+              "ARID1B"
+            ],
+            "expected": "Print the fixed ARID1B biological pair and a development-only starter command.",
+            "scope": "ARID1B only; independent fresh validation required for new confirmation."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ],
+          "overlap_terms": [
+            "ARID1B",
+            "development",
+            "compact model"
+          ]
+        },
+        {
+          "id": "compact-stag1",
+          "question": "Can a compact STAG1 predictor improve development validation without reusing the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "target",
+              "--target",
+              "STAG1"
+            ],
+            "expected": "Print the fixed STAG1 biological pair and a development-only starter command.",
+            "scope": "STAG1 only; independent fresh validation required for new confirmation."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ],
+          "overlap_terms": [
+            "STAG1",
+            "development",
+            "compact model"
+          ]
+        },
+        {
+          "id": "compact-mdm2",
+          "question": "Can a compact MDM2 predictor improve development validation without reusing the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "target",
+              "--target",
+              "MDM2"
+            ],
+            "expected": "Print the fixed MDM2 biological pair and a development-only starter command.",
+            "scope": "MDM2 only; independent fresh validation required for new confirmation."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ],
+          "overlap_terms": [
+            "MDM2",
+            "development",
+            "compact model"
+          ]
+        },
+        {
+          "id": "compact-prmt5",
+          "question": "Can a compact PRMT5 predictor improve development validation without reusing the final test?",
+          "starting_points": [
+            "research/contributor-trial/SESSION.md",
+            "src/models.py",
+            "src/trial.py"
+          ],
+          "methods": [
+            "Biological feature construction",
+            "Nested validation",
+            "Complexity-performance comparison"
+          ],
+          "acceptance_gate": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "target",
+              "--target",
+              "PRMT5"
+            ],
+            "expected": "Print the fixed PRMT5 biological pair and a development-only starter command.",
+            "scope": "PRMT5 only; independent fresh validation required for new confirmation."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ],
+          "overlap_terms": [
+            "PRMT5",
+            "development",
+            "compact model"
           ]
         }
       ]

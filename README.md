@@ -11,13 +11,15 @@ reported 2,045 multi-omics elastic-net models passing their cross-validation cri
 That literature result is not this pilot's baseline score. Our opportunity is compact,
 auditable rules that retain value under held-out and cross-lineage testing.
 
+Start with [QUICKSTART.md](QUICKSTART.md) for a bounded contributor task.
+
 ## Run locally
 
 Python 3.12, no GPU. From this directory:
 
 ```sh
 python3.12 -m venv .venv
-.venv/bin/python -m pip install --require-hashes -r requirements.lock
+.venv/bin/python -m pip install --no-cache-dir --require-hashes -r requirements.lock
 .venv/bin/python -m pytest -q
 .venv/bin/python src/verify.py
 ```
@@ -77,3 +79,13 @@ and lineage fit. Use `src/compare_replay.py ORIGINAL REPLAY` to compare full out
 
 To regenerate static report figures, install `requirements-report.lock` in the same
 local environment and run `.venv/bin/python src/make_figures.py`.
+
+Batch-audit reconstruction (after `fetch_data.py`):
+
+```sh
+.venv/bin/python src/batch_audit.py prepare
+.venv/bin/python src/batch_audit.py evaluate
+```
+
+These are development-only sensitivity checks on released pDNA batch identifiers;
+shared upstream processing and unmeasured technical effects remain limitations.

@@ -1,0 +1,12 @@
+{
+  "design": "Development-only. Test models exposed to exactly one pDNA batch; remove all training models exposed to that batch. Reselect rule inside remaining training data.",
+  "development_batch_counts": {
+    "Avana-2": 76,
+    "Avana-3": 516,
+    "Avana-3;Avana-4": 4,
+    "Avana-4": 177
+  },
+  "limitations": "pDNA batch is one assay-batch proxy. Shared upstream score estimation remains; no causal adjustment for all technical differences. Results are descriptive sensitivity checks.",
+  "n_checks": 36,
+  "n_missing_batch": 0
+}

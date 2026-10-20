@@ -79,3 +79,20 @@ credit follows the artifact/provenance record; list people only with their agree
 Acknowledge agent assistance, source data authors, negative findings and independent
 reproduction. Authorship is not promised automatically. Review capacity, not donated
 compute, will determine how quickly meaningful contributions can be accepted.
+
+## Limits of statistical and operational guarantees
+
+The final test is separated by workflow and inspected once after freezing; its labels are
+in public files, not protected by an access-control service. An adversarial contributor
+can read them. Future adaptive work cannot use that same test for independent confirmation.
+The verifier checks arithmetic and explicit provenance; an independent review must inspect
+how a candidate was chosen. Re-fitting selected models is a stronger computational check
+than merely reproducing their predictions, but still not a novelty or causality check.
+
+The 12 primary development permutation p-values receive BH adjustment. Final target-level
+bootstrap intervals are individual conditional intervals, not simultaneous familywise
+coverage. The conjunction of pilot screening gates is not a new formal FDR guarantee.
+Cross-lineage, batch and external tables are sensitivity evidence; small subgroup cells
+are not independent discoveries. No significance claim is attached to secondary rankings.
+The trial has one declared aggregate comparison; its two additional comparator rankings
+are descriptive. Confidence intervals omit training-data and dataset-selection uncertainty.
