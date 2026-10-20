@@ -1,7 +1,7 @@
 # Reproducible cancer-cell dependency rules
 
 Can a compact molecular rule predict which previously unseen cancer cell lines depend
-on a gene? This LOCAL Discovery@Home pilot compares interpretable rules with standard
+on a gene? This Discovery@Home pilot compares interpretable rules with standard
 predictive baselines using existing DepMap CRISPR results. Findings are **computational
 research hypotheses**, not validated drug targets. Cancer-versus-normal selectivity is
 not measured.
@@ -64,8 +64,11 @@ URLs, MD5 checks and SHA256 hashes; `data/gene-map.json` retains original gene I
 - `reports/`: data and scientific audits, contributor-trial assessment.
 - [Authoritative frontier](discover/frontier.json): accepted scope and open obligations.
 
-This is an unlisted local proposal. No maintainer has agreed to serve; donor intake is
-closed, no hub consent exists, and no GitHub repository or posts have been created.
+This is an unlisted pilot hosted in the private
+[discoveryathome/cancer-dependencies repository](https://github.com/discoveryathome/cancer-dependencies).
+No maintainer has agreed to serve; donor intake is closed and no hub consent exists.
+Repository creation and the initial push were authorized; no hub PR or external messages
+were submitted.
 
 Additional verification:
 

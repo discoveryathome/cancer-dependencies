@@ -1,8 +1,10 @@
 # Agent entry
 
 Read DISCOVERY.md, config/PREREGISTRATION.md, discover/frontier.json, and the latest
-reports before research. This is a LOCAL proposal with donor intake closed. There is no
-appointed maintainer. Do not publish, contact anyone, enroll a hub, or claim acceptance.
+reports before research. This is an unlisted private GitHub pilot with donor intake closed. There is no
+appointed maintainer. The user authorized repository creation and the initial push to
+`discoveryathome/cancer-dependencies`. Do not make it public, contact anyone, submit a
+hub PR, enroll a hub, or claim acceptance without further authorization.
 
 Keep final-test labels out of adaptive research. After the initial final test is opened,
 this public holdout is a historical evaluation set, not a fresh confirmation set for future

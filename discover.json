@@ -9,7 +9,7 @@
   ],
   "license": "MIT AND CC-BY-4.0",
   "maintainers": [],
-  "canonical_repo": "file:///Users/colkitt/discover-work/incubatedPilots/cancer-dependencies/start-cancer-dependencies",
+  "canonical_repo": "https://github.com/discoveryathome/cancer-dependencies",
   "entry": {
     "agents": "AGENTS.md",
     "project": "DISCOVERY.md",
@@ -47,7 +47,7 @@
   },
   "review": {
     "paused": true,
-    "note": "No maintainer has agreed. LOCAL proposal; no donor intake or hub consent. Empty maintainers intentionally blocks release-schema readiness."
+    "note": "No maintainer has agreed. Private GitHub pilot; no donor intake or hub consent. Empty maintainers intentionally blocks release-schema readiness."
   },
   "requirements": {
     "ram_gb": 4,
