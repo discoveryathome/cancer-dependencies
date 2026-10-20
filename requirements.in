@@ -1,0 +1,6 @@
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.6.1
+jsonschema==4.23.0
+pytest==8.3.5

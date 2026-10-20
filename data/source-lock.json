@@ -1,0 +1,81 @@
+{
+  "doi": "10.25452/figshare.plus.25880521.v1",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "article_version": 1,
+  "files": [
+    {
+      "name": "AchillesScreenQCReport.csv",
+      "bytes": 319485,
+      "md5": "678c331e87b758a66f41e29de0284e96",
+      "sha256": "680ea3ff3a90587548b09baec339ba6cb8569fe95eb04f459f81ee43eeec0ab0",
+      "url": "https://ndownloader.figshare.com/files/46486213"
+    },
+    {
+      "name": "CRISPRScreenMap.csv",
+      "bytes": 35507,
+      "md5": "e8c2b3902baf7e6c82fac1cf2aec8bff",
+      "sha256": "7dd110f8eceff81e547e6529f5f00fd734239369e7a0e63836b4fdf533b805e0",
+      "url": "https://ndownloader.figshare.com/files/46489624"
+    },
+    {
+      "name": "Model.csv",
+      "bytes": 559182,
+      "md5": "e5b60d1ce7636542d93f45494019eded",
+      "sha256": "a4cac376131b41aa10b60a075b11c80264bfa860a5509d22cde259c5e85867f8",
+      "url": "https://ndownloader.figshare.com/files/46489732"
+    },
+    {
+      "name": "OmicsAbsoluteCNGene.csv",
+      "bytes": 141912994,
+      "md5": "f784a67fa640d7e353a052cb3694668b",
+      "sha256": "f59fd08fa3485b95ec940505d50bdee779c07611899a5c7279f669af69eda2b6",
+      "url": "https://ndownloader.figshare.com/files/46489741"
+    },
+    {
+      "name": "OmicsDefaultModelProfiles.csv",
+      "bytes": 82655,
+      "md5": "b8b534fe407fe6beefe06ba86266bf84",
+      "sha256": "1be4a67ee7ad7fb88ac2dbc467eb53cdd94806f7458433ced3331641756be321",
+      "url": "https://ndownloader.figshare.com/files/46489831"
+    },
+    {
+      "name": "OmicsExpressionProteinCodingGenesTPMLogp1.csv",
+      "bytes": 460868099,
+      "md5": "f00c434db50d811544ac4d047003979f",
+      "sha256": "39eff342bbbbe0a40208545e93a69cc85a945899592f9d683f87e3b2bb121670",
+      "url": "https://ndownloader.figshare.com/files/46490878"
+    },
+    {
+      "name": "OmicsProfiles.csv",
+      "bytes": 214983,
+      "md5": "928c5c410288a229bc84f9e05cd9a117",
+      "sha256": "e0125eebaca48c4f084218e372ca2da70a2de3ab3f6756462f3daecc258ea4aa",
+      "url": "https://ndownloader.figshare.com/files/46500358"
+    },
+    {
+      "name": "OmicsSomaticMutationsMatrixDamaging.csv",
+      "bytes": 135585447,
+      "md5": "02f3568b71af0ca3e8d10e681eefac86",
+      "sha256": "4f2e80d9fbf282600920dd16a9ad4782fb565ad9406cf1fd1dc5a8137d7fee46",
+      "url": "https://ndownloader.figshare.com/files/46500376"
+    },
+    {
+      "name": "OmicsSomaticMutationsMatrixHotspot.csv",
+      "bytes": 3874822,
+      "md5": "4adce91be0ca472f4e0e14772e0baced",
+      "sha256": "a767624f6ee1997d2d6644f37796bbe486f58687c4c297ccd1972050b9c73468",
+      "url": "https://ndownloader.figshare.com/files/46500379"
+    },
+    {
+      "name": "ScreenGeneEffect.csv",
+      "bytes": 493993175,
+      "md5": "97bbb7f2de25b475104b4706d15437c2",
+      "sha256": "d8615a0693a9e448ed13f8860f98ed7515bd307c8a9f21a4c4fa10f1cffb6222",
+      "url": "https://ndownloader.figshare.com/files/46500430"
+    }
+  ]
+}
