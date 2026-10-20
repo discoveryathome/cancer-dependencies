@@ -9,6 +9,9 @@ for data,schema in [('discover.json','manifest.schema.json'),('discover/frontier
         if data=='discover.json' and list(e.path)==['maintainers'] and e.validator=='minItems' and d['maintainers']==[] and d['review']['paused'] and d['hubs']==[]:
             known.append('No appointed maintainer: reference manifest schema fails; local proposal only.')
         else: problems.append(data+': '+e.message)
+for task in (ROOT/'research').glob('*/TASK.json'):
+    schema=json.loads((ROOT/'setup/sources/package-task.schema.json').read_text())
+    for e in Draft202012Validator(schema).iter_errors(json.loads(task.read_text())):problems.append(str(task)+': '+e.message)
 cat=json.loads((ROOT/'discover/catalog.json').read_text());assert sum(t['weight'] for t in cat['tracks'])==100
 for t in cat['tracks']:
     for c in t['tasks']:

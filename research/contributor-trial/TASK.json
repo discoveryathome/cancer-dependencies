@@ -1,0 +1,34 @@
+{
+  "ai_assistance": "Entire implementation and trial performed by the same assistant; no independent sub-agent or human replication.",
+  "budget_minutes": 60,
+  "card": "none",
+  "catalog_revision": 1,
+  "credit": [
+    "Codex agent: setup, code and self-run trial; not independent verification.",
+    "DepMap, Broad (2024): source data, CC BY 4.0."
+  ],
+  "evidence_level": "author-checked",
+  "next_questions": [
+    {
+      "blocked_by": "Maintainer consent required before donor intake.",
+      "first_step": ".venv/bin/python src/contribute.py run --target SMARCA2 --artifact research/my-attempt/RESULT.json",
+      "question": "Can an independent contributor reproduce and improve the development result?",
+      "why_it_matters": "The setup author is also the trial author; newcomer feasibility and general intelligence benefit remain uncertain."
+    },
+    {
+      "blocked_by": "Curator ownership and a preregistered validation release.",
+      "first_step": "Audit a newly released, licensed screen cohort for all identity and source overlap before revealing outcomes.",
+      "question": "Does a candidate survive a genuinely new validation cohort?",
+      "why_it_matters": "The public initial test cannot remain independent under repeated adaptive search."
+    }
+  ],
+  "not_checked": [
+    "Independent reviewer confirmation",
+    "Novel biological mechanism",
+    "Clinical relevance or normal-cell selectivity",
+    "Fresh contributor without author knowledge"
+  ],
+  "outcome": "partial",
+  "scope": "Test early contributor progress, biological priors, home-PC feasibility and featured-pilot suitability.",
+  "scope_status": "unchanged"
+}

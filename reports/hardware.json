@@ -1,0 +1,15 @@
+{
+  "cpu": "Apple M2",
+  "logical_cpus": 8,
+  "system_ram_bytes": 25769803776,
+  "architecture": "arm64",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "model_fit_threads": 1,
+  "gpu_used": false,
+  "contention": "Other heavy jobs were active on the shared machine. Wall times are not calibrated quiet-PC benchmarks.",
+  "timing_logs": [
+    "setup/logs/develop.log",
+    "setup/logs/trial-develop.log",
+    "setup/logs/starter.log"
+  ]
+}

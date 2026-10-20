@@ -1,0 +1,19 @@
+FINALIZED 132 model-target evaluations; gates passed: ['BRAF', 'KRAS', 'ARID1B', 'MDM2']
+       20.53 real         5.24 user         0.70 sys
+           247955456  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               38683  page reclaims
+                  18  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  45  voluntary context switches
+               14086  involuntary context switches
+         28808567894  instructions retired
+         12080772197  cycles elapsed
+           127255296  peak memory footprint

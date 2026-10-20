@@ -1,0 +1,8 @@
+{
+  "started_utc": "2026-10-20T20:13:24Z",
+  "primary_result_observed_utc": "2026-10-20T20:46:54Z",
+  "minutes_to_primary_result": 33.5,
+  "scope": "Self-run prospective contributor simulation interleaved with setup; replay and report preparation followed.",
+  "independent_contributor": false,
+  "primary_trial_gate_passed": false
+}

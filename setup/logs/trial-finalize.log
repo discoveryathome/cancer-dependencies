@@ -1,0 +1,77 @@
+{
+  "comparisons": {
+    "biology_pair_vs_best_linear": {
+      "ci95": [
+        -0.06317228797683956,
+        0.02021125684715132
+      ],
+      "n_independent_models": 194,
+      "normalized_mse_skill": -0.020664970219972822
+    },
+    "biology_pair_vs_blind_pair": {
+      "ci95": [
+        -0.061345060276120106,
+        -0.021985516623284553
+      ],
+      "n_independent_models": 194,
+      "normalized_mse_skill": -0.04221072769559764
+    },
+    "biology_pair_vs_rule_all": {
+      "ci95": [
+        -0.03442097945328891,
+        0.026268411717060215
+      ],
+      "n_independent_models": 194,
+      "normalized_mse_skill": -0.0059841045387467595
+    },
+    "blind_pair_vs_best_linear": {
+      "ci95": [
+        -0.015867633772879985,
+        0.057036110184360764
+      ],
+      "n_independent_models": 194,
+      "normalized_mse_skill": 0.02067312963018897
+    },
+    "blind_pair_vs_blind_pair": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n_independent_models": 194,
+      "normalized_mse_skill": 0.0
+    },
+    "blind_pair_vs_rule_all": {
+      "ci95": [
+        0.004009670129788781,
+        0.06716055338822409
+      ],
+      "n_independent_models": 194,
+      "normalized_mse_skill": 0.03475940344324657
+    }
+  },
+  "outer_positive_fraction": {
+    "biology_pair": 0.8666666666666667,
+    "blind_pair": 1.0
+  },
+  "passes_trial_gate": false,
+  "scope": "Prospective fixed-family computational prediction comparison; known priors, no new biological discovery."
+}
+
+       12.30 real         3.16 user         0.59 sys
+           256933888  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               38719  page reclaims
+                 147  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1254  voluntary context switches
+                8220  involuntary context switches
+         14498872151  instructions retired
+          7737961289  cycles elapsed
+           171262768  peak memory footprint

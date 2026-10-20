@@ -1,0 +1,31 @@
+TRIAL DEVELOPED BRAF best comparator elastic_all
+TRIAL DEVELOPED KRAS best comparator elastic_all
+TRIAL DEVELOPED NRAS best comparator elastic_all
+TRIAL DEVELOPED EGFR best comparator elastic_expr
+TRIAL DEVELOPED ERBB2 best comparator elastic_expr
+TRIAL DEVELOPED PIK3CA best comparator ridge_all
+TRIAL DEVELOPED SMARCA2 best comparator elastic_all
+TRIAL DEVELOPED SMARCA4 best comparator elastic_expr
+TRIAL DEVELOPED ARID1B best comparator elastic_all
+TRIAL DEVELOPED STAG1 best comparator elastic_expr
+TRIAL DEVELOPED MDM2 best comparator ridge_all
+TRIAL DEVELOPED PRMT5 best comparator elastic_expr
+TRIAL FROZEN 169.27 seconds
+      180.77 real        60.62 user         4.33 sys
+           243990528  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               43735  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  51  voluntary context switches
+              133705  involuntary context switches
+        217683620759  instructions retired
+        127698272436  cycles elapsed
+           161415984  peak memory footprint

@@ -1,0 +1,192 @@
+[
+  {
+    "card": "replay-baseline",
+    "command": [
+      ".venv/bin/python",
+      "src/verify.py"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "PASS: 132 model/target results recomputed; hashes and identity separation verified.\n"
+  },
+  {
+    "card": "challenge-leakage",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_verifier.py"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "..........                                                               [100%]\n10 passed in 3.67s\n"
+  },
+  {
+    "card": "audit-transfer",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "audit"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"Avana\": {\n    \"eligible_screens\": 1026,\n    \"independent_groups\": 967,\n    \"models_before_identity_dedup\": 989\n  },\n  \"KY\": {\n    \"eligible_screens\": 315,\n    \"independent_groups\": 248,\n    \"models_before_identity_dedup\": 249\n  },\n  \"distinct_sanger_groups\": 49,\n  \"overlapping_sanger_groups\": 199,\n  \"split_counts\": {\n    \"development\": 773,\n    \"final\": 194\n  },\n  \"feature_count\": 107,\n  \"caveat\": \"Upstream Chronos screen preprocessing is not refit within model folds; this is prediction from released processed assays.\"\n}\nOpen: novelty review, normal-cell selectivity, upstream preprocessing, assay-specific artifacts.\n"
+  },
+  {
+    "card": "compact-braf",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "BRAF"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"BRAF\",\n  \"literature_pair\": [\n    \"hotspot:BRAF\",\n    \"expr:BRAF\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"BRAF\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  },
+  {
+    "card": "compact-kras",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "KRAS"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"KRAS\",\n  \"literature_pair\": [\n    \"hotspot:KRAS\",\n    \"expr:KRAS\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"KRAS\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  },
+  {
+    "card": "compact-nras",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "NRAS"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"NRAS\",\n  \"literature_pair\": [\n    \"hotspot:NRAS\",\n    \"expr:NRAS\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"NRAS\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  },
+  {
+    "card": "compact-egfr",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "EGFR"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"EGFR\",\n  \"literature_pair\": [\n    \"expr:EGFR\",\n    \"cn:EGFR\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"EGFR\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  },
+  {
+    "card": "compact-erbb2",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "ERBB2"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"ERBB2\",\n  \"literature_pair\": [\n    \"expr:ERBB2\",\n    \"cn:ERBB2\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"ERBB2\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  },
+  {
+    "card": "compact-pik3ca",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "PIK3CA"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"PIK3CA\",\n  \"literature_pair\": [\n    \"hotspot:PIK3CA\",\n    \"expr:PIK3CA\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"PIK3CA\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  },
+  {
+    "card": "compact-smarca2",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "SMARCA2"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"SMARCA2\",\n  \"literature_pair\": [\n    \"expr:SMARCA4\",\n    \"damaging:SMARCA4\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"SMARCA2\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  },
+  {
+    "card": "compact-smarca4",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "SMARCA4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"SMARCA4\",\n  \"literature_pair\": [\n    \"expr:SMARCA2\",\n    \"damaging:SMARCA2\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"SMARCA4\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  },
+  {
+    "card": "compact-arid1b",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "ARID1B"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"ARID1B\",\n  \"literature_pair\": [\n    \"expr:ARID1A\",\n    \"damaging:ARID1A\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"ARID1B\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  },
+  {
+    "card": "compact-stag1",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "STAG1"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"STAG1\",\n  \"literature_pair\": [\n    \"expr:STAG2\",\n    \"damaging:STAG2\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"STAG1\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  },
+  {
+    "card": "compact-mdm2",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "MDM2"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"MDM2\",\n  \"literature_pair\": [\n    \"damaging:TP53\",\n    \"hotspot:TP53\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"MDM2\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  },
+  {
+    "card": "compact-prmt5",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "target",
+      "--target",
+      "PRMT5"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"target\": \"PRMT5\",\n  \"literature_pair\": [\n    \"cn:MTAP\",\n    \"expr:MTAP\"\n  ],\n  \"next_command\": [\n    \".venv/bin/python\",\n    \"src/contribute.py\",\n    \"run\",\n    \"--target\",\n    \"PRMT5\",\n    \"--artifact\",\n    \"research/my-attempt/RESULT.json\"\n  ],\n  \"evaluation\": \"Development only; every new confirmation requires a fresh cohort after public final-test inspection.\"\n}\n"
+  }
+]

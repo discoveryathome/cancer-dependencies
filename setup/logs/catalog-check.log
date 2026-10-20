@@ -1,0 +1,16 @@
+PASS: replay-baseline
+PASS: challenge-leakage
+PASS: audit-transfer
+PASS: compact-braf
+PASS: compact-kras
+PASS: compact-nras
+PASS: compact-egfr
+PASS: compact-erbb2
+PASS: compact-pik3ca
+PASS: compact-smarca2
+PASS: compact-smarca4
+PASS: compact-arid1b
+PASS: compact-stag1
+PASS: compact-mdm2
+PASS: compact-prmt5
+PASS: 15 catalogue first steps.

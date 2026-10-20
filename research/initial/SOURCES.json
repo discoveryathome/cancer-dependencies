@@ -1,0 +1,49 @@
+{
+  "artifact_sha256": {
+    "VERIFY.json": "4282123ac44092716d2affe7a0c0edce214c797580630024afb3dc72a8fe4099",
+    "batch_audit.csv": "18b91f2ee73fb76fcf34bc5c78f0bdc7cb4dcb246c4a09ea0f38d00c20883179",
+    "decisions.json": "0e47c17770357a4d9367072cfe4bb0fde276bc3546df775b068c7284b2c14c84",
+    "external_metrics.csv": "ebd58720b656e70600c32b9f716357f956c6dd5b32119d436c206c2b4becd83e",
+    "final_metrics.csv": "49f5b3c78167e81a6ebe4d8245b6e0e95b806f16c25ccf2de82edb4c74cd7872",
+    "frozen.json": "86a4a33c2a91c2b92b048be1b47acc4b8c65b8462922eb6664039cb79fc7833e",
+    "lineage_metrics.csv": "91f5512ed3d363fe0e028b95136da86a0921d93f5b822eab4c0f2f518b70bfea",
+    "outer_metrics.csv": "2ca35ebdab8d27937a07e748040d6d7712740331a6566486411ce2c1a384bd19",
+    "outer_predictions.csv": "e4a42c6f0692ff0f76fa4c43ab977524521c499b6dc656bc2759be43c1af8be7",
+    "outer_rules.json": "010e0644da7970f662ecfe35304622c2320276a1246c541671178da28bbf35de",
+    "permutations.json": "63fbd180cac0c70915dc9b70e0128b316842bbb66575d22cc904924eb7630f18",
+    "search.json": "aba01912eebe1285df3a1db21cbc38db70d97c61e29bad84c9e70d00ac4ebff3"
+  },
+  "base_commit": "255b600052bbf8af4743cf3a9e7bc730128b36b4",
+  "git_blobs": {
+    "config/PREREGISTRATION.md": "7dc16040d9d89a90ee5d182573c37066a21d9749",
+    "config/benchmark.json": "83977533295e4f7f3be28bcee7b91bef7a94f00d",
+    "data/gene-map.json": "49c80e21754a59d01eae306792f271396c263ece",
+    "data/model-metadata.csv": "b9506b37c762e869ef4206e97a3d515b621df8ba",
+    "data/panel-lock.json": "4b7ab82a9066d5fd2a37dae2fa28e911116dd1e9",
+    "data/panel/primary.csv": "ecdaa7f40cf53063e9ead82e59bb701899ea93e3",
+    "data/panel/sanger.csv": "9c4897194d8dc279551cf6d3e7a803e86a250c26",
+    "data/source-lock.json": "321d516de58d8b2def8c908b07fa527fc8c4dc87",
+    "requirements.lock": "5fa2fa25506391ed3dedd2320fdea622ba746202",
+    "src/benchmark.py": "06cf6affda4ddeee1be2223167b5e423ca52f26a",
+    "src/core.py": "7450d655bd0fef0977a260fae9365eddc64f2c40",
+    "src/fetch_data.py": "0d5de9d44465b6caca7f2934417f18cd252e16ed",
+    "src/models.py": "9088ee5a5c191a12ed601037f08a38d8b76836e1",
+    "src/prepare.py": "aeddc0e668cf876e9f61437ff053d2c088326c48"
+  },
+  "inputs": {
+    "config/PREREGISTRATION.md": "352c9f71f5253698275ed2ea33fd0d338796ab9b0b0ff1095715c95f0a7b7329",
+    "config/benchmark.json": "b002cea5fc073b710d7fb71d1a59d05ca5455700e0ac4ae0c9d819640f9ff5df",
+    "data/gene-map.json": "38875ffb1fb17d10f40fbe855e7b6e5f2fd49d4c5b765db238cdc3215f6bb6e5",
+    "data/model-metadata.csv": "f9482614f2a5a1702f71f5a0c7ae249030e57c8b046c78129a61ec90fbffab01",
+    "data/panel-lock.json": "69d2b9aeabcca72297902455b0c26554268bdaeb7024677012289eb0c5717d93",
+    "data/panel/primary.csv": "38ac6bddbf979e814c7eb0e46d10d725a4fac78c6ab752457527a5a918681740",
+    "data/panel/sanger.csv": "004d1d3974c098d2b3642fd9f88186f8bbe76d05880f4f5b74d25847aa78bb03",
+    "data/source-lock.json": "1f80c423b4deb24aa1f677ec30275fe23f0bb8f21ad21f8da736dd0e5dd94c8b",
+    "requirements.lock": "2a8c976d4228733779011fe2212ce30171d4c539c9f6fc9d39477d1a7f2ab79c",
+    "src/benchmark.py": "2214dc05eb23db278daebab905ff9274e66a184ee1befd4b39a2a14bcfee8c53",
+    "src/core.py": "b757116542c02200c8cd7b43ba18813a1037205d607acc76160d1804bd67bed8",
+    "src/fetch_data.py": "0d3e0d58d7506f1e35caafc36a76f09a8ab25a0bde326d5f3add984a024e0cc1",
+    "src/models.py": "f70fabe7e9c9760e5ef5b5d697aeade482bfba74a317451a7f3647e2fa38ad45",
+    "src/prepare.py": "2c2e8e152687f04ebf5f9b2908666a1529ef47e2625d9cf860a5abb6d247208f"
+  }
+}

@@ -95,3 +95,17 @@ The blind pair matched 0.2590. Every development model was predicted exactly onc
 15 fold/model scores were verified. See research/starter/RESULT.json and
 setup/logs/starter.log. This is checkable early progress, but not final validation and not
 evidence that the literature prior outperforms simple automatic feature selection.
+
+## Primary outcome, observed at 20:46:54 UTC (33.5 minutes)
+
+The biology-pair family failed its predeclared primary gate. Against the one-feature
+rules, normalized final MSE skill was -0.005984 (95% paired interval -0.034421 to 0.026268).
+The blind two-feature control achieved +0.034759 (0.004010 to 0.067161), a descriptive
+secondary improvement smaller than the declared 5% practical target. The biological pair
+was worse than the blind control; no model was changed after these scores were opened.
+
+Known-control BRAF, KRAS, ARID1B and MDM2 rules passed the initial internal gates. No rule
+had both positive external 95% interval and at least 15 Sanger observations in each branch.
+The trial therefore supports a bounded reproducible benchmark, but not a claim that an
+agent discovered a useful new biological relationship. Clean-checkout replay and public
+figures are additional verification/reporting work after the primary trial endpoint.

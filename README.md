@@ -13,6 +13,12 @@ auditable rules that retain value under held-out and cross-lineage testing.
 
 Start with [QUICKSTART.md](QUICKSTART.md) for a bounded contributor task.
 
+The completed trial recommends retaining this as a supporting pilot and deferring lead-feature
+status. The biology-chosen two-feature family failed its primary held-out improvement test;
+external transfer remains unresolved. Read [the assessment](reports/FEATURED_PILOT_ASSESSMENT.md),
+[all results](reports/RESULTS.md), [the public demo](reports/public-demo.png), and
+[the reproducibility record](reports/REPRODUCIBILITY.md).
+
 ## Run locally
 
 Python 3.12, no GPU. From this directory:

@@ -1,0 +1,20 @@
+PASS: cohort completeness, outer metrics/rule predictions, paired CIs, selection-null p-values and BH correction recomputed.
+Null selections rerun: False ; full lineage fitting replay remains in the full benchmark command.
+       87.54 real        21.97 user         1.66 sys
+           338542592  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               43668  page reclaims
+                  96  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 687  voluntary context switches
+               60399  involuntary context switches
+        116174574085  instructions retired
+         47665067112  cycles elapsed
+           157303648  peak memory footprint

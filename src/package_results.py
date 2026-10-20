@@ -26,7 +26,7 @@ def main():
              'first_step':'Audit a newly released, licensed screen cohort for all identity and source overlap before revealing outcomes.','blocked_by':'Curator ownership and a preregistered validation release.'}],
           'credit':['Codex agent: setup, code and self-run trial; not independent verification.','DepMap, Broad (2024): source data, CC BY 4.0.'],
           'ai_assistance':'Entire implementation and trial performed by the same assistant; no independent sub-agent or human replication.',
-          'budget_minutes':60 if run=='contributor-trial' else 0}
+          'budget_minutes':60}
         (folder/'TASK.json').write_text(dumps(task))
         text=f'''# {run}: result package
 

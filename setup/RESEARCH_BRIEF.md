@@ -1,7 +1,9 @@
 # Cancer-dependency pilot: pre-build research brief
 
-Status: proposed LOCAL pilot; awaiting the setup playbook's pre-build confirmation.
-Research date: 2026-10-20. No benchmark has been run and no biological result is claimed.
+Status: historical pre-build brief, subsequently approved by the user on 2026-10-20.
+Implementation and trial evidence are described in README.md and reports/. The original
+pre-build scope below is retained as provenance.
+Research date: 2026-10-20. At the time this brief was written, no benchmark had been run.
 
 ## Exact question and scope
 
@@ -42,7 +44,7 @@ This is analysis of existing public cell-line data, not recruitment, identifiabl
 
 No maintainer has agreed to serve. Build as a local proposal with donor intake closed, no hub consent, no publishing, and no invented maintainer identity. Proposed license: MIT for new code, CC BY 4.0 for new prose; source data retain their own terms and attribution. Credit named contributors only with their agreement; preserve candidate provenance, agent contributions, negative results, and independent verification records.
 
-## Confirmation required by the requested playbook
+## Historical confirmation requirement (now satisfied)
 
 The user-requested https://discoveryathome.org/v0/start.md, step 3, says: "Get their confirmation before building." It also requires agreement before running project code without a sandbox. This session has unrestricted filesystem permissions and no execution sandbox. Confirm the above local scope and local execution before implementation. This does not authorize publishing, contacting anyone, hub enrollment, or wet-lab work.
 

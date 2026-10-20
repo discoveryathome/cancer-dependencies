@@ -1,7 +1,7 @@
 {
   "schema": "discover-frontier/v0",
-  "statement": "Local benchmark and prospective contributor trial are in progress; no new dependency hypothesis has yet passed the completed pilot evaluation.",
-  "status": "Initialization in progress; donor intake closed; awaiting a maintainer",
+  "statement": "In the fixed 12-target DepMap pilot, 4 one-feature rules passed the prespecified internal screening gates. The prospective biology-pair contribution failed its primary held-out improvement gate (normalized MSE skill -0.005984). No novel biological relationship or robust external biomarker confirmation is established.",
+  "status": "Completed local computational pilot; author-checked, not scientifically accepted; donor intake closed pending maintainer.",
   "evidence_level": [
     "author-checked"
   ],
@@ -9,7 +9,7 @@
     "measured",
     "observational"
   ],
-  "scope": "Pinned DepMap 24Q2 Public v1, fixed 12-target panel. No cancer-versus-normal selectivity, mechanistic causality, drug efficacy or novelty is established.",
+  "scope": "967 annotated cancer-model identity groups; 773 development, 194 final; 12 prespecified targets; 49 non-overlapping Sanger groups for transfer. The primary trial is a self-run author test, not an independent newcomer trial. Findings are computational research hypotheses only.",
   "assumptions": [
     {
       "id": "independent-review",
@@ -25,20 +25,61 @@
       "id": "novelty",
       "statement": "Candidate-specific novelty remains unestablished; literature-based pairs are known controls.",
       "status": "open"
+    },
+    {
+      "id": "fresh-future-test",
+      "statement": "The initial test has been inspected. Future adaptive contributions require new confirmation data.",
+      "status": "open"
+    },
+    {
+      "id": "external-support",
+      "statement": "No rule has both adequate two-branch support and a positive 95% external skill interval in the 49-group transfer cohort.",
+      "status": "open"
     }
   ],
   "sources": [
     "https://doi.org/10.25452/figshare.plus.25880521.v1",
     "https://doi.org/10.1038/s43018-024-00789-y",
-    "config/PREREGISTRATION.md"
+    "config/PREREGISTRATION.md",
+    "reports/RESULTS.md",
+    "reports/FEATURED_PILOT_ASSESSMENT.md",
+    "reports/NOVELTY_AUDIT.md"
   ],
-  "reproduce": ".venv/bin/python src/verify.py",
-  "reproduce_full": ".venv/bin/python src/benchmark.py develop --out research/replay && .venv/bin/python src/benchmark.py finalize --out research/replay",
-  "reproduce_minutes": 1,
+  "reproduce": ".venv/bin/python src/verify.py && .venv/bin/python src/verify.py research/contributor-trial/VERIFY.json && .venv/bin/python src/verify_statistics.py",
+  "reproduce_full": ".venv/bin/python src/benchmark.py develop --out research/replay && .venv/bin/python src/benchmark.py finalize --out research/replay && .venv/bin/python src/trial.py develop --out research/trial-replay && .venv/bin/python src/trial.py finalize --out research/trial-replay && .venv/bin/python src/compare_replay.py research/initial research/replay && .venv/bin/python src/compare_replay.py research/contributor-trial research/trial-replay",
+  "reproduce_minutes": 3,
   "prerequisites": [
     "Python 3.12 environment installed from requirements.lock",
     "Committed compact panel files"
   ],
   "review": "reports/REVIEW_STATUS.md",
-  "updated_on": "2026-10-20"
+  "updated_on": "2026-10-20",
+  "metric": {
+    "name": "Primary trial held-out normalized MSE skill versus frozen one-feature rules",
+    "value": "-0.0059841045387467595",
+    "direction": "higher-is-better",
+    "unit": "fraction; negative means worse"
+  },
+  "artifacts": [
+    {
+      "path": "research/initial/VERIFY.json",
+      "sha256": "4282123ac44092716d2affe7a0c0edce214c797580630024afb3dc72a8fe4099",
+      "role": "baseline prediction certificate"
+    },
+    {
+      "path": "research/contributor-trial/VERIFY.json",
+      "sha256": "00e4005e5a3bddd2910a77bcf619120d8f2270582511cf5421692eb9ee1266b5",
+      "role": "trial prediction certificate"
+    },
+    {
+      "path": "research/initial/decisions.json",
+      "sha256": "0e47c17770357a4d9367072cfe4bb0fde276bc3546df775b068c7284b2c14c84",
+      "role": "prespecified screening outcomes"
+    },
+    {
+      "path": "research/contributor-trial/summary.json",
+      "sha256": "487cf8e94bcd5508b26bedd97fd741edc811ec0ff57465e623f863b099a33acb",
+      "role": "primary and secondary trial comparisons"
+    }
+  ]
 }

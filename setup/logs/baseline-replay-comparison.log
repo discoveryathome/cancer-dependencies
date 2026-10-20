@@ -1,0 +1,2 @@
+PASS: full replay scientific outputs agree; timing/platform excluded.
+PASS: 132 model/target results recomputed; hashes and identity separation verified.

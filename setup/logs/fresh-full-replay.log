@@ -1,0 +1,31 @@
+DEVELOPED BRAF n= 773 rule= ['hotspot:BRAF'] permutation p= 0.005
+DEVELOPED KRAS n= 773 rule= ['hotspot:KRAS'] permutation p= 0.005
+DEVELOPED NRAS n= 773 rule= ['hotspot:NRAS'] permutation p= 0.005
+DEVELOPED EGFR n= 773 rule= ['expr:EPCAM'] permutation p= 0.005
+DEVELOPED ERBB2 n= 773 rule= ['expr:ERBB2'] permutation p= 0.01
+DEVELOPED PIK3CA n= 773 rule= ['hotspot:PIK3CA'] permutation p= 0.005
+DEVELOPED SMARCA2 n= 773 rule= ['damaging:SMARCA4'] permutation p= 0.005
+DEVELOPED SMARCA4 n= 773 rule= ['expr:SMARCA2'] permutation p= 0.005
+DEVELOPED ARID1B n= 773 rule= ['damaging:ARID1A'] permutation p= 0.005
+DEVELOPED STAG1 n= 773 rule= ['expr:ARID1A'] permutation p= 0.35
+DEVELOPED MDM2 n= 773 rule= ['damaging:TP53'] permutation p= 0.005
+DEVELOPED PRMT5 n= 773 rule= ['expr:MTAP'] permutation p= 0.005
+FROZEN /Users/colkitt/discover-work/incubatedPilots/cancer-dependencies/start-cancer-dependencies/setup/replay/research/replay/frozen.json seconds 444.22
+      451.23 real       149.64 user        14.13 sys
+           383844352  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               71218  page reclaims
+                 177  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1204  voluntary context switches
+              351542  involuntary context switches
+        539622973479  instructions retired
+        327003855778  cycles elapsed
+           284427104  peak memory footprint

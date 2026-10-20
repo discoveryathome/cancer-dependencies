@@ -6,3 +6,5 @@ setup/uv-cache/
 setup/replay/
 setup/discover.pyz
 *.part
+
+setup/matplotlib-cache/

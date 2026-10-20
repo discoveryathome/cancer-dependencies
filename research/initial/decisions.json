@@ -1,0 +1,614 @@
+[
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      0.1922433559048945,
+      0.6880502646957012
+    ],
+    "final_skill": 0.511243501756619,
+    "final_support": [
+      176,
+      18
+    ],
+    "gates": {
+      "ci_positive": true,
+      "lineage_transfer": true,
+      "outer_stability": true,
+      "permutation_q": true,
+      "test_skill": true
+    },
+    "lineage_positive_fraction": 0.8235294117647058,
+    "outer_positive_fraction": 1.0,
+    "passes_pilot_gate": true,
+    "permutation_p": 0.005,
+    "permutation_q": 0.006,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "hotspot:BRAF"
+      ],
+      "inner_mse": 0.08124281979075348,
+      "kind": "rule",
+      "left": -0.22854909013977306,
+      "medians": [
+        0.0
+      ],
+      "quantile": null,
+      "right": -1.6019374289258068,
+      "support_train": [
+        720,
+        53
+      ],
+      "threshold": 0.5
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "BRAF"
+  },
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      0.18187255363579136,
+      0.5347009084374968
+    ],
+    "final_skill": 0.3798052819898422,
+    "final_support": [
+      160,
+      34
+    ],
+    "gates": {
+      "ci_positive": true,
+      "lineage_transfer": true,
+      "outer_stability": true,
+      "permutation_q": true,
+      "test_skill": true
+    },
+    "lineage_positive_fraction": 0.8823529411764706,
+    "outer_positive_fraction": 1.0,
+    "passes_pilot_gate": true,
+    "permutation_p": 0.005,
+    "permutation_q": 0.006,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "hotspot:KRAS"
+      ],
+      "inner_mse": 0.16366578083845623,
+      "kind": "rule",
+      "left": -0.6046369966657664,
+      "medians": [
+        0.0
+      ],
+      "quantile": null,
+      "right": -1.9818047413881132,
+      "support_train": [
+        658,
+        115
+      ],
+      "threshold": 0.5
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "KRAS"
+  },
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      -0.4407086036548168,
+      0.6829642096666138
+    ],
+    "final_skill": 0.3192782007838537,
+    "final_support": [
+      187,
+      7
+    ],
+    "gates": {
+      "ci_positive": false,
+      "lineage_transfer": true,
+      "outer_stability": true,
+      "permutation_q": true,
+      "test_skill": true
+    },
+    "lineage_positive_fraction": 0.9411764705882353,
+    "outer_positive_fraction": 1.0,
+    "passes_pilot_gate": false,
+    "permutation_p": 0.005,
+    "permutation_q": 0.006,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "hotspot:NRAS"
+      ],
+      "inner_mse": 0.06634575938027806,
+      "kind": "rule",
+      "left": -0.17100213597066294,
+      "medians": [
+        0.0
+      ],
+      "quantile": null,
+      "right": -1.7519664079457826,
+      "support_train": [
+        727,
+        46
+      ],
+      "threshold": 0.5
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "NRAS"
+  },
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      -0.044013156405474575,
+      0.13399345893642123
+    ],
+    "final_skill": 0.06462572407325562,
+    "final_support": [
+      111,
+      83
+    ],
+    "gates": {
+      "ci_positive": false,
+      "lineage_transfer": true,
+      "outer_stability": false,
+      "permutation_q": true,
+      "test_skill": true
+    },
+    "lineage_positive_fraction": 0.7647058823529411,
+    "outer_positive_fraction": 0.13333333333333333,
+    "passes_pilot_gate": false,
+    "permutation_p": 0.005,
+    "permutation_q": 0.006,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "expr:EPCAM"
+      ],
+      "inner_mse": 0.10894542745563769,
+      "kind": "rule",
+      "left": -0.06643888225739064,
+      "medians": [
+        3.41006969176
+      ],
+      "quantile": 0.6,
+      "right": -0.3386843631810226,
+      "support_train": [
+        464,
+        309
+      ],
+      "threshold": 5.953881613868
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "EGFR"
+  },
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      -0.18792724357345042,
+      0.16211169165433173
+    ],
+    "final_skill": 0.010270306282522346,
+    "final_support": [
+      156,
+      38
+    ],
+    "gates": {
+      "ci_positive": false,
+      "lineage_transfer": true,
+      "outer_stability": false,
+      "permutation_q": true,
+      "test_skill": false
+    },
+    "lineage_positive_fraction": 0.8235294117647058,
+    "outer_positive_fraction": 0.3333333333333333,
+    "passes_pilot_gate": false,
+    "permutation_p": 0.01,
+    "permutation_q": 0.010909090909090908,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "expr:ERBB2"
+      ],
+      "inner_mse": 0.12277091173890582,
+      "kind": "rule",
+      "left": -0.3244299362242927,
+      "medians": [
+        4.59454854955
+      ],
+      "quantile": 0.8,
+      "right": -0.6438043007058933,
+      "support_train": [
+        618,
+        155
+      ],
+      "threshold": 5.508744718858
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "ERBB2"
+  },
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      0.03567880612663952,
+      0.3305520201622738
+    ],
+    "final_skill": 0.19413542980030485,
+    "final_support": [
+      178,
+      16
+    ],
+    "gates": {
+      "ci_positive": true,
+      "lineage_transfer": true,
+      "outer_stability": false,
+      "permutation_q": true,
+      "test_skill": true
+    },
+    "lineage_positive_fraction": 0.7647058823529411,
+    "outer_positive_fraction": 0.6,
+    "passes_pilot_gate": false,
+    "permutation_p": 0.005,
+    "permutation_q": 0.006,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "hotspot:PIK3CA"
+      ],
+      "inner_mse": 0.11691941349751454,
+      "kind": "rule",
+      "left": -0.4610221672411161,
+      "medians": [
+        0.0
+      ],
+      "quantile": null,
+      "right": -0.972229996179428,
+      "support_train": [
+        694,
+        79
+      ],
+      "threshold": 0.5
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "PIK3CA"
+  },
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      -0.07697597428641868,
+      0.2983061184730492
+    ],
+    "final_skill": 0.10637764369292113,
+    "final_support": [
+      189,
+      5
+    ],
+    "gates": {
+      "ci_positive": false,
+      "lineage_transfer": true,
+      "outer_stability": true,
+      "permutation_q": true,
+      "test_skill": true
+    },
+    "lineage_positive_fraction": 0.5882352941176471,
+    "outer_positive_fraction": 1.0,
+    "passes_pilot_gate": false,
+    "permutation_p": 0.005,
+    "permutation_q": 0.006,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "damaging:SMARCA4"
+      ],
+      "inner_mse": 0.06489216292176885,
+      "kind": "rule",
+      "left": 0.09991844448445625,
+      "medians": [
+        0.0
+      ],
+      "quantile": null,
+      "right": -0.36359912805594474,
+      "support_train": [
+        724,
+        49
+      ],
+      "threshold": 0.5
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "SMARCA2"
+  },
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      -0.042934452697755046,
+      0.1491033594501422
+    ],
+    "final_skill": 0.058290436542915436,
+    "final_support": [
+      81,
+      113
+    ],
+    "gates": {
+      "ci_positive": false,
+      "lineage_transfer": true,
+      "outer_stability": true,
+      "permutation_q": true,
+      "test_skill": true
+    },
+    "lineage_positive_fraction": 0.7058823529411765,
+    "outer_positive_fraction": 0.8,
+    "passes_pilot_gate": false,
+    "permutation_p": 0.005,
+    "permutation_q": 0.006,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "expr:SMARCA2"
+      ],
+      "inner_mse": 0.1469681526748266,
+      "kind": "rule",
+      "left": -0.5510317400490767,
+      "medians": [
+        4.65535182861
+      ],
+      "quantile": 0.4,
+      "right": -0.34869098103272633,
+      "support_train": [
+        310,
+        463
+      ],
+      "threshold": 4.36946648365
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "SMARCA4"
+  },
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      0.09058654106620594,
+      0.3162476716533851
+    ],
+    "final_skill": 0.2268191736697509,
+    "final_support": [
+      167,
+      27
+    ],
+    "gates": {
+      "ci_positive": true,
+      "lineage_transfer": true,
+      "outer_stability": true,
+      "permutation_q": true,
+      "test_skill": true
+    },
+    "lineage_positive_fraction": 0.7647058823529411,
+    "outer_positive_fraction": 0.9333333333333333,
+    "passes_pilot_gate": true,
+    "permutation_p": 0.005,
+    "permutation_q": 0.006,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "damaging:ARID1A"
+      ],
+      "inner_mse": 0.051496432252686075,
+      "kind": "rule",
+      "left": -0.11399195075610315,
+      "medians": [
+        0.0
+      ],
+      "quantile": null,
+      "right": -0.3857997707686646,
+      "support_train": [
+        700,
+        73
+      ],
+      "threshold": 0.5
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "ARID1B"
+  },
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      -0.18027414296683977,
+      0.0241626826191335
+    ],
+    "final_skill": -0.07361254618250346,
+    "final_support": [
+      123,
+      71
+    ],
+    "gates": {
+      "ci_positive": false,
+      "lineage_transfer": false,
+      "outer_stability": false,
+      "permutation_q": false,
+      "test_skill": false
+    },
+    "lineage_positive_fraction": 0.4117647058823529,
+    "outer_positive_fraction": 0.06666666666666667,
+    "passes_pilot_gate": false,
+    "permutation_p": 0.35,
+    "permutation_q": 0.3499999999999999,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "expr:ARID1A"
+      ],
+      "inner_mse": 0.0749019220757926,
+      "kind": "rule",
+      "left": -0.14495664642202968,
+      "medians": [
+        4.74092756032
+      ],
+      "quantile": 0.6,
+      "right": -0.22595546540368575,
+      "support_train": [
+        464,
+        309
+      ],
+      "threshold": 4.932706672794
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "STAG1"
+  },
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      0.3090610660812432,
+      0.5473106887381649
+    ],
+    "final_skill": 0.4423582675194102,
+    "final_support": [
+      79,
+      115
+    ],
+    "gates": {
+      "ci_positive": true,
+      "lineage_transfer": true,
+      "outer_stability": true,
+      "permutation_q": true,
+      "test_skill": true
+    },
+    "lineage_positive_fraction": 0.8823529411764706,
+    "outer_positive_fraction": 0.9333333333333333,
+    "passes_pilot_gate": true,
+    "permutation_p": 0.005,
+    "permutation_q": 0.006,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "damaging:TP53"
+      ],
+      "inner_mse": 0.22284698892328442,
+      "kind": "rule",
+      "left": -1.2927740404240693,
+      "medians": [
+        1.0
+      ],
+      "quantile": null,
+      "right": -0.46707726909248165,
+      "support_train": [
+        273,
+        500
+      ],
+      "threshold": 0.5
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "MDM2"
+  },
+  {
+    "eligible_lineages": 17,
+    "final_ci": [
+      -0.05364561230941732,
+      0.0838838976031807
+    ],
+    "final_skill": 0.01708454201730436,
+    "final_support": [
+      37,
+      157
+    ],
+    "gates": {
+      "ci_positive": false,
+      "lineage_transfer": true,
+      "outer_stability": true,
+      "permutation_q": true,
+      "test_skill": false
+    },
+    "lineage_positive_fraction": 0.7647058823529411,
+    "outer_positive_fraction": 0.8,
+    "passes_pilot_gate": false,
+    "permutation_p": 0.005,
+    "permutation_q": 0.006,
+    "rule": {
+      "complexity": {
+        "imputation_parameters": 1,
+        "leaves": 2,
+        "molecular_features": 1,
+        "parameters": 3,
+        "thresholds": 1
+      },
+      "features": [
+        "expr:MTAP"
+      ],
+      "inner_mse": 0.1510293998967794,
+      "kind": "rule",
+      "left": -1.5765397269388353,
+      "medians": [
+        4.23496109484
+      ],
+      "quantile": 0.2,
+      "right": -1.326726791625246,
+      "support_train": [
+        155,
+        618
+      ],
+      "threshold": 1.6949987377880027
+    },
+    "status": "computational research hypothesis; novelty and independent review unestablished",
+    "target": "PRMT5"
+  }
+]

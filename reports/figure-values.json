@@ -1,0 +1,46 @@
+{
+  "public_demo_labels": [
+    "Average only",
+    "Cancer type only",
+    "One molecular clue",
+    "Two biology-chosen clues",
+    "Two data-chosen clues",
+    "Linear-model baseline"
+  ],
+  "relative_error": [
+    100.0,
+    89.5174835505242,
+    73.32097631618899,
+    73.75973670334804,
+    70.77238291956185,
+    72.26635463687109
+  ],
+  "ci95": [
+    [
+      100.0,
+      100.0
+    ],
+    [
+      85.5108342816007,
+      93.45083199856971
+    ],
+    [
+      68.42738920029123,
+      78.49445018467532
+    ],
+    [
+      68.93750462961387,
+      79.08671916486783
+    ],
+    [
+      65.90678672478265,
+      75.99856012986416
+    ],
+    [
+      67.48152610285511,
+      77.46099769731006
+    ]
+  ],
+  "normalization": "Target MSE divided by development target variance; macro mean, then scaled to training-mean baseline 100.",
+  "not_a_learning_curve": "All methods were frozen before the same final evaluation. The figure is not a sequence of adaptive test-set improvements."
+}

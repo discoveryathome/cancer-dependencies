@@ -49,7 +49,17 @@ def main(rerun_nulls):
         part=outer[(outer.target==r['target'])&(outer.seed==r['seed'])&(outer.fold==r['fold'])&(outer.model=='rule_all')]
         te=te.set_index('model_id').loc[part.model_id].reset_index()
         np.testing.assert_allclose(predict(r['rule'],te),part.predicted,atol=1e-9,rtol=1e-8)
-    print('PASS: cohort completeness, outer metrics/rule predictions, paired CIs, selection-null p-values and BH correction recomputed.')
+    decisions=json.loads((base/'decisions.json').read_text())
+    om=pd.read_csv(base/'outer_metrics.csv'); lm=pd.read_csv(base/'lineage_metrics.csv')
+    for d in decisions:
+        t=d['target'];row=final[(final.target==t)&(final.model=='rule_all')].iloc[0]
+        o=om[(om.target==t)&(om.model=='rule_all')];l=lm[(lm.target==t)&(lm.model=='rule_all')]
+        flags={'test_skill':bool(row.skill>=cfg['min_final_skill_vs_lineage']),
+          'ci_positive':bool(row.skill_ci_low>0),'permutation_q':bool(nulls[t]['bh_q']<=cfg['max_bh_q']),
+          'outer_stability':bool((o.skill>0).mean()>=cfg['min_outer_positive_fraction']),
+          'lineage_transfer':bool(len(l)>0 and (l.skill>0).mean()>=cfg['min_lineage_positive_fraction'])}
+        assert flags==d['gates'] and all(flags.values())==d['passes_pilot_gate']
+    print('PASS: cohort completeness, outer metrics/rule predictions, paired CIs, selection-null p-values, BH correction and all decision gates recomputed.')
     print('Null selections rerun:',rerun_nulls,'; full lineage fitting replay remains in the full benchmark command.')
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--nulls',action='store_true');a=p.parse_args()
