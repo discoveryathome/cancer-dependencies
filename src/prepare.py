@@ -65,7 +65,7 @@ def main():
     for library in ['Avana','KY']:
         s=joined[joined.Library==library]
         agg=s.groupby('ModelID')[outcomes+['ScreenNNMD']].median().rename(columns={'ScreenNNMD':'audit_screen_nnmd'})
-        f=meta.join(agg,how='inner').reset_index().sort_values('model_id')
+        f=meta.join(agg,how='inner').rename_axis('model_id').reset_index().sort_values('model_id')
         before=len(f); f=f.drop_duplicates('group',keep='first').copy()
         f['library']=library
         output[library]=f
