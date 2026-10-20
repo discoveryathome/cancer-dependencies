@@ -1,0 +1,3 @@
+DEVELOPED BRAF n= 776 rule= ['hotspot:BRAF'] permutation p= 0.005
+DEVELOPED KRAS n= 776 rule= ['hotspot:KRAS'] permutation p= 0.005
+DEVELOPED NRAS n= 776 rule= ['hotspot:NRAS'] permutation p= 0.005

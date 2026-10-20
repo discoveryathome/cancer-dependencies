@@ -35,8 +35,11 @@ def main():
     source=json.loads((ROOT/'data/source-lock.json').read_text())
     for row in source['files']:
         if sha256(ROOT/'data/raw'/row['name'])!=row['sha256']: raise ValueError('Source changed')
-    m=pd.read_csv(ROOT/'data/raw/Model.csv'); m['group']=identity_groups(m)
-    eligible=m.EngineeredModel.isna() & m.OncotreeLineage.notna() & ~m.OncotreeLineage.isin(['Normal','Fibroblast','Muscle','Hair','Other'])
+    m=pd.read_csv(ROOT/'data/raw/Model.csv')
+    metadata_columns=['ModelID','PatientID','RRID','StrippedCellLineName','SangerModelID','COSMICID','OncotreeLineage','OncotreePrimaryDisease','EngineeredModel']
+    m[metadata_columns].to_csv(ROOT/'data/model-metadata.csv',index=False)
+    m['group']=identity_groups(m)
+    eligible=m.EngineeredModel.isna() & m.OncotreeLineage.notna() & m.OncotreePrimaryDisease.notna() & (m.OncotreePrimaryDisease!='Non-Cancerous') & ~m.OncotreeLineage.isin(['Normal','Fibroblast','Muscle','Hair','Other'])
     meta=m.loc[eligible,['ModelID','group','OncotreeLineage']].rename(columns={'ModelID':'model_id','OncotreeLineage':'lineage'}).set_index('model_id')
     blocks=[]
     for name,prefix in [('OmicsExpressionProteinCodingGenesTPMLogp1.csv','expr'),('OmicsAbsoluteCNGene.csv','cn'),

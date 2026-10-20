@@ -15,6 +15,13 @@
       "url": "https://ndownloader.figshare.com/files/46486213"
     },
     {
+      "name": "AchillesSequenceQCReport.csv",
+      "bytes": 450383,
+      "md5": "13a826add1ac949863796146143591ed",
+      "sha256": "8675aa366de188cf79a0e6d10fb1d0f84dd3b28d281d94f559fd4cd23b7056c1",
+      "url": "https://ndownloader.figshare.com/files/46486222"
+    },
+    {
       "name": "CRISPRScreenMap.csv",
       "bytes": 35507,
       "md5": "e8c2b3902baf7e6c82fac1cf2aec8bff",
@@ -76,6 +83,13 @@
       "md5": "97bbb7f2de25b475104b4706d15437c2",
       "sha256": "d8615a0693a9e448ed13f8860f98ed7515bd307c8a9f21a4c4fa10f1cffb6222",
       "url": "https://ndownloader.figshare.com/files/46500430"
+    },
+    {
+      "name": "ScreenSequenceMap.csv",
+      "bytes": 319719,
+      "md5": "ea12e7e4cde538b602254aec49f07cc3",
+      "sha256": "fabaf0bfb091bb0ca1528a998dc28c91a5baae306231e358686116e1133ef0be",
+      "url": "https://ndownloader.figshare.com/files/46500445"
     }
   ]
 }

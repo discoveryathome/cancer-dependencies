@@ -71,3 +71,16 @@ when joining source metadata, and a status script named inspect.py that shadowed
 standard library. The final package uses status.py. A newcomer using the finished compact
 package should not face those same issues; this trial therefore overstates repeat-user
 setup cost but benefits from author knowledge.
+
+## Eligibility correction before final inspection
+
+A metadata-only audit found that ACH-001310, ACH-001453 and ACH-002462 were annotated
+Non-Cancerous in OncotreePrimaryDisease despite ordinary Kidney, Prostate and Eye lineage
+labels. The initial lineage-only exclusion missed them. The interrupted second baseline
+run is preserved in develop-before-disease-audit.log; its results are discarded.
+
+The cohort construction now explicitly excludes Non-Cancerous or missing primary disease,
+as well as the previously excluded lineage categories and engineered models. This repairs
+the stated cancer-cell eligibility requirement, not a response-based exclusion. All panels,
+identity partitions and evaluations are regenerated. No final-test predictions or scores
+had been computed or inspected. Both the correction and earlier protocol remain in git.

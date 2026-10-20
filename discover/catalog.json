@@ -65,7 +65,7 @@
               "-q",
               "tests/test_verifier.py"
             ],
-            "expected": "8 tests pass, including altered score, prediction and identity failures."
+            "expected": "10 tests pass, including altered score, prediction and identity failures."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
           "claim_kind": [

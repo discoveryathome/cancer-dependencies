@@ -14,7 +14,8 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 
 def inputs():
     paths=['config/benchmark.json','config/PREREGISTRATION.md','data/panel/primary.csv','data/panel/sanger.csv',
-           'data/source-lock.json','data/gene-map.json','src/core.py','src/models.py','src/benchmark.py']
+           'data/source-lock.json','data/gene-map.json','data/model-metadata.csv','data/panel-lock.json',
+           'requirements.lock','src/prepare.py','src/fetch_data.py','src/core.py','src/models.py','src/benchmark.py']
     return {p:sha256(ROOT/p) for p in paths}
 
 

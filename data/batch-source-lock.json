@@ -1,0 +1,24 @@
+{
+  "doi": "10.25452/figshare.plus.25880521.v1",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "files": [
+    {
+      "name": "ScreenSequenceMap.csv",
+      "url": "https://ndownloader.figshare.com/files/46500445",
+      "sha256": "fabaf0bfb091bb0ca1528a998dc28c91a5baae306231e358686116e1133ef0be",
+      "md5": "ea12e7e4cde538b602254aec49f07cc3",
+      "bytes": 319719
+    },
+    {
+      "name": "AchillesSequenceQCReport.csv",
+      "url": "https://ndownloader.figshare.com/files/46486222",
+      "sha256": "8675aa366de188cf79a0e6d10fb1d0f84dd3b28d281d94f559fd4cd23b7056c1",
+      "md5": "13a826add1ac949863796146143591ed",
+      "bytes": 450383
+    }
+  ]
+}

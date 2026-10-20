@@ -58,3 +58,22 @@ URLs, MD5 checks and SHA256 hashes; `data/gene-map.json` retains original gene I
 
 This is an unlisted local proposal. No maintainer has agreed to serve; donor intake is
 closed, no hub consent exists, and no GitHub repository or posts have been created.
+
+Additional verification:
+
+```sh
+.venv/bin/python src/verify.py research/contributor-trial/VERIFY.json
+.venv/bin/python src/verify_statistics.py
+.venv/bin/python src/replay_fit.py
+# Slower: rerun all selection-aware null permutations
+.venv/bin/python src/verify_statistics.py --nulls
+```
+
+`verify_statistics.py` recomputes outer metrics, primary outer-rule predictions, paired
+confidence intervals, p-values and multiplicity adjustment from the saved artifacts;
+`--nulls` also reruns the complete rule-selection nulls. `replay_fit.py` reselects/refits
+all final models from development data. Full replay additionally repeats every outer
+and lineage fit. Use `src/compare_replay.py ORIGINAL REPLAY` to compare full outputs.
+
+To regenerate static report figures, install `requirements-report.lock` in the same
+local environment and run `.venv/bin/python src/make_figures.py`.

@@ -1,20 +1,22 @@
 DEVELOPED BRAF n= 776 rule= ['hotspot:BRAF'] permutation p= 0.005
+DEVELOPED KRAS n= 776 rule= ['hotspot:KRAS'] permutation p= 0.005
+DEVELOPED NRAS n= 776 rule= ['hotspot:NRAS'] permutation p= 0.005
 time: command terminated abnormally
-      285.56 real        48.60 user         3.77 sys
-           164478976  maximum resident set size
+      213.26 real        40.12 user         3.34 sys
+           200802304  maximum resident set size
                    0  average shared memory size
                    0  average unshared data size
                    0  average unshared stack size
-               49820  page reclaims
-                3300  page faults
+               43425  page reclaims
+                 204  page faults
                    0  swaps
                    0  block input operations
                    0  block output operations
                    0  messages sent
                    0  messages received
                    0  signals received
-                1937  voluntary context switches
-              143764  involuntary context switches
-        182005244825  instructions retired
-        105573451095  cycles elapsed
-           143016728  peak memory footprint
+                1178  voluntary context switches
+               91052  involuntary context switches
+        140310063117  instructions retired
+         82438837674  cycles elapsed
+           159187784  peak memory footprint

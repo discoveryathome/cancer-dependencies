@@ -13,7 +13,9 @@ hotspot mutation calls are binary presence (>0), keeping missing calls missing. 
 that any gene-level mutation means a specific activating allele or biallelic loss is made.
 
 Eligibility: release-authorized passing 2DS screens; Avana primary; remove annotated
-engineered models and normal/non-cancer lineage categories; require an expression row.
+engineered models, normal/non-cancer lineage categories, and models whose primary disease
+is Non-Cancerous or missing; require an expression row. The disease-label filter corrects
+an eligibility implementation omission detected before final-test inspection (see SESSION.md).
 Unknown engineered status is not evidence of absence. Identity union and one deterministic
 representative per identity/component prevent related models from crossing partitions.
 Use a seeded 20% group test partition; all discovery and null permutations use development

@@ -8,6 +8,13 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 def verify(package, root=ROOT):
     package=pathlib.Path(package)
     d=json.loads(package.read_text())
+    frozen_path=package.parent/'frozen.json'
+    expected_hash=d.get('frozen_sha256',d.get('trial_frozen_sha256'))
+    if not expected_hash or sha256(frozen_path)!=expected_hash: raise ValueError('Frozen model hash mismatch')
+    frozen=json.loads(frozen_path.read_text())
+    expected={(t,n) for t,models in frozen['models'].items() for n in models}
+    actual_keys=[(row['target'],row['name']) for row in d['results']]
+    if len(actual_keys)!=len(set(actual_keys)) or set(actual_keys)!=expected: raise ValueError('Incomplete or duplicate model family')
     for name,expected in d['inputs'].items():
         p=(root/name).resolve()
         if not p.is_relative_to(root.resolve()): raise ValueError('Unsafe input path')
@@ -20,6 +27,7 @@ def verify(package, root=ROOT):
     if set(d['test_groups'])!=set(test.group): raise ValueError('Test identity manifest mismatch')
     count=0
     for row in d['results']:
+        if row['model']!=frozen['models'][row['target']][row['name']]: raise ValueError('Model differs from frozen selection')
         actual=test.set_index('model_id').loc[row['model_ids']].reset_index()
         if actual.model_id.duplicated().any(): raise ValueError('Duplicate predictions')
         col='y:'+row['target']

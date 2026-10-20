@@ -1,0 +1,44 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "Local benchmark and prospective contributor trial are in progress; no new dependency hypothesis has yet passed the completed pilot evaluation.",
+  "status": "Initialization in progress; donor intake closed; awaiting a maintainer",
+  "evidence_level": [
+    "author-checked"
+  ],
+  "claim_kind": [
+    "measured",
+    "observational"
+  ],
+  "scope": "Pinned DepMap 24Q2 Public v1, fixed 12-target panel. No cancer-versus-normal selectivity, mechanistic causality, drug efficacy or novelty is established.",
+  "assumptions": [
+    {
+      "id": "independent-review",
+      "statement": "Independent computational and scientific review has not occurred.",
+      "status": "open"
+    },
+    {
+      "id": "upstream-processing",
+      "statement": "Release-provided screen processing is not refitted separately for each prediction fold.",
+      "status": "open"
+    },
+    {
+      "id": "novelty",
+      "statement": "Candidate-specific novelty remains unestablished; literature-based pairs are known controls.",
+      "status": "open"
+    }
+  ],
+  "sources": [
+    "https://doi.org/10.25452/figshare.plus.25880521.v1",
+    "https://doi.org/10.1038/s43018-024-00789-y",
+    "config/PREREGISTRATION.md"
+  ],
+  "reproduce": ".venv/bin/python src/verify.py",
+  "reproduce_full": ".venv/bin/python src/benchmark.py develop --out research/replay && .venv/bin/python src/benchmark.py finalize --out research/replay",
+  "reproduce_minutes": 1,
+  "prerequisites": [
+    "Python 3.12 environment installed from requirements.lock",
+    "Committed compact panel files"
+  ],
+  "review": "reports/REVIEW_STATUS.md",
+  "updated_on": "2026-10-20"
+}

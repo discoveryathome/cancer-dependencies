@@ -12,9 +12,10 @@ def fixture(tmp_path):
        'expr:X':[0,2,0,2], 'y:T':[0,-1,0,-1]})
     f.to_csv(tmp_path/'f.csv',index=False)
     model={'kind':'rule','features':['expr:X'],'medians':[1], 'threshold':1,'left':0,'right':-1}
-    row={'target':'T','model_ids':['c','d'],'model':model,'reference':{'kind':'constant','value':-.5},
+    row={'target':'T','name':'rule','model_ids':['c','d'],'model':model,'reference':{'kind':'constant','value':-.5},
          'predictions':[0,-1],'metrics':metrics([0,-1],[0,-1],[-.5,-.5])}
-    d={'inputs':{'f.csv':sha256(tmp_path/'f.csv')},'frame':'f.csv','training_groups':['a','b'],
+    (tmp_path/'frozen.json').write_text(json.dumps({'models':{'T':{'rule':model}}}))
+    d={'frozen_sha256':sha256(tmp_path/'frozen.json'),'inputs':{'f.csv':sha256(tmp_path/'f.csv')},'frame':'f.csv','training_groups':['a','b'],
        'test_groups':['c','d'],'results':[row]}
     return f,d
 
@@ -24,7 +25,7 @@ def run(tmp_path,d):
 def test_worked_certificate(tmp_path):
     _,d=fixture(tmp_path); assert run(tmp_path,d)==1
 
-@pytest.mark.parametrize('fault',['score','prediction','hash','overlap','incomplete','target_feature'])
+@pytest.mark.parametrize('fault',['score','prediction','hash','overlap','incomplete','target_feature','missing_family','changed_model'])
 def test_reject_wrong_candidate(tmp_path,fault):
     f,d=fixture(tmp_path)
     if fault=='score': d['results'][0]['metrics']['mse']=.3
@@ -33,6 +34,8 @@ def test_reject_wrong_candidate(tmp_path,fault):
     if fault=='overlap':
         f.loc[2,'group']='a'; f.to_csv(tmp_path/'f.csv',index=False); d['inputs']['f.csv']=sha256(tmp_path/'f.csv')
     if fault=='incomplete': d['results'][0]['model_ids']=['c']
+    if fault=='missing_family': d['results']=[]
+    if fault=='changed_model': d['results'][0]['model']['threshold']=1.2
     if fault=='target_feature': d['results'][0]['model']['features']=['y:T']
     with pytest.raises((ValueError,AssertionError)): run(tmp_path,d)
 

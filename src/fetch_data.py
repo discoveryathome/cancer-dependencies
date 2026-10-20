@@ -4,7 +4,8 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 NAMES = ['ScreenGeneEffect.csv','OmicsExpressionProteinCodingGenesTPMLogp1.csv',
          'OmicsAbsoluteCNGene.csv','OmicsSomaticMutationsMatrixDamaging.csv',
          'OmicsSomaticMutationsMatrixHotspot.csv','Model.csv','AchillesScreenQCReport.csv',
-         'OmicsDefaultModelProfiles.csv','OmicsProfiles.csv','CRISPRScreenMap.csv']
+         'OmicsDefaultModelProfiles.csv','OmicsProfiles.csv','CRISPRScreenMap.csv',
+         'ScreenSequenceMap.csv','AchillesSequenceQCReport.csv']
 def digest(path, kind):
     h=hashlib.new(kind)
     with path.open('rb') as f:
