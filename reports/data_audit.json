@@ -1,0 +1,420 @@
+{
+  "Avana": {
+    "eligible_screens": 1026,
+    "independent_groups": 970,
+    "models_before_identity_dedup": 996
+  },
+  "KY": {
+    "eligible_screens": 315,
+    "independent_groups": 248,
+    "models_before_identity_dedup": 249
+  },
+  "caveat": "Upstream Chronos screen preprocessing is not refit within model folds; this is prediction from released processed assays.",
+  "distinct_sanger_groups": 49,
+  "feature_count": 107,
+  "identity_policy": "Union PatientID, RRID, stripped name, SangerModelID, COSMICID; first ModelID per component per library",
+  "lineage_counts": [
+    {
+      "lineage": "Adrenal Gland",
+      "n": 1,
+      "partition": "development"
+    },
+    {
+      "lineage": "Ampulla of Vater",
+      "n": 3,
+      "partition": "development"
+    },
+    {
+      "lineage": "Biliary Tract",
+      "n": 22,
+      "partition": "development"
+    },
+    {
+      "lineage": "Bladder/Urinary Tract",
+      "n": 25,
+      "partition": "development"
+    },
+    {
+      "lineage": "Bone",
+      "n": 22,
+      "partition": "development"
+    },
+    {
+      "lineage": "Bowel",
+      "n": 36,
+      "partition": "development"
+    },
+    {
+      "lineage": "Breast",
+      "n": 37,
+      "partition": "development"
+    },
+    {
+      "lineage": "CNS/Brain",
+      "n": 64,
+      "partition": "development"
+    },
+    {
+      "lineage": "Cervix",
+      "n": 13,
+      "partition": "development"
+    },
+    {
+      "lineage": "Esophagus/Stomach",
+      "n": 41,
+      "partition": "development"
+    },
+    {
+      "lineage": "Eye",
+      "n": 7,
+      "partition": "development"
+    },
+    {
+      "lineage": "Head and Neck",
+      "n": 47,
+      "partition": "development"
+    },
+    {
+      "lineage": "Kidney",
+      "n": 25,
+      "partition": "development"
+    },
+    {
+      "lineage": "Liver",
+      "n": 17,
+      "partition": "development"
+    },
+    {
+      "lineage": "Lung",
+      "n": 86,
+      "partition": "development"
+    },
+    {
+      "lineage": "Lymphoid",
+      "n": 62,
+      "partition": "development"
+    },
+    {
+      "lineage": "Myeloid",
+      "n": 28,
+      "partition": "development"
+    },
+    {
+      "lineage": "Ovary/Fallopian Tube",
+      "n": 40,
+      "partition": "development"
+    },
+    {
+      "lineage": "Pancreas",
+      "n": 32,
+      "partition": "development"
+    },
+    {
+      "lineage": "Peripheral Nervous System",
+      "n": 27,
+      "partition": "development"
+    },
+    {
+      "lineage": "Pleura",
+      "n": 17,
+      "partition": "development"
+    },
+    {
+      "lineage": "Prostate",
+      "n": 6,
+      "partition": "development"
+    },
+    {
+      "lineage": "Skin",
+      "n": 53,
+      "partition": "development"
+    },
+    {
+      "lineage": "Soft Tissue",
+      "n": 31,
+      "partition": "development"
+    },
+    {
+      "lineage": "Testis",
+      "n": 2,
+      "partition": "development"
+    },
+    {
+      "lineage": "Thyroid",
+      "n": 8,
+      "partition": "development"
+    },
+    {
+      "lineage": "Uterus",
+      "n": 24,
+      "partition": "development"
+    },
+    {
+      "lineage": "Ampulla of Vater",
+      "n": 1,
+      "partition": "final"
+    },
+    {
+      "lineage": "Biliary Tract",
+      "n": 11,
+      "partition": "final"
+    },
+    {
+      "lineage": "Bladder/Urinary Tract",
+      "n": 6,
+      "partition": "final"
+    },
+    {
+      "lineage": "Bone",
+      "n": 8,
+      "partition": "final"
+    },
+    {
+      "lineage": "Bowel",
+      "n": 11,
+      "partition": "final"
+    },
+    {
+      "lineage": "Breast",
+      "n": 5,
+      "partition": "final"
+    },
+    {
+      "lineage": "CNS/Brain",
+      "n": 9,
+      "partition": "final"
+    },
+    {
+      "lineage": "Cervix",
+      "n": 4,
+      "partition": "final"
+    },
+    {
+      "lineage": "Esophagus/Stomach",
+      "n": 16,
+      "partition": "final"
+    },
+    {
+      "lineage": "Eye",
+      "n": 3,
+      "partition": "final"
+    },
+    {
+      "lineage": "Head and Neck",
+      "n": 6,
+      "partition": "final"
+    },
+    {
+      "lineage": "Kidney",
+      "n": 5,
+      "partition": "final"
+    },
+    {
+      "lineage": "Liver",
+      "n": 7,
+      "partition": "final"
+    },
+    {
+      "lineage": "Lung",
+      "n": 26,
+      "partition": "final"
+    },
+    {
+      "lineage": "Lymphoid",
+      "n": 17,
+      "partition": "final"
+    },
+    {
+      "lineage": "Myeloid",
+      "n": 6,
+      "partition": "final"
+    },
+    {
+      "lineage": "Ovary/Fallopian Tube",
+      "n": 9,
+      "partition": "final"
+    },
+    {
+      "lineage": "Pancreas",
+      "n": 7,
+      "partition": "final"
+    },
+    {
+      "lineage": "Peripheral Nervous System",
+      "n": 5,
+      "partition": "final"
+    },
+    {
+      "lineage": "Pleura",
+      "n": 3,
+      "partition": "final"
+    },
+    {
+      "lineage": "Prostate",
+      "n": 2,
+      "partition": "final"
+    },
+    {
+      "lineage": "Skin",
+      "n": 10,
+      "partition": "final"
+    },
+    {
+      "lineage": "Soft Tissue",
+      "n": 7,
+      "partition": "final"
+    },
+    {
+      "lineage": "Thyroid",
+      "n": 3,
+      "partition": "final"
+    },
+    {
+      "lineage": "Uterus",
+      "n": 5,
+      "partition": "final"
+    },
+    {
+      "lineage": "Vulva/Vagina",
+      "n": 2,
+      "partition": "final"
+    }
+  ],
+  "missing_genes": {
+    "cn": [
+      "STAG2"
+    ],
+    "damaging": [
+      "MYC"
+    ],
+    "expr": [],
+    "hotspot": [
+      "CDK6",
+      "EPCAM",
+      "MDM2",
+      "MITF",
+      "MTAP",
+      "NKX2-1",
+      "PRMT5",
+      "SMARCA2",
+      "SOX10",
+      "STAG2",
+      "VIM"
+    ]
+  },
+  "missingness": {
+    "cn:ARID1A": 0.1958762886597938,
+    "cn:ARID1B": 0.1958762886597938,
+    "cn:BRAF": 0.1958762886597938,
+    "cn:CCND1": 0.1958762886597938,
+    "cn:CDK4": 0.1958762886597938,
+    "cn:CDK6": 0.1958762886597938,
+    "cn:CDKN2A": 0.1958762886597938,
+    "cn:EGFR": 0.1958762886597938,
+    "cn:EPCAM": 0.1958762886597938,
+    "cn:ERBB2": 0.1958762886597938,
+    "cn:ESR1": 0.1958762886597938,
+    "cn:GATA3": 0.1958762886597938,
+    "cn:KRAS": 0.1958762886597938,
+    "cn:MDM2": 0.1958762886597938,
+    "cn:MITF": 0.1958762886597938,
+    "cn:MTAP": 0.1958762886597938,
+    "cn:MYC": 0.1958762886597938,
+    "cn:NKX2-1": 0.1958762886597938,
+    "cn:NRAS": 0.1958762886597938,
+    "cn:PIK3CA": 0.1958762886597938,
+    "cn:PRMT5": 0.1958762886597938,
+    "cn:PTEN": 0.1958762886597938,
+    "cn:RB1": 0.1958762886597938,
+    "cn:SMARCA2": 0.1958762886597938,
+    "cn:SMARCA4": 0.1958762886597938,
+    "cn:SOX10": 0.1958762886597938,
+    "cn:STAG1": 0.1958762886597938,
+    "cn:TP53": 0.1958762886597938,
+    "cn:VIM": 0.1958762886597938,
+    "damaging:ARID1A": 0.0,
+    "damaging:ARID1B": 0.0,
+    "damaging:BRAF": 0.0,
+    "damaging:CCND1": 0.0,
+    "damaging:CDK4": 0.0,
+    "damaging:CDK6": 0.0,
+    "damaging:CDKN2A": 0.0,
+    "damaging:EGFR": 0.0,
+    "damaging:EPCAM": 0.0,
+    "damaging:ERBB2": 0.0,
+    "damaging:ESR1": 0.0,
+    "damaging:GATA3": 0.0,
+    "damaging:KRAS": 0.0,
+    "damaging:MDM2": 0.0,
+    "damaging:MITF": 0.0,
+    "damaging:MTAP": 0.0,
+    "damaging:NKX2-1": 0.0,
+    "damaging:NRAS": 0.0,
+    "damaging:PIK3CA": 0.0,
+    "damaging:PRMT5": 0.0,
+    "damaging:PTEN": 0.0,
+    "damaging:RB1": 0.0,
+    "damaging:SMARCA2": 0.0,
+    "damaging:SMARCA4": 0.0,
+    "damaging:SOX10": 0.0,
+    "damaging:STAG1": 0.0,
+    "damaging:STAG2": 0.0,
+    "damaging:TP53": 0.0,
+    "damaging:VIM": 0.0,
+    "expr:ARID1A": 0.0,
+    "expr:ARID1B": 0.0,
+    "expr:BRAF": 0.0,
+    "expr:CCND1": 0.0,
+    "expr:CDK4": 0.0,
+    "expr:CDK6": 0.0,
+    "expr:CDKN2A": 0.0,
+    "expr:EGFR": 0.0,
+    "expr:EPCAM": 0.0,
+    "expr:ERBB2": 0.0,
+    "expr:ESR1": 0.0,
+    "expr:GATA3": 0.0,
+    "expr:KRAS": 0.0,
+    "expr:MDM2": 0.0,
+    "expr:MITF": 0.0,
+    "expr:MTAP": 0.0,
+    "expr:MYC": 0.0,
+    "expr:NKX2-1": 0.0,
+    "expr:NRAS": 0.0,
+    "expr:PIK3CA": 0.0,
+    "expr:PRMT5": 0.0,
+    "expr:PTEN": 0.0,
+    "expr:RB1": 0.0,
+    "expr:SMARCA2": 0.0,
+    "expr:SMARCA4": 0.0,
+    "expr:SOX10": 0.0,
+    "expr:STAG1": 0.0,
+    "expr:STAG2": 0.0,
+    "expr:TP53": 0.0,
+    "expr:VIM": 0.0,
+    "hotspot:ARID1A": 0.0,
+    "hotspot:ARID1B": 0.0,
+    "hotspot:BRAF": 0.0,
+    "hotspot:CCND1": 0.0,
+    "hotspot:CDK4": 0.0,
+    "hotspot:CDKN2A": 0.0,
+    "hotspot:EGFR": 0.0,
+    "hotspot:ERBB2": 0.0,
+    "hotspot:ESR1": 0.0,
+    "hotspot:GATA3": 0.0,
+    "hotspot:KRAS": 0.0,
+    "hotspot:MYC": 0.0,
+    "hotspot:NRAS": 0.0,
+    "hotspot:PIK3CA": 0.0,
+    "hotspot:PTEN": 0.0,
+    "hotspot:RB1": 0.0,
+    "hotspot:SMARCA4": 0.0,
+    "hotspot:STAG1": 0.0,
+    "hotspot:TP53": 0.0
+  },
+  "overlapping_sanger_groups": 199,
+  "screen_policy": "PassesQC and CanInclude; 2DS; median of eligible same-library screen gene effects",
+  "split_counts": {
+    "development": 776,
+    "final": 194
+  }
+}

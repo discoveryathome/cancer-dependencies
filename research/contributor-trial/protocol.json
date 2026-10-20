@@ -1,0 +1,28 @@
+{
+  "version": "contributor-v1",
+  "started_utc": "2026-10-20T20:13:24Z",
+  "primary_family": "biology_pair",
+  "pairs": {
+    "BRAF": ["hotspot:BRAF", "expr:BRAF"],
+    "KRAS": ["hotspot:KRAS", "expr:KRAS"],
+    "NRAS": ["hotspot:NRAS", "expr:NRAS"],
+    "EGFR": ["expr:EGFR", "cn:EGFR"],
+    "ERBB2": ["expr:ERBB2", "cn:ERBB2"],
+    "PIK3CA": ["hotspot:PIK3CA", "expr:PIK3CA"],
+    "SMARCA2": ["expr:SMARCA4", "damaging:SMARCA4"],
+    "SMARCA4": ["expr:SMARCA2", "damaging:SMARCA2"],
+    "ARID1B": ["expr:ARID1A", "damaging:ARID1A"],
+    "STAG1": ["expr:STAG2", "damaging:STAG2"],
+    "MDM2": ["damaging:TP53", "hotspot:TP53"],
+    "PRMT5": ["cn:MTAP", "expr:MTAP"]
+  },
+  "ridge_alphas": [1, 10, 100],
+  "control_family": "blind_pair",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261021,
+  "minimum_macro_skill": 0.05,
+  "minimum_positive_outer_folds": 0.8,
+  "primary_comparison": "biology_pair versus frozen baseline rule_all, pooled MSE weighted by inverse development target variance",
+  "secondary_comparisons": ["biology_pair versus blind_pair", "biology_pair versus development-selected best linear baseline"],
+  "interpretation": "Known biological priors; no novel biological relationship is claimed."
+}
