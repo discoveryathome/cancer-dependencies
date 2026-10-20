@@ -1,0 +1,25 @@
+{
+  "verifier": "Codex research agent (package author)",
+  "verified_on": "2026-10-20",
+  "package_commit": "ed3e3a9829f8afd81c82595a1b0a9170cd6bce69",
+  "method": "replayed",
+  "outcome": "confirmed",
+  "scope": "Computational outputs only: full fresh-checkout selection/fitting and scoring replay; all 156 final model refits across both packages; input hashes, cohort completeness, arithmetic, intervals and gates. Replay snapshot inputs and fitting code match packaged inputs byte-for-byte. Same pinned runtime and host.",
+  "not_checked": [
+    "Independent environment or reviewer",
+    "Biological novelty and causality",
+    "Normal-cell selectivity or drug efficacy",
+    "Upstream normalization and independent extraction implementation",
+    "Future adaptive generalization",
+    "Maintainer scientific acceptance"
+  ],
+  "evidence": [
+    "reports/REPRODUCIBILITY.md",
+    "setup/logs/baseline-replay-comparison.log",
+    "setup/logs/prediction-verification.log",
+    "setup/logs/refit-verification.log",
+    "setup/logs/statistical-verification-final.log"
+  ],
+  "independent": false,
+  "replay_snapshot_commit": "1ae3bfcb95f23785521c6773974a2b26b2cbc3ce"
+}
