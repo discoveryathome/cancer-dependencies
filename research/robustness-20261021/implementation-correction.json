@@ -1,0 +1,5 @@
+{
+  "recorded_at": "2026-10-21T20:30:52.588373+00:00",
+  "reason": "Initial implementation used matched-model IQR and added an unintended complete-overlap gate. Protocol specifies original development IQR and >=100 complete pairs. Corrected denominator to all773 development models and removed unplanned gate; original source/result retained. No outcome file opened or correction selected using outcomes.",
+  "protocol_changed": false
+}

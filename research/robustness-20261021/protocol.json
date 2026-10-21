@@ -1,0 +1,29 @@
+{
+  "schema": "matched-expression-robustness/v1",
+  "created_at": "2026-10-21T20:29:27.049975+00:00",
+  "status": "exploratory; same author; Broad outcomes previously exposed; no Sanger use",
+  "question": "Can changes in expression measurements across releases explain frozen-model transfer/support failures?",
+  "inputs": "Only development identities and expression, frozen model coefficients, manuscript traditional expression, existing expression and metadata; no dependency outcomes during audit",
+  "panel": "All original 30 predictors and 12 rules; exact ModelID and Entrez mapping; missingness and exclusions explicit",
+  "audit": [
+    "Report all matched development IDs, per-gene paired shifts, quantiles, Spearman, MAE and threshold branch flips",
+    "Check old default RNA ProfileID, ModelCondition, Source and strandedness, and whether new release exposes corresponding identifiers",
+    "Report complete-panel and per-gene coverage; same ModelID alone does not prove same sample"
+  ],
+  "candidate": {
+    "method": "one gene-specific additive median offset; subtract median(new-old) estimated on matched development models; no clipping, threshold fitting, scaling grid or target selection",
+    "validation": "Five fixed identity folds from SHA256(group), sorted then round-robin; offsets fit on other four folds; report held-out absolute discrepancy before/after, all30genes; no organoid data in estimation",
+    "eligibility": "at least100 complete paired development identities; no model/identity duplicates; all30gene columns; adequate documented comparability",
+    "numerical_gate": "Mean across genes of OOF MAE normalized by old-development IQR improves at least10%, and at least20/30 gene MAEs strictly improve. This heuristic determines whether an organoid sensitivity run is worth doing; not a significance test.",
+    "causal_gate": "Absent same-sample identifiers, any correction remains a release-bridge sensitivity assumption, never a verified technical correction. If provenance contradicts comparability or numerical gate fails, stop without corrected outcome scoring."
+  },
+  "conditional_evaluation": "If gates support a sensitivity attempt, freeze offsets/code before opening any response in this round; evaluate all77Broad and all12targets, same corrected features for all6frozen families; compact and strong comparison retained; conditional 2000 shared identity bootstrap seed20261021; exploratory only. Record decision before score.",
+  "prohibited": [
+    "Sanger outcomes",
+    "historical final labels",
+    "adaptive threshold rebalancing on organoids",
+    "selecting correction using Broad responses",
+    "unreported failed corrections",
+    "publishing or outreach"
+  ]
+}

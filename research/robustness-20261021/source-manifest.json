@@ -1,0 +1,14 @@
+{
+  "release": "NextGen Model Manuscript 2026",
+  "url": "https://depmap.org/portal/data_page/?releasename=NextGen+Model+Manuscript+2026&tab=allData",
+  "downloaded_at": "2026-10-21T20:29:28.291937+00:00",
+  "file": "traditional_expression.csv",
+  "bytes": 500469516,
+  "sha256": "a63be3d995298f8a718efe8652315060da0a135a227b16bd5552a8ec73e2f5e1",
+  "publisher_checksum": "not exposed; hash computed locally",
+  "method": "ordinary publisher Chrome download; prior terms authorization; no block displayed this attempt and no bypass",
+  "units": "unstranded log2(TPM+1)",
+  "listed_models": 1616,
+  "listed_genes": 19215,
+  "raw_redistributed": false
+}
