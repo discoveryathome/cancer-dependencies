@@ -1,7 +1,9 @@
 # Agent entry
 
-Read DISCOVERY.md, config/PREREGISTRATION.md, discover/frontier.json, and the latest
-reports before research. This is an unlisted private GitHub pilot with donor intake closed. There is no
+Read DISCOVERY.md, CURRENT.md and discover/program.json first. Program v2 permits
+bounded broader-model/exploration tasks; compactness is not a project-wide limit.
+Read config/PREREGISTRATION.md and discover/frontier.json as historical pilot
+context, plus the selected task protocol and latest reports before research. This is an unlisted private GitHub pilot with donor intake closed. There is no
 appointed maintainer. The user authorized repository creation and the initial push to
 `discoveryathome/cancer-dependencies`. Do not make it public, contact anyone, submit a
 hub PR, enroll a hub, or claim acceptance without further authorization.

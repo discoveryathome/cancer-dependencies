@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-10-21T20:59:05.015612+00:00",
+  "preparation_completed": "Programv2 entry/catalogue/proposal tooling; input/schema controls; tests6passed",
+  "actor": "same primary agent, prior context and previously exposed Broad results",
+  "task": "broader-expression-reference",
+  "selection_reason": "User-authorized directed trial testing whether the original30-gene restriction is limiting progress",
+  "preflight_failures": [
+    "Test fixture requested32 of33 eligible features while expecting the lower-ranked33rd; corrected fixture cap.",
+    "Full-matrix loader rejected duplicate EntrezIDs; outcome-free exclusion amendment recorded before fitting."
+  ],
+  "not_independent_newcomer": true
+}

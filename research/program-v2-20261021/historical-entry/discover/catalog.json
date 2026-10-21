@@ -1,0 +1,647 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 2,
+  "assessed_on": "2026-10-21",
+  "priority_log": "discover/priority-log.md",
+  "status": "Local preparation for scoped trials; public intake and independent scientific review pending",
+  "tracks": [
+    {
+      "id": "replication",
+      "weight": 25,
+      "useful_outcome": "Full replay matches predictions and metrics within declared tolerances; report hardware and runtime.",
+      "tasks": [
+        {
+          "id": "replay-baseline",
+          "question": "Can another machine reproduce the frozen result?",
+          "starting_points": [
+            "README.md",
+            "research/initial/VERIFY.json"
+          ],
+          "methods": [
+            "Fresh-process replay",
+            "Hash comparison",
+            "Assay-source audit"
+          ],
+          "acceptance_gate": "Full replay matches predictions and metrics within declared tolerances; report hardware and runtime.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/verify.py"
+            ],
+            "expected": "PASS: all frozen final predictions and scores recomputed."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "weight": 25,
+      "useful_outcome": "A new scientifically meaningful failure is rejected without rejecting valid frozen results.",
+      "tasks": [
+        {
+          "id": "challenge-leakage",
+          "question": "Can incomplete folds, forbidden features, forged metrics or non-refittable models pass the preparation checker?",
+          "starting_points": [
+            "src/readiness.py",
+            "tests/test_readiness.py"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Include a falsifying artifact and test; exact fold coverage and fixed strong baselines must be preserved.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "-m",
+              "pytest",
+              "-q",
+              "tests/test_readiness.py"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "development",
+            "checker",
+            "leakage"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology-audit",
+      "weight": 35,
+      "useful_outcome": "Every novelty or replication statement names sources, cohorts, limitations and a falsifiable hypothesis.",
+      "tasks": [
+        {
+          "id": "audit-transfer",
+          "question": "Which positive-control relationships survive independent assay and lineage checks?",
+          "starting_points": [
+            "reports/data_audit.json",
+            "research/initial/decisions.json",
+            "setup/RESEARCH_BRIEF.md"
+          ],
+          "methods": [
+            "Literature audit",
+            "Independent identity checks",
+            "Alternative explanations"
+          ],
+          "acceptance_gate": "Every novelty or replication statement names sources, cohorts, limitations and a falsifiable hypothesis.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/status.py",
+              "audit"
+            ],
+            "expected": "Print cohort counts, cross-study overlap and open biological caveats."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck-and-settled-questions",
+          "claim_kind": [
+            "measured",
+            "observational"
+          ]
+        },
+        {
+          "id": "reserve-cohort-audit",
+          "question": "Can metadata justify an adequately powered future confirmation cohort without reusing known identities?",
+          "starting_points": [
+            "research/readiness-20261021/cohort-reserve.json",
+            "src/reserve_cohort.py",
+            "research/readiness-20261021/EVALUATION.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Preserve all identity exclusions and release-specific terms. Existing 24Q4 reserve is insufficient; do not lower support gates or inspect outcomes before curator approval and model freeze.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/reserve_cohort.py",
+              "--check"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "identity-overlap",
+            "future-cohort"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compact-models",
+      "weight": 15,
+      "useful_outcome": "Predeclared candidate beats its development comparator robustly; independent final confirmation needs a fresh sealed cohort after the initial evaluation.",
+      "tasks": [
+        {
+          "id": "compact-braf",
+          "question": "Can a <=3-feature model for BRAF improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/BRAF.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/BRAF.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "BRAF",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "compact-kras",
+          "question": "Can a <=3-feature model for KRAS improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/KRAS.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/KRAS.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "KRAS",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "compact-nras",
+          "question": "Can a <=3-feature model for NRAS improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/NRAS.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/NRAS.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "NRAS",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "compact-egfr",
+          "question": "Can a <=3-feature model for EGFR improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/EGFR.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/EGFR.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "EGFR",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "compact-erbb2",
+          "question": "Can a <=3-feature model for ERBB2 improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/ERBB2.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/ERBB2.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "ERBB2",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "compact-pik3ca",
+          "question": "Can a <=3-feature model for PIK3CA improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/PIK3CA.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/PIK3CA.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "PIK3CA",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "compact-smarca2",
+          "question": "Can a <=3-feature model for SMARCA2 improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/SMARCA2.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/SMARCA2.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "SMARCA2",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "compact-smarca4",
+          "question": "Can a <=3-feature model for SMARCA4 improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/SMARCA4.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/SMARCA4.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "SMARCA4",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "compact-arid1b",
+          "question": "Can a <=3-feature model for ARID1B improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/ARID1B.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/ARID1B.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "ARID1B",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "compact-stag1",
+          "question": "Can a <=3-feature model for STAG1 improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/STAG1.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/STAG1.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "STAG1",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "compact-mdm2",
+          "question": "Can a <=3-feature model for MDM2 improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/MDM2.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/MDM2.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "MDM2",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "compact-prmt5",
+          "question": "Can a <=3-feature model for PRMT5 improve the frozen strong comparison on development folds?",
+          "starting_points": [
+            "src/compact_candidate.py",
+            "research/readiness-20261021/candidates/PRMT5.json",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Full five-fold coverage, finite molecular-only model, exact metrics and source/refit check. Compare lineage, rule and nested-selected strong linear baseline. Development gain is exploratory and needs fresh confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/PRMT5.json"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "PRMT5",
+            "compact-model",
+            "development-only"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "mission": "Improve predictions of cancer dependencies in new biological contexts enough to guide experimental prioritization.",
+  "contract": "DISCOVERY.md",
+  "tracks": [
+    "comparable-improvements",
+    "exploration"
+  ],
+  "compact_feature_limit": "task-specific, not program-wide",
+  "original_panel": "inherited benchmark; new panels require explicit prospective tasks",
+  "current_trial": "research/wide-expression-20261021/protocol.json",
+  "historical_frontier": "discover/frontier.json",
+  "scientific_acceptance": "pending",
+  "intake": "closed",
+  "current_result": "research/wide-expression-20261021/README.md",
+  "assessment": "New broader reference improves development point estimate; aggregate organoid transfer gain not established; all target-specific leads exploratory."
+}

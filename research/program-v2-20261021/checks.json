@@ -1,0 +1,10 @@
+{
+  "tests": 50,
+  "catalogue_first_steps": 7,
+  "history_packages": 6,
+  "old_scientific_artifacts_changed": false,
+  "schema_validation": "passes with existing empty-maintainer exception; not donor-ready",
+  "routing_smoke_seed": "00000000000000000000000000000000",
+  "routing_seed_role": "deterministic software smoke test, not a random task-selection record",
+  "scientific_acceptance": false
+}

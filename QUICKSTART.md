@@ -1,36 +1,31 @@
-# Current preparation workflow
+# A bounded contribution under program v2
 
-Use [the preparation quickstart](research/readiness-20261021/README.md) for new
-contributions. It provides development-only data, fixed strong comparators and
-a candidate source/refit check. The historical starter below remains a reproduction
-control and should not be interpreted as a fresh confirmation experiment.
+This is a private supervised pilot; donor intake is closed. Read DISCOVERY.md and
+CURRENT.md, then run `.venv/bin/python src/research_program.py check`.
+Choose a card in discover/catalog.json, or use
+`.venv/bin/python src/research_program.py pick` and save its seed/output.
+Explicit user-directed priorities can select a task directly, with a recorded reason.
 
-# A first 30–60 minute contribution
+For a comparable improvement, inherit its exact protocol and establish the reference
+before changing a method. The wider-expression reference trial provides one example
+outside the old 30-gene panel. Compact candidates retain their existing verifier;
+that verifier's three-feature limit does not apply to other task types.
 
-This is a local proposal, not an open donor call. After a maintainer opens intake, a
-first contributor should use the compact committed panel, not download the raw release.
+For exploration, copy research/program-v2-20261021/proposal-example.json into a new
+attempt folder, specify the actual hypothesis/data/budget/evaluation, and run
+`.venv/bin/python src/research_program.py proposal --path YOUR_PROPOSAL.json`.
+The checker validates required declarations, not scientific quality or authorization.
+Freeze the proposal before new outcome analysis. A different cohort, target panel,
+method class or metric gets a new task; do not rewrite an already scored protocol.
 
-1. Read AGENTS.md, the frontier, and the chosen catalogue card (5–10 minutes).
-2. Create a local Python 3.12 environment and install requirements.lock with hashes;
-   run `.venv/bin/python src/doctor.py` and `.venv/bin/python src/verify.py`.
-3. Run one bounded development-only task:
+A first session should be bounded (typically 30–60 minutes) and end with a candidate,
+falsified explanation, verification fix or reviewable new-task proposal. Save all
+attempts, code, hashes, results, exact commands and runtime; separate setup time.
+Use held-out development folds during search. Broad is exposed exploratory evidence;
+keep Sanger outcomes reserved. Independent review is needed before scientific
+acceptance; task completion alone does not open intake.
 
-   ```sh
-   .venv/bin/python src/contribute.py run --target SMARCA2 --artifact research/my-attempt/RESULT.json
-   .venv/bin/python src/contribute.py verify --artifact research/my-attempt/RESULT.json
-   ```
-
-4. Inspect the rule, support and five held-out-fold scores. Audit a biological assumption,
-   propose a small model change, or find an evaluation bug. Keep a complete attempt log.
-5. Save the patch, protocol, outputs, runtime and limitations in a result package. Do not
-   optimize against research/initial final scores or call a known paralog result novel.
-
-The starter compares a one-feature threshold rule, a two-feature biological prior, and a
-blind two-feature model. Its score is exploratory development evidence. Improvement on
-this repeatedly inspected set needs confirmation on a new, curator-sealed cohort.
-A negative result or a verified leakage fix is useful progress; it is not a new biomarker.
-
-What counts as a concrete contribution: a reproducible score/complexity improvement on
-specified development splits, an independently reproduced result, a scientifically relevant
-verifier rejection test, or a sourced correction to a biological/assay assumption. A longer
-GPU run, an unverified correlation, or another rendering of a known biomarker does not count.
+No-data first steps are marked in the catalogue. Larger methods may require pinned
+publisher matrices; their task must say so before asking a contributor to download
+or run anything. Do not silently use a compact toy check as verification of a
+broader model's predictive claims.

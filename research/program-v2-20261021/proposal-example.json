@@ -1,0 +1,17 @@
+{
+  "track": "exploration",
+  "status": "example",
+  "question": "Can a declared alternative representation improve cross-context prediction?",
+  "intended_decision": "Prioritize target-model combinations for later experimental investigation; benchmark scores are surrogate evidence.",
+  "hypothesis": "Specify the mechanism and a falsifier before analysis.",
+  "data_and_cohort": "Name pinned public inputs, identity grouping and permitted development rows.",
+  "targets": "Declare all targets before score inspection; expansion requires a new task.",
+  "baseline": "Specify matched-data strong reference, lineage control and existing result.",
+  "metrics": "Accuracy, coverage, complexity and missingness; distinguish primary and secondary metrics.",
+  "search_space": "Declare representations, model choices and all attempted candidates.",
+  "budget": "Declare wall time, fitting count, compute/memory and download requirements.",
+  "exposure_status": "Broad already exposed; historical final not fresh; Sanger reserved.",
+  "evaluation_plan": "Fold-local selection and group separation; freeze candidate before any permitted external scoring; no repeated-test confirmation.",
+  "success_and_failure": "Name a measurable effect or falsification, with all targets and failures retained.",
+  "outside_review": "Independent computational replay and assay-aware scientific review remain necessary."
+}
