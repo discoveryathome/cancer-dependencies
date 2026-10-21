@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-21T16:52:23.588885+00:00",
+  "scope": "Author entry-command checks only; substantive independent tasks not completed",
+  "correction": "Initial Q3 used a portfolio certificate without a candidate source binding; changed to the existing source-bound starter. No historical artifact or verifier changed.",
+  "results": [
+    {
+      "id": "Q1",
+      "command": [
+        "python3",
+        "src/qualification.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.184
+    },
+    {
+      "id": "Q2",
+      "command": [
+        "python3",
+        "-m",
+        "json.tool",
+        "research/qualification-20261021/measurement-contract.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.056
+    },
+    {
+      "id": "Q3",
+      "command": [
+        ".venv/bin/python",
+        "src/readiness.py",
+        "verify",
+        "--candidate",
+        "research/readiness-20261021/starter.json",
+        "--refit"
+      ],
+      "returncode": 0,
+      "seconds": 1.737
+    },
+    {
+      "id": "Q4",
+      "command": [
+        "python3",
+        "-m",
+        "json.tool",
+        "research/qualification-20261021/prior-work.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.065
+    },
+    {
+      "id": "Q5",
+      "command": [
+        "python3",
+        "src/qualification.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.183
+    }
+  ]
+}

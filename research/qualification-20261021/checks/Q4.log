@@ -1,0 +1,24 @@
+{
+    "doi": "10.3390/biology15191782",
+    "title": "Transferability of Transcriptome-Based Gene-Dependency Models from Two-Dimensional Cancer Models to Patient-Derived Organoids: Blinded External Validation",
+    "authors": [
+        "Yelda F\u0131rat",
+        "Y\u0131lmaz K\u0131l\u0131\u00e7aslan"
+    ],
+    "published": "2026-10-08",
+    "primary_sources": [
+        "https://www.mdpi.com/2079-7737/15/19/1782",
+        "https://pubmed.ncbi.nlm.nih.gov/42883455/"
+    ],
+    "inspection": "Indexed publisher abstract/summary and PubMed; direct full-text requests returned 429/403. No code or results reproduced.",
+    "relevance": "Existing study of expression-based 2D-to-organoid dependency transfer using Broad and Sanger resources. Generic transfer question is not novel.",
+    "reported_scope": {
+        "target_genes": 20,
+        "broad_models": 94,
+        "sanger_models": 148,
+        "sanger_donors": 144
+    },
+    "next_action": "Obtain primary methods and reproducibility archive metadata; specify one independently useful reproduction without selecting our targets on its scores.",
+    "exposure": "Published aggregate results and named successful targets were visible during literature review. Future work must disclose this; no row-level outcomes loaded here.",
+    "independent_reproduction": false
+}

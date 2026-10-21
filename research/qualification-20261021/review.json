@@ -1,0 +1,15 @@
+{
+  "status": "pending external review",
+  "scientific_owner": null,
+  "owner_consent": null,
+  "review_capacity": null,
+  "independent_reviewer": null,
+  "reviewed_commit": null,
+  "identity_review": "pending",
+  "assay_and_source_terms_review": "pending",
+  "power_and_protocol_review": "pending",
+  "independent_contributor_trial": "not run",
+  "new_outcome_evaluation_authorized_by_owner": false,
+  "confirmation_ready": false,
+  "public_traffic_ready": false
+}

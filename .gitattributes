@@ -1,2 +1,6 @@
 * text=auto eol=lf
 *.png binary
+
+# Preserve publisher bytes for source checksum replay.
+research/qualification-20261021/sources/broad-model_metadata.csv -text whitespace=cr-at-eol
+research/qualification-20261021/sources/broad-screen_metadata.csv -text whitespace=cr-at-eol

@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "status": "local qualification tasks; no donor intake",
+  "instructions": "TASKS.md",
+  "independent_trial_run": false,
+  "tasks": [
+    {
+      "id": "Q1",
+      "title": "Independently check an identity exclusion",
+      "minutes": 45,
+      "first_step": [
+        "python3",
+        "src/qualification.py"
+      ],
+      "scope": "metadata"
+    },
+    {
+      "id": "Q2",
+      "title": "Complete one assay-contract field",
+      "minutes": 45,
+      "first_step": [
+        "python3",
+        "-m",
+        "json.tool",
+        "research/qualification-20261021/measurement-contract.json"
+      ],
+      "scope": "methods review"
+    },
+    {
+      "id": "Q3",
+      "title": "Reproduce a compact candidate and stronger controls",
+      "minutes": 30,
+      "first_step": [
+        ".venv/bin/python",
+        "src/readiness.py",
+        "verify",
+        "--candidate",
+        "research/readiness-20261021/starter.json",
+        "--refit"
+      ],
+      "scope": "historical development only"
+    },
+    {
+      "id": "Q4",
+      "title": "Specify an independent reproduction of the recent study",
+      "minutes": 45,
+      "first_step": [
+        "python3",
+        "-m",
+        "json.tool",
+        "research/qualification-20261021/prior-work.json"
+      ],
+      "scope": "literature/methods review"
+    },
+    {
+      "id": "Q5",
+      "title": "Review support and precision before evaluation",
+      "minutes": 60,
+      "first_step": [
+        "python3",
+        "src/qualification.py"
+      ],
+      "scope": "metadata and statistical design"
+    }
+  ]
+}

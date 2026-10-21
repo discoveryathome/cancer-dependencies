@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "date": "2026-10-21",
+  "status": "metadata qualification completed; scientific owner and evaluation approval pending",
+  "package": "research/qualification-20261021/README.md",
+  "audit": "research/qualification-20261021/cohort-audit.json",
+  "tasks": "research/qualification-20261021/tasks.json",
+  "review": "research/qualification-20261021/review.json",
+  "first_step": "python3 src/qualification.py",
+  "integrity_check": "python3 research/qualification-20261021/check_manifest.py",
+  "confirmation_ready": false,
+  "public_traffic_ready": false,
+  "scientific_owner_appointed": false,
+  "qualification_counts_are_provisional": true,
+  "prior_preparation": "discover/readiness.json"
+}
