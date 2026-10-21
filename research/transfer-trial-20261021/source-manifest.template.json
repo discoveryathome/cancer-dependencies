@@ -1,0 +1,15 @@
+{
+  "release": "NextGen Model Manuscript 2026",
+  "expression_file": "next_gen_expression.csv",
+  "response_file": "screen_gene_effect.csv",
+  "expression_sha256": null,
+  "response_sha256": null,
+  "expression_units": "log2(TPM+1)",
+  "response_units": "Chronos gene effect",
+  "expression_row_id": "ModelID",
+  "response_row_id": "ScreenID",
+  "source_url": "https://depmap.org/portal/data_page/?releasename=NextGen+Model+Manuscript+2026&tab=allData",
+  "terms_url": null,
+  "terms_status": "pending",
+  "notes": "Template only. Fill from actual publisher input files/definitions and applicable local-use terms. Do not set reviewed merely to pass validation."
+}
