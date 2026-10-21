@@ -1,0 +1,48 @@
+{
+  "schema": "contributor-session/v1",
+  "base_commit": "eb77423b945fcf1bb3245f774b49707210319eda",
+  "started_at": "2026-10-21T19:33:02+00:00",
+  "completed_analysis_at": "2026-10-21T19:42:32.597882+00:00",
+  "recorded_wall_minutes": 9.51,
+  "time_scope": "Recorded protocol/read-analysis-implementation-validation time; excludes final packaging/commit and any earlier context accumulation",
+  "budget_minutes": 60,
+  "stopped_early": "Bounded diagnostic complete; no reason to spend remaining limit on unplanned model search",
+  "contributor": "Same primary agent with prior repository/result context; not independent newcomer",
+  "task_assignment": "User-approved diagnostic of failed threshold rules; not random donor task selection",
+  "outcome": "Useful reproducible diagnostic artifact; no new candidate or predictive gain claimed",
+  "measured_commands": [
+    {
+      "command": "support_diagnostic.py run",
+      "seconds": 0.606
+    },
+    {
+      "command": "support_diagnostic.py verify",
+      "seconds": 0.587
+    },
+    {
+      "command": "pytest -q",
+      "seconds": 2.69,
+      "result": "38 passed"
+    }
+  ],
+  "read_guard": "Actual diagnostic run under tests forbade response matrices, Sanger files, historical panel files and prior external result file; passed",
+  "source_validation": "All 2310 raw new expression values and all 12 old training branch counts matched",
+  "historical_integrity": "82 readiness, 35 qualification, 13 scaffold and 31 result hashes passed; three local publisher file hashes and byte counts passed",
+  "bridge_attempts": [
+    {
+      "input": "Existing next_gen_expression.csv",
+      "matched_development_modelids": 0,
+      "numeric_paired_analysis": "unavailable"
+    },
+    {
+      "input": "Manuscript traditional_expression.csv",
+      "status": "Chrome ERR_BLOCKED_BY_CLIENT; no file downloaded; no bypass"
+    }
+  ],
+  "sanger_opened": false,
+  "extra_dependency_outcomes_opened": false,
+  "public_intake_changed": false,
+  "push_or_publication": false,
+  "scientific_owner": "Unappointed",
+  "remaining": "Same-model/sample bridge and scientific interpretation; independent newcomer/reviewer validation"
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "support-review-task/v1",
+  "status": "review-needed; intake closed",
+  "first_step": ".venv/bin/python src/support_diagnostic.py verify --inputs data/raw/transfer-trial-20261021",
+  "required_new_raw_input": "next_gen_expression.csv only, 92238316 bytes, exact checksum in prior source manifest; no dependency response download needed",
+  "deliverable": "Exact commit/hashes, replay findings, source-scale/lineage critique and approval or rejection with reasons",
+  "next_bounded_task": "Acquire manuscript traditional_expression.csv through an authorized browser download and compare all 30 genes on matched historical development ModelIDs; verify sample/profile identity before attributing shifts to processing",
+  "do_not_do": [
+    "Open Sanger outcomes",
+    "Select targets by new performance",
+    "Call within-lineage differences causal biology",
+    "Apply an offset learned from exposed data and call it independent confirmation"
+  ]
+}
