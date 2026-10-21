@@ -16,3 +16,7 @@ primary predictor contribution failed and supported external confirmation remain
 absent; replication and verifier work still deserve most initial effort. This is an
 author assessment, not maintainer acceptance. Reassess after independent reproduction
 and scientific review before opening intake.
+
+## 2026-10-21: biology preparation
+
+Refreshed task starts and checks after the contributor trials. Historical results are retained. Scientific validation and independent review take priority over repeated tuning. See research/readiness-20261021/README.md.

@@ -96,3 +96,10 @@ Cross-lineage, batch and external tables are sensitivity evidence; small subgrou
 are not independent discoveries. No significance claim is attached to secondary rankings.
 The trial has one declared aggregate comparison; its two additional comparator rankings
 are descriptive. Confidence intervals omit training-data and dataset-selection uncertainty.
+
+## Preparation for scoped contributor trials — 2026-10-21
+
+Start with [the preparation package](research/readiness-20261021/README.md) and
+`discover/readiness.json`. The refreshed catalogue uses checked inherited starts
+and explicitly separates exploratory work from future confirmation. Historical
+results remain reproducible; scientific review and public intake are pending.

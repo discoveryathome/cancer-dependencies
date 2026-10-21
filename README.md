@@ -98,3 +98,10 @@ Batch-audit reconstruction (after `fetch_data.py`):
 
 These are development-only sensitivity checks on released pDNA batch identifiers;
 shared upstream processing and unmeasured technical effects remain limitations.
+
+## Preparation for scoped contributor trials — 2026-10-21
+
+Start with [the preparation package](research/readiness-20261021/README.md) and
+`discover/readiness.json`. The refreshed catalogue uses checked inherited starts
+and explicitly separates exploratory work from future confirmation. Historical
+results remain reproducible; scientific review and public intake are pending.

@@ -1,0 +1,2 @@
+PASS: local files valid apart from explicitly disclosed maintainer prerequisite.
+NOT DONOR-READY: No appointed maintainer: reference manifest schema fails; local proposal only.

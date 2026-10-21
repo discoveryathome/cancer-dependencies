@@ -1,0 +1,214 @@
+{
+  "interpretation": "Exploratory development comparison only. Fold models do not prove honest training; source/refit review and new confirmation are required.",
+  "lineages": [
+    {
+      "lineage": "Adrenal Gland",
+      "mse": 0.2549712085383832,
+      "n": 1,
+      "strong_linear_mse": 0.22503287904556132,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Ampulla of Vater",
+      "mse": 0.06799585499242408,
+      "n": 2,
+      "strong_linear_mse": 0.09546137150896986,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Biliary Tract",
+      "mse": 0.3900410964502183,
+      "n": 25,
+      "strong_linear_mse": 0.41314405348757577,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Bladder/Urinary Tract",
+      "mse": 0.04511399013660968,
+      "n": 25,
+      "strong_linear_mse": 0.050134885675845314,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Bone",
+      "mse": 0.021566899322237116,
+      "n": 26,
+      "strong_linear_mse": 0.02548278191507417,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Bowel",
+      "mse": 0.12873415200715677,
+      "n": 33,
+      "strong_linear_mse": 0.13071504821134666,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Breast",
+      "mse": 0.4408529408104108,
+      "n": 35,
+      "strong_linear_mse": 0.4728316517274854,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "CNS/Brain",
+      "mse": 0.10443189190471117,
+      "n": 65,
+      "strong_linear_mse": 0.11546611994419093,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Cervix",
+      "mse": 0.08849581913592967,
+      "n": 14,
+      "strong_linear_mse": 0.11787092490490654,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Esophagus/Stomach",
+      "mse": 0.1531643185439033,
+      "n": 41,
+      "strong_linear_mse": 0.14782026402380824,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Eye",
+      "mse": 0.14709956384236,
+      "n": 5,
+      "strong_linear_mse": 0.13238488228123124,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Head and Neck",
+      "mse": 0.206591393369517,
+      "n": 47,
+      "strong_linear_mse": 0.18886844144888698,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Kidney",
+      "mse": 0.042936803864381645,
+      "n": 25,
+      "strong_linear_mse": 0.04002620403301904,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Liver",
+      "mse": 0.02575142694630441,
+      "n": 17,
+      "strong_linear_mse": 0.02945759549268093,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Lung",
+      "mse": 0.08689544930361218,
+      "n": 92,
+      "strong_linear_mse": 0.08575274802929446,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Lymphoid",
+      "mse": 0.04073662477534247,
+      "n": 65,
+      "strong_linear_mse": 0.04498816356017857,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Myeloid",
+      "mse": 0.03632631524569901,
+      "n": 27,
+      "strong_linear_mse": 0.04203102996782677,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Ovary/Fallopian Tube",
+      "mse": 0.10531628247680373,
+      "n": 40,
+      "strong_linear_mse": 0.10626939020517456,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Pancreas",
+      "mse": 0.13970172692015584,
+      "n": 28,
+      "strong_linear_mse": 0.13062611186520973,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Peripheral Nervous System",
+      "mse": 0.03549336036602046,
+      "n": 27,
+      "strong_linear_mse": 0.03971359448100005,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Pleura",
+      "mse": 0.06202130602959454,
+      "n": 15,
+      "strong_linear_mse": 0.06009521040164936,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Prostate",
+      "mse": 0.09864042027739828,
+      "n": 6,
+      "strong_linear_mse": 0.10129207874661549,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Skin",
+      "mse": 0.039127804344082945,
+      "n": 51,
+      "strong_linear_mse": 0.0443779125171151,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Soft Tissue",
+      "mse": 0.028197648545712824,
+      "n": 27,
+      "strong_linear_mse": 0.032935977507593736,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Testis",
+      "mse": 0.0123965782185416,
+      "n": 1,
+      "strong_linear_mse": 0.007241472742295784,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Thyroid",
+      "mse": 0.016964343337977715,
+      "n": 9,
+      "strong_linear_mse": 0.020777521931264826,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Uterus",
+      "mse": 0.07319875058085987,
+      "n": 22,
+      "strong_linear_mse": 0.06053204722637793,
+      "support": "descriptive; small groups are not confirmation"
+    },
+    {
+      "lineage": "Vulva/Vagina",
+      "mse": 0.4572474592517214,
+      "n": 2,
+      "strong_linear_mse": 0.29349507096629707,
+      "support": "descriptive; small groups are not confirmation"
+    }
+  ],
+  "max_features": 2,
+  "mse": 0.11053887601432567,
+  "n": 773,
+  "skill_vs": {
+    "lineage": 0.093113195133804,
+    "mean": 0.19783772429361057,
+    "rule": 0.10191884742580237,
+    "strong_linear": 0.023278645103560702
+  },
+  "target": "ERBB2",
+  "valid": true
+}
+
+

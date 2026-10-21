@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-10-21",
+  "status": "local preparation; independent scientific review and intake pending",
+  "package": "research/readiness-20261021/README.md",
+  "portfolio": "research/readiness-20261021/portfolio.json",
+  "first_step": ".venv/bin/python src/readiness.py verify --candidate research/readiness-20261021/candidates/SMARCA2.json",
+  "external_gates": [
+    "Appoint a responsible maintainer and scientific reviewer with capacity",
+    "Approve a sufficiently large new cohort with identity and processing audits",
+    "Independent source/refit and newcomer review",
+    "Review claims, source-specific terms and benchmark acceptance before public intake"
+  ],
+  "preparation_status": "complete for review",
+  "confirmation_ready": false,
+  "public_traffic_ready": false,
+  "integrity_check": "python3 research/readiness-20261021/check_manifest.py"
+}

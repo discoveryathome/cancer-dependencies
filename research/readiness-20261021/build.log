@@ -1,0 +1,13 @@
+BRAF skill vs strong linear 0.0237
+KRAS skill vs strong linear 0.0192
+NRAS skill vs strong linear 0.0601
+EGFR skill vs strong linear -0.1703
+ERBB2 skill vs strong linear 0.0233
+PIK3CA skill vs strong linear 0.0382
+SMARCA2 skill vs strong linear -0.0155
+SMARCA4 skill vs strong linear 0.0005
+ARID1B skill vs strong linear 0.0252
+STAG1 skill vs strong linear -0.0182
+MDM2 skill vs strong linear -0.1818
+PRMT5 skill vs strong linear -0.0343
+PASS 12 candidate packages

@@ -1,0 +1,982 @@
+{
+  "candidate_identities": 135,
+  "candidates": [
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001019",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lung",
+      "model_id": "ACH-001046",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-001209",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Kidney",
+      "model_id": "ACH-001423",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bone",
+      "model_id": "ACH-001427",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bone",
+      "model_id": "ACH-001428",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Testis",
+      "model_id": "ACH-001435",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": false,
+      "lineage": "Testis",
+      "model_id": "ACH-001436",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Testis",
+      "model_id": "ACH-001440",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Head and Neck",
+      "model_id": "ACH-001445",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-001447",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-001449",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Peripheral Nervous System",
+      "model_id": "ACH-001465",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-001492",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-001493",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-001503",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": false,
+      "lineage": "Bone",
+      "model_id": "ACH-001643",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-001667",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Testis",
+      "model_id": "ACH-001671",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Head and Neck",
+      "model_id": "ACH-001676",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-001678",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Myeloid",
+      "model_id": "ACH-001684",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-001686",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Head and Neck",
+      "model_id": "ACH-001697",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Head and Neck",
+      "model_id": "ACH-001700",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bone",
+      "model_id": "ACH-001813",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bone",
+      "model_id": "ACH-001817",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001949",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001953",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001974",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001976",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001978",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001979",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001980",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001983",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001984",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001985",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001987",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001988",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-001989",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Biliary Tract",
+      "model_id": "ACH-001994",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Biliary Tract",
+      "model_id": "ACH-001996",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Eye",
+      "model_id": "ACH-002013",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lung",
+      "model_id": "ACH-002034",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": false,
+      "lineage": "Lung",
+      "model_id": "ACH-002036",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Uterus",
+      "model_id": "ACH-002047",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lung",
+      "model_id": "ACH-002074",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lung",
+      "model_id": "ACH-002075",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-002403",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-002404",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-002405",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": false,
+      "lineage": "Skin",
+      "model_id": "ACH-002407",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "CNS/Brain",
+      "model_id": "ACH-002409",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Uterus",
+      "model_id": "ACH-002419",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Peripheral Nervous System",
+      "model_id": "ACH-002431",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bone",
+      "model_id": "ACH-002433",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Kidney",
+      "model_id": "ACH-002435",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Kidney",
+      "model_id": "ACH-002438",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Thyroid",
+      "model_id": "ACH-002440",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": false,
+      "lineage": "Esophagus/Stomach",
+      "model_id": "ACH-002444",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bone",
+      "model_id": "ACH-002470",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Breast",
+      "model_id": "ACH-002499",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Kidney",
+      "model_id": "ACH-002528",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": false,
+      "lineage": "Bowel",
+      "model_id": "ACH-002530",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bowel",
+      "model_id": "ACH-002532",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bowel",
+      "model_id": "ACH-002538",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Esophagus/Stomach",
+      "model_id": "ACH-002544",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-002643",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Uterus",
+      "model_id": "ACH-002648",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Myeloid",
+      "model_id": "ACH-002651",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Myeloid",
+      "model_id": "ACH-002653",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bowel",
+      "model_id": "ACH-002665",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bowel",
+      "model_id": "ACH-002667",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Myeloid",
+      "model_id": "ACH-002668",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Myeloid",
+      "model_id": "ACH-002675",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Myeloid",
+      "model_id": "ACH-002676",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "CNS/Brain",
+      "model_id": "ACH-002681",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bone",
+      "model_id": "ACH-002688",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bone",
+      "model_id": "ACH-002689",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bone",
+      "model_id": "ACH-002690",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Peripheral Nervous System",
+      "model_id": "ACH-002695",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Esophagus/Stomach",
+      "model_id": "ACH-002703",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": false,
+      "lineage": "Myeloid",
+      "model_id": "ACH-002709",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Myeloid",
+      "model_id": "ACH-002716",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bone",
+      "model_id": "ACH-002778",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-002782",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-002790",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-002792",
+      "passing_avana_2ds": true,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-002795",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-002798",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-002843",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-002844",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-002846",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bowel",
+      "model_id": "ACH-002886",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Eye",
+      "model_id": "ACH-002924",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Eye",
+      "model_id": "ACH-002927",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Bowel",
+      "model_id": "ACH-002932",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Kidney",
+      "model_id": "ACH-002937",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-002942",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Myeloid",
+      "model_id": "ACH-002946",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lung",
+      "model_id": "ACH-003061",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-003101",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-003103",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-003177",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-003180",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": true
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-003265",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-003266",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-003267",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-003268",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-003269",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Myeloid",
+      "model_id": "ACH-003273",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Esophagus/Stomach",
+      "model_id": "ACH-003426",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": false,
+      "lineage": "Pancreas",
+      "model_id": "ACH-003429",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": false,
+      "lineage": "Pancreas",
+      "model_id": "ACH-003430",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Pancreas",
+      "model_id": "ACH-003433",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "CNS/Brain",
+      "model_id": "ACH-003438",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Kidney",
+      "model_id": "ACH-003451",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-003455",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-003456",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-003457",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-003458",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Skin",
+      "model_id": "ACH-003459",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-003460",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Lymphoid",
+      "model_id": "ACH-003463",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-003464",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Head and Neck",
+      "model_id": "ACH-003465",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Thyroid",
+      "model_id": "ACH-003468",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Thyroid",
+      "model_id": "ACH-003469",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Thyroid",
+      "model_id": "ACH-003470",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Thyroid",
+      "model_id": "ACH-003471",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Thyroid",
+      "model_id": "ACH-003472",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Soft Tissue",
+      "model_id": "ACH-003473",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Head and Neck",
+      "model_id": "ACH-003474",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": true,
+      "lineage": "Head and Neck",
+      "model_id": "ACH-003475",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    },
+    {
+      "expression_profile_listed": false,
+      "lineage": "Thyroid",
+      "model_id": "ACH-003480",
+      "passing_avana_2ds": false,
+      "passing_releasable_2ds": false
+    }
+  ],
+  "excluded": {
+    "cohort annotation exclusion": 2,
+    "identity connected to any 24Q2 metadata model": 1964,
+    "same new identity component": 4
+  },
+  "files": {
+    "data/model-metadata.csv": "f9482614f2a5a1702f71f5a0c7ae249030e57c8b046c78129a61ec90fbffab01",
+    "research/readiness-20261021/sources/AchillesScreenQCReport.csv": "e48741c3f67536fa446f997cf7861cc081cd6a88ed41a48e04b2bef541b6033d",
+    "research/readiness-20261021/sources/CRISPRScreenMap.csv": "668347965c7d5283da79ef7b6d315951d0cf6c5313551305971e8eec9503b3be",
+    "research/readiness-20261021/sources/Model.csv": "b7a0c1385e6cef30132b56aff61f1261d11e3f490490b355c430d32ee0dbdcfa",
+    "research/readiness-20261021/sources/OmicsDefaultModelProfiles.csv": "096a96c39d88374cb7c37058816e6cde29d6617b820b8a14d33ae9dd821c6dc5",
+    "research/readiness-20261021/sources/depmap-24q4-v1.json": "a1e5865cdd4d34e59d2f95614cc485efc6b1b5f5e43df2a842293b72b4bfa17f"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "value": 1
+  },
+  "limitations": [
+    "Not yet an eligible confirmation cohort: feature/target availability and rule-branch support remain unknown.",
+    "Same-program release transfer is not independent-laboratory validation.",
+    "All known identifiers from the entire old release are excluded, including historical final and external cases. Unknown identity relationships can remain.",
+    "Independent curator approval, algorithm freeze and source-processing compatibility review required before loading outcomes."
+  ],
+  "new_release_metadata_models": 2105,
+  "old_metadata_models": 1959,
+  "passing_any_2ds": 17,
+  "passing_any_with_expression_profile": 13,
+  "passing_avana": 12,
+  "passing_avana_with_expression_profile": 9,
+  "source": "10.25452/figshare.plus.27993248.v1",
+  "status": "Metadata-only proposed reserve; no outcome or molecular-feature matrices downloaded or evaluated."
+}

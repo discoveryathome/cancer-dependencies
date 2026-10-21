@@ -1,3 +1,10 @@
+# Current preparation workflow
+
+Use [the preparation quickstart](research/readiness-20261021/README.md) for new
+contributions. It provides development-only data, fixed strong comparators and
+a candidate source/refit check. The historical starter below remains a reproduction
+control and should not be interpreted as a fresh confirmation experiment.
+
 # A first 30–60 minute contribution
 
 This is a local proposal, not an open donor call. After a maintainer opens intake, a
