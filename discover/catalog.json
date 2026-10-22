@@ -3,7 +3,7 @@
   "priority_revision": 3,
   "assessed_on": "2026-10-21",
   "priority_log": "discover/priority-log.md",
-  "status": "Programv2 private pilot; no scientific owner or donor intake",
+  "status": "Program v2; open to donated sessions since 2026-10-21 (maintainer @Mister-Meeseeks). Weights are routing choices; scientific acceptance stays with the maintainer after independent review.",
   "tracks": [
     {
       "id": "comparable-improvements",

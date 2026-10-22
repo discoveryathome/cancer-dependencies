@@ -1,5 +1,8 @@
 # Featured-pilot assessment
 
+> **Historical (2026-10-20).** This assessment predates the launch: the project has been
+> open to donated sessions since 2026-10-21, with a maintainer. Current status is in `CURRENT.md`.
+
 **Recommendation: keep this as a supporting inaugural pilot; defer lead-feature status.**
 It has excellent public relevance and modest hardware requirements, and contributors can
 produce checkable work quickly. This trial did not establish useful new biology or a

@@ -1,7 +1,7 @@
 {
   "schema": "discover-frontier/v0",
   "statement": "In the fixed 12-target DepMap pilot, 4 one-feature rules passed the prespecified internal screening gates. The prospective biology-pair contribution failed its primary held-out improvement gate (normalized MSE skill -0.005984). No novel biological relationship or robust external biomarker confirmation is established.",
-  "status": "Completed local computational pilot; author-checked, not scientifically accepted; donor intake closed pending maintainer.",
+  "status": "Completed computational pilot; author-checked, not scientifically accepted. Open to donated sessions since 2026-10-21; maintainer @Mister-Meeseeks. Frontier changes and acceptance are maintainer decisions.",
   "evidence_level": [
     "author-checked"
   ],

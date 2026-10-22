@@ -11,7 +11,9 @@
   "current_trial": "research/wide-expression-20261021/protocol.json",
   "historical_frontier": "discover/frontier.json",
   "scientific_acceptance": "pending",
-  "intake": "closed",
+  "intake": "open",
   "current_result": "research/wide-expression-20261021/README.md",
-  "assessment": "New broader reference improves development point estimate; aggregate organoid transfer gain not established; all target-specific leads exploratory."
+  "assessment": "New broader reference improves development point estimate; aggregate organoid transfer gain not established; all target-specific leads exploratory.",
+  "participation_scope": "pre-release agent trials and research contributions",
+  "intake_policy": "CURRENT.md"
 }

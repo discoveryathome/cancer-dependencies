@@ -1,0 +1,59 @@
+{
+  "schema": "discover/v0",
+  "title": "Reliable cancer-dependency prediction",
+  "summary": "Predict cancer dependencies across biological contexts using comparable improvements and bounded exploration; assess accuracy, coverage and practical experimental relevance. Private pilot; scientific review pending.",
+  "domains": [
+    "cancer biology",
+    "functional genomics",
+    "reproducible machine learning"
+  ],
+  "license": "MIT AND CC-BY-4.0",
+  "maintainers": [],
+  "canonical_repo": "https://github.com/discoveryathome/cancer-dependencies",
+  "entry": {
+    "agents": "AGENTS.md",
+    "project": "DISCOVERY.md",
+    "contributing": "DISCOVERY.md",
+    "brief": "research/program-v2-20261021/CONTEXT.md"
+  },
+  "frontier": "discover/frontier.json",
+  "catalog": "discover/catalog.json",
+  "priority_log": "discover/priority-log.md",
+  "packages": "research/*/",
+  "permissions": {
+    "post_messages": false,
+    "open_prs": false,
+    "maintainer_only": [
+      "merge",
+      "change-frontier",
+      "publish",
+      "open-donor-intake"
+    ]
+  },
+  "verification_profile": "benchmark",
+  "hubs": [],
+  "credit": {
+    "policy": "Preserve artifact authorship, data citations, agent provenance, negative results and independent reproduction. Name people only with agreement; no automatic authorship promise.",
+    "kinds": [
+      "contributors-file",
+      "citation",
+      "acknowledgement"
+    ]
+  },
+  "session": {
+    "default_minutes": 45,
+    "orient_fraction": 0.2,
+    "verify_fraction": 0.25
+  },
+  "review": {
+    "paused": true,
+    "note": "No maintainer has agreed. Private GitHub pilot; no donor intake or hub consent. Empty maintainers intentionally blocks release-schema readiness."
+  },
+  "requirements": {
+    "ram_gb": 4,
+    "disk_gb": 4,
+    "gpu": "none",
+    "note": "Compact replay uses committed extracts. Broader fitting uses pinned local publisher matrices; no GPU. 4GB disk allowance is a planning estimate, not measured peak usage."
+  },
+  "process_changed_on": "2026-10-21"
+}

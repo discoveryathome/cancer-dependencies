@@ -1,0 +1,243 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 3,
+  "assessed_on": "2026-10-21",
+  "priority_log": "discover/priority-log.md",
+  "status": "Programv2 private pilot; no scientific owner or donor intake",
+  "tracks": [
+    {
+      "id": "comparable-improvements",
+      "weight": 50,
+      "useful_outcome": "Reproducible improvement or falsified candidate on an inherited comparison, with all tradeoffs and failures reported.",
+      "tasks": [
+        {
+          "id": "broader-expression-reference",
+          "question": "Does a broader expression search improve the panel30 reference?",
+          "starting_points": [
+            "research/wide-expression-20261021/protocol.json",
+            "src/wide_expression.py"
+          ],
+          "methods": [
+            "Top300 training-selected expression features",
+            "Matched panel30 ridge ablation"
+          ],
+          "acceptance_gate": "All12 targets; nested training-only selection; identical cohort and folds; no claim of fresh external confirmation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/wide_expression.py",
+              "check"
+            ],
+            "expected": "Successful read-only check; scientific acceptance remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#search-space-and-bottleneck",
+          "requires": {
+            "gpu": "none",
+            "note": "Full fitting needs existing pinned old-expression and NextGen matrices; check needs only committed metadata."
+          },
+          "claim_kind": [
+            "measured",
+            "model"
+          ]
+        },
+        {
+          "id": "compact-candidate",
+          "question": "Can a compact model preserve or improve useful prediction?",
+          "starting_points": [
+            "src/readiness.py",
+            "research/readiness-20261021/candidates/SMARCA2.json"
+          ],
+          "methods": [
+            "Compact-model fitting",
+            "Baseline comparison"
+          ],
+          "acceptance_gate": "Inherit old compact task protocol; three-feature cap applies only here; report coverage/accuracy and fresh-confirmation need.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/readiness.py",
+              "verify",
+              "--candidate",
+              "research/readiness-20261021/candidates/SMARCA2.json"
+            ],
+            "expected": "Successful read-only check; scientific acceptance remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#search-space-and-bottleneck",
+          "requires": {
+            "gpu": "none",
+            "note": "No new downloads for this first step."
+          },
+          "claim_kind": [
+            "measured",
+            "model"
+          ]
+        },
+        {
+          "id": "verifier-hardening",
+          "question": "Can an outcome-dependent selection or incomplete cohort evade checks?",
+          "starting_points": [
+            "tests/test_wide_expression.py",
+            "src/wide_expression.py"
+          ],
+          "methods": [
+            "Leakage tests",
+            "Missingness/identity tests"
+          ],
+          "acceptance_gate": "Scientifically meaningful failing control rejected while valid data pass.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "-m",
+              "pytest",
+              "tests/test_wide_expression.py",
+              "-q"
+            ],
+            "expected": "Successful read-only check; scientific acceptance remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#search-space-and-bottleneck",
+          "requires": {
+            "gpu": "none",
+            "note": "No new downloads for this first step."
+          },
+          "claim_kind": [
+            "measured",
+            "model"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exploration",
+      "weight": 50,
+      "useful_outcome": "A bounded exploration yields a reproducible candidate, falsified explanation or a reviewable new comparison task.",
+      "tasks": [
+        {
+          "id": "new-method-or-context",
+          "question": "Would another method or biological context address a specific failure?",
+          "starting_points": [
+            "research/program-v2-20261021/proposal-example.json",
+            "DISCOVERY.md"
+          ],
+          "methods": [
+            "Larger predictors",
+            "Context models",
+            "Selective prediction"
+          ],
+          "acceptance_gate": "Replace the example with a concrete frozen proposal; retain all attempts and declare independent evaluation.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/research_program.py",
+              "proposal",
+              "--path",
+              "research/program-v2-20261021/proposal-example.json"
+            ],
+            "expected": "Successful read-only check; scientific acceptance remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#search-space-and-bottleneck",
+          "requires": {
+            "gpu": "none",
+            "note": "No new downloads for this first step."
+          },
+          "claim_kind": [
+            "measured",
+            "model"
+          ]
+        },
+        {
+          "id": "target-panel-expansion",
+          "question": "Which additional target panel supports a useful, testable question?",
+          "starting_points": [
+            "research/program-v2-20261021/proposal-example.json",
+            "research/program-v2-20261021/CONTEXT.md"
+          ],
+          "methods": [
+            "Literature/coverage audit",
+            "New task proposal"
+          ],
+          "acceptance_gate": "Outcome-blind scientific rationale, eligibility and multiplicity/validation plan; no retroactive favorable-target selection.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/research_program.py",
+              "proposal",
+              "--path",
+              "research/program-v2-20261021/proposal-example.json"
+            ],
+            "expected": "Successful read-only check; scientific acceptance remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#search-space-and-bottleneck",
+          "requires": {
+            "gpu": "none",
+            "note": "No new downloads for this first step."
+          },
+          "claim_kind": [
+            "measured",
+            "model"
+          ]
+        },
+        {
+          "id": "assay-and-sample-audit",
+          "question": "Are release shifts transportable across model systems?",
+          "starting_points": [
+            "research/robustness-20261021/README.md",
+            "research/robustness-20261021/HANDOFF.md"
+          ],
+          "methods": [
+            "Sample provenance",
+            "Measurement audit"
+          ],
+          "acceptance_gate": "Resolve exact profile provenance or falsify a proposed harmonization; separate empirical association and causal interpretation.",
+          "first_step": {
+            "command": [
+              "python3",
+              "research/robustness-20261021/check_manifest.py"
+            ],
+            "expected": "Successful read-only check; scientific acceptance remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#search-space-and-bottleneck",
+          "requires": {
+            "gpu": "none",
+            "note": "No new downloads for this first step."
+          },
+          "claim_kind": [
+            "measured",
+            "model"
+          ]
+        },
+        {
+          "id": "published-reference",
+          "question": "Can a relevant published predictor be reproduced on a comparable task?",
+          "starting_points": [
+            "research/program-v2-20261021/CONTEXT.md",
+            "research/program-v2-20261021/proposal-example.json"
+          ],
+          "methods": [
+            "Published method reproduction",
+            "Controlled benchmark adaptation"
+          ],
+          "acceptance_gate": "Pin paper/code/inputs; document exact reproduction vs adaptation; use common cohorts rather than cross-paper score ranking.",
+          "first_step": {
+            "command": [
+              ".venv/bin/python",
+              "src/research_program.py",
+              "proposal",
+              "--path",
+              "research/program-v2-20261021/proposal-example.json"
+            ],
+            "expected": "Successful read-only check; scientific acceptance remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#search-space-and-bottleneck",
+          "requires": {
+            "gpu": "none",
+            "note": "No new downloads for this first step."
+          },
+          "claim_kind": [
+            "measured",
+            "model"
+          ]
+        }
+      ]
+    }
+  ]
+}

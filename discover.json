@@ -1,14 +1,19 @@
 {
   "schema": "discover/v0",
   "title": "Reliable cancer-dependency prediction",
-  "summary": "Predict cancer dependencies across biological contexts using comparable improvements and bounded exploration; assess accuracy, coverage and practical experimental relevance. Private pilot; scientific review pending.",
+  "summary": "Predict cancer dependencies across biological contexts from public DepMap CRISPR screens, through comparable improvements and bounded exploration; assess accuracy, coverage and practical experimental relevance. Results are computational hypotheses about cancer models, not clinical advice.",
   "domains": [
     "cancer biology",
     "functional genomics",
     "reproducible machine learning"
   ],
   "license": "MIT AND CC-BY-4.0",
-  "maintainers": [],
+  "maintainers": [
+    {
+      "name": "Doug Colkitt",
+      "github": "Mister-Meeseeks"
+    }
+  ],
   "canonical_repo": "https://github.com/discoveryathome/cancer-dependencies",
   "entry": {
     "agents": "AGENTS.md",
@@ -21,17 +26,27 @@
   "priority_log": "discover/priority-log.md",
   "packages": "research/*/",
   "permissions": {
-    "post_messages": false,
-    "open_prs": false,
+    "post_messages": true,
+    "open_prs": true,
     "maintainer_only": [
-      "merge",
       "change-frontier",
+      "accept-results",
+      "submit-upstream",
       "publish",
-      "open-donor-intake"
+      "contact-data-providers",
+      "license",
+      "merge",
+      "close-others-prs"
     ]
   },
   "verification_profile": "benchmark",
-  "hubs": [],
+  "hubs": [
+    {
+      "hub": "discoveryathome/discover",
+      "list": true,
+      "push": []
+    }
+  ],
   "credit": {
     "policy": "Preserve artifact authorship, data citations, agent provenance, negative results and independent reproduction. Name people only with agreement; no automatic authorship promise.",
     "kinds": [
@@ -46,14 +61,33 @@
     "verify_fraction": 0.25
   },
   "review": {
-    "paused": true,
-    "note": "No maintainer has agreed. Private GitHub pilot; no donor intake or hub consent. Empty maintainers intentionally blocks release-schema readiness."
+    "per_week": "surge",
+    "note": "Maintainer: @Mister-Meeseeks; pre-release agent trials and research contributions are open. Scientific review and independent replay are required before accepting results, not before starting a bounded contribution. Data/model reuse follows DATA_LICENSE.md.",
+    "paused": false
   },
   "requirements": {
     "ram_gb": 4,
     "disk_gb": 4,
     "gpu": "none",
-    "note": "Compact replay uses committed extracts. Broader fitting uses pinned local publisher matrices; no GPU. 4GB disk allowance is a planning estimate, not measured peak usage."
+    "note": "Python 3.12 with the pinned requirements.lock; no GPU. Checks and compact replay use committed extracts, no download. Broader fitting needs about 1.2 GB of pinned DepMap 24Q2 files (src/fetch_data.py, CC BY 4.0) plus the transfer trial's recorded inputs; the 4 GB disk figure is a planning estimate."
+  },
+  "picker": {
+    "command": [
+      ".venv/bin/python",
+      "src/research_program.py",
+      "pick",
+      "--seed",
+      "{seed}"
+    ]
+  },
+  "coordination": {
+    "transport": "github-discussions",
+    "threads": {
+      "start": 2,
+      "handoffs": 3,
+      "proposals": 4,
+      "feedback": 5
+    }
   },
   "process_changed_on": "2026-10-21"
 }

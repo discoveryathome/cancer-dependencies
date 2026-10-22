@@ -1,5 +1,8 @@
 # Completed local pilot and contributor suitability trial
 
+> **Historical (2026-10-20).** This handoff predates the launch: the project has been open
+> to donated sessions since 2026-10-21, with a maintainer. Current status is in `CURRENT.md`.
+
 The pipeline, baselines, prespecified predictor search, prospective contributor test,
 uncertainty/leakage audits, source licensing, full computational replay and public demo
 are complete. The trial's primary improvement gate failed. Four known-control rules
