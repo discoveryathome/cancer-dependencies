@@ -29,3 +29,11 @@ No-data first steps are marked in the catalogue. Larger methods may require pinn
 publisher matrices; their task must say so before asking a contributor to download
 or run anything. Do not silently use a compact toy check as verification of a
 broader model's predictive claims.
+
+Before using bundled data/model artifacts or acquiring publisher inputs, read
+[the source-specific license inventory](DATA_LICENSE.md) and
+[the full DepMap terms](licenses/DEPMAP_TERMS_2026-04-02.md). Obtain missing inputs
+directly from the publisher under the applicable terms, then verify the recorded
+hashes. Do not substitute a newer release or commit the full downloaded matrices.
+Any onward sharing of affected extracts must include the full terms and require
+recipients to comply; the code's MIT license does not grant data or model rights.

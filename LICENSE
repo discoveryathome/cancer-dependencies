@@ -24,3 +24,9 @@ New prose documentation is additionally available under Creative Commons
 Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ .
 Third-party datasets and protocol/source documents retain their original terms;
 this license does not relicense them. See DATA_LICENSE.md.
+
+The MIT grant covers project-authored software, not third-party data or rights
+in trained model/data artifacts. NextGen portal data, embedded extracts and
+affected research artifacts are subject to the scope and downstream-use
+requirements in DATA_LICENSE.md and licenses/DEPMAP_TERMS_2026-04-02.md.
+Those requirements do not restrict independent reuse of the MIT source code.
