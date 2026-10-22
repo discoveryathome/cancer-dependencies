@@ -2,6 +2,7 @@
 import hashlib
 import json
 from pathlib import Path
+from license_history import evidence_path
 ROOT=Path(__file__).resolve().parents[1]
 MIGRATION=ROOT/'research/program-v2-20261021/migration.json'
 PACKAGES=['readiness','qualification','transfer-trial','transfer-results','contributor-support','robustness']
@@ -22,7 +23,7 @@ def check():
                 record=migration[name]
                 if record['sha256'] != expected: raise ValueError('Unrecognized historical version: '+name)
                 path=ROOT/record['snapshot']; archived+=1
-            else: path=ROOT/name
+            else: path=evidence_path(ROOT,name,expected)
             if hashlib.sha256(path.read_bytes()).hexdigest()!=expected: raise ValueError('Changed historical evidence: '+name)
         print(f'PASS {package}: {len(manifest["files"])} hashes ({archived} explicit entry snapshots)')
 

@@ -27,6 +27,13 @@ extracts; broader-expression fitting also requires the pinned publisher files
 (about 1.2 GB of DepMap 24Q2 via `src/fetch_data.py`, plus the transfer trial's
 recorded inputs).
 
+**Data and model reuse:** code is MIT, but this repository also includes data
+extracts and research artifacts governed by separate terms. Before using or
+redistributing them, read [DATA_LICENSE.md](DATA_LICENSE.md) and the
+[full DepMap terms](licenses/DEPMAP_TERMS_2026-04-02.md). NextGen portal data are
+not offered under MIT or a blanket CC BY license. Users of those materials must
+comply with the publisher's use, attribution, privacy and onward-sharing terms.
+
 ```sh
 .venv/bin/python src/research_program.py check
 python3 src/check_history.py
