@@ -1,0 +1,49 @@
+{
+    "status": "review draft; no compatible external input panel verified",
+    "original_protocol": "config/PREREGISTRATION.md",
+    "original_scope": {
+        "screen_library": "Avana",
+        "screen_type": "2DS",
+        "targets": 12,
+        "predictor_genes": 30
+    },
+    "expression": {
+        "old": "log2(TPM+1)",
+        "broad": "next_gen_expression.csv input named in source code; exact pinned input and gene coverage pending",
+        "sanger": "data_RNAseq_ALL-organoids.csv listed in publisher inventory; transformation and gene coverage pending"
+    },
+    "copy_number": {
+        "old": "provided PureCN absolute estimate",
+        "broad": "exact source/version/units pending",
+        "sanger": "gene-level CNV annotation inventory present; equivalence to absolute CN not established"
+    },
+    "mutation": {
+        "old": "binary damaging and hotspot counts >0, missing preserved",
+        "broad": "source feature definitions and missingness pending",
+        "sanger": "driver mutation, variant, LOF and GOF tables listed; not assumed interchangeable with old features"
+    },
+    "responses": {
+        "broad": {
+            "library": "Humagne-CD",
+            "passing_screen_types": [
+                "2DN",
+                "3DN",
+                "2DO",
+                "3DO"
+            ],
+            "processing": "Chronos; manuscript describes traditional/CNS pretraining before organoid application",
+            "independence": "shared upstream fitting requires review"
+        },
+        "sanger": {
+            "libraries": [
+                "Yusa v1.1",
+                "MinLibCas9"
+            ],
+            "processing": "CRISPRcleanR and library correction; processed LFC / essentiality outputs",
+            "independence": "different score scale and source processing require review"
+        }
+    },
+    "gene_ids": "Exact stable mapping and 12-target / candidate-feature coverage pending",
+    "calibration": "No transformation fitted on reserved outcomes; any calibration requires separate partition and approved claim",
+    "approval": null
+}

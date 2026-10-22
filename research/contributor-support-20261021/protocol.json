@@ -1,0 +1,36 @@
+{
+  "version": "expression-support-diagnostic-v1",
+  "started_at": "2026-10-21T19:33:02Z",
+  "written_at": "2026-10-21T19:33:33.684578+00:00",
+  "base_commit": "eb77423b945fcf1bb3245f774b49707210319eda",
+  "time_budget_minutes": 60,
+  "actor": "Same primary agent; contributor-style author trial, not independent newcomer",
+  "task": "Explain failed frozen expression-rule support using measurement/provenance checks and lineage-composition decomposition; ship a reusable outcome-free diagnostic",
+  "data_scope": [
+    "773 historical development rows",
+    "77 previously exposed Broad organoid expression rows",
+    "Frozen 12 expression rules and 30-gene panel",
+    "Exact manuscript expression bytes for mapping replay"
+  ],
+  "forbidden_inputs": [
+    "Any new Sanger outcomes",
+    "Historical final-test outcome files",
+    "New Broad response matrix (not needed by this diagnostic)"
+  ],
+  "analysis_plan": [
+    "Check all 30 stable Entrez mappings and expression units; replay frozen 77-model features from raw manuscript expression",
+    "Report all 30 feature distributions and all 12 rule branch counts without feature or target selection",
+    "On lineages represented in both cohorts, decompose left-branch fraction shift into lineage-composition and within-lineage distribution terms",
+    "Use fixed 2000 resamples of historical development rows within each lineage, matching external lineage counts; report descriptive count intervals, not significance or biological causality",
+    "Diagnose missing lineage support separately; do not silently impute absent training lineages or turn simulation intervals into confirmation",
+    "Add outcome-read guard and synthetic negative controls for composition-only shifts and within-lineage shifts"
+  ],
+  "bootstrap_seed": 20261021,
+  "bootstrap_replicates": 2000,
+  "minimum_rule_branch_units": 15,
+  "minimum_lineage_training_units_for_flag": 10,
+  "success": "Reproducible diagnostic or falsified assumption with complete all-target reporting and tests. A predictive improvement is not required.",
+  "candidate_policy": "No new predictive candidate or threshold recalibration in this diagnostic round; any later candidate must be labeled exploratory and compared to the unchanged strong baseline",
+  "sanger_policy": "Reserved and unopened",
+  "scientific_acceptance": "Pending; no appointed owner or outreach"
+}

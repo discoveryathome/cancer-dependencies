@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/colkitt/discover-work/incubatedPilots/cancer-dependencies/start-cancer-dependencies/src/readiness.py", line 129, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/colkitt/discover-work/incubatedPilots/cancer-dependencies/start-cancer-dependencies/src/readiness.py", line 128, in main
+    print(dumps(verify(a.candidate,a.refit)))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/colkitt/discover-work/incubatedPilots/cancer-dependencies/start-cancer-dependencies/src/readiness.py", line 70, in verify
+    if d.get('candidate_source_sha256')!=sha256(ROOT/'src/compact_candidate.py'):raise ValueError('Candidate source binding changed')
+                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Candidate source binding changed

@@ -1,0 +1,17 @@
+{
+  "protocol_recorded_at": "2026-10-21T20:29:27.049975+00:00",
+  "analysis_completed_at": "2026-10-21T20:34:59.979248+00:00",
+  "actor": "same primary agent with prior repo and exposed Broad-result context",
+  "independent_newcomer": false,
+  "trial_type": "one offset robustness sensitivity, not fresh confirmation",
+  "audit_runtime_seconds": 4.980070041958243,
+  "test_suite_seconds": 6.95,
+  "other_runtime": "not separately instrumented; no CPU/onboarding duration inferred",
+  "raw_download_before_protocol": true,
+  "raw_expression_parsed_before_protocol": false,
+  "Sanger_outcomes_opened": false,
+  "corrections_considered": 1,
+  "protocol_implementation_fix": "implementation-correction.json",
+  "tests_passed": 42,
+  "push_or_publication": false
+}

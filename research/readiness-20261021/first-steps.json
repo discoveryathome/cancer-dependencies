@@ -1,0 +1,235 @@
+[
+  {
+    "project": "dependencies",
+    "task": "replay-baseline",
+    "command": [
+      ".venv/bin/python",
+      "src/verify.py"
+    ],
+    "returncode": 0,
+    "seconds": 1.7501436659367755,
+    "log": "research/readiness-20261021/first-steps/replay-baseline.log",
+    "sha256": "99e740b4d0398326bd49158793857ec9cd4f534c329140de8fb9ec7c68304aad"
+  },
+  {
+    "project": "dependencies",
+    "task": "challenge-leakage",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_readiness.py"
+    ],
+    "returncode": 0,
+    "seconds": 7.70202183292713,
+    "log": "research/readiness-20261021/first-steps/challenge-leakage.log",
+    "sha256": "e6dbc9f8fe2abed8964e9a9f9662c1b94290e06adf2b639f2e99bedf9a11639c"
+  },
+  {
+    "project": "dependencies",
+    "task": "audit-transfer",
+    "command": [
+      ".venv/bin/python",
+      "src/status.py",
+      "audit"
+    ],
+    "returncode": 0,
+    "seconds": 0.0948636670364067,
+    "log": "research/readiness-20261021/first-steps/audit-transfer.log",
+    "sha256": "71c20a25e2012672531c6d2798d04362743645fda2d5977526cf7c59210d109e"
+  },
+  {
+    "project": "dependencies",
+    "task": "reserve-cohort-audit",
+    "command": [
+      ".venv/bin/python",
+      "src/reserve_cohort.py",
+      "--check"
+    ],
+    "returncode": 0,
+    "seconds": 1.1634996659122407,
+    "log": "research/readiness-20261021/first-steps/reserve-cohort-audit.log",
+    "sha256": "bbb97d6c8785e4c82bd0b7f5cc2eef77eb5d770ce033b83bee7a73a80409ce4c"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-braf",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/BRAF.json"
+    ],
+    "returncode": 0,
+    "seconds": 4.359866125043482,
+    "log": "research/readiness-20261021/first-steps/compact-braf.log",
+    "sha256": "8f3386cb14d1348d013e0a7d47c15eb9ec8e5e6c5b9b763cb1bafd46ba93b7f5"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-kras",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/KRAS.json"
+    ],
+    "returncode": 0,
+    "seconds": 4.147848332999274,
+    "log": "research/readiness-20261021/first-steps/compact-kras.log",
+    "sha256": "645d5fe0c874c020463da42d9430fd1be463e2f2d8c6db6fd540e972bae3b28b"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-nras",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/NRAS.json"
+    ],
+    "returncode": 0,
+    "seconds": 4.546035417006351,
+    "log": "research/readiness-20261021/first-steps/compact-nras.log",
+    "sha256": "d5fe7f24b45a4cf2f208589ae23f24d49374b445bed073c3690cb5c74e6f0b08"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-egfr",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/EGFR.json"
+    ],
+    "returncode": 0,
+    "seconds": 4.1869482500478625,
+    "log": "research/readiness-20261021/first-steps/compact-egfr.log",
+    "sha256": "937f8cc9beacf584cb97e2313003d885909f0a78e18e67a84f3a0e150878a813"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-erbb2",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/ERBB2.json"
+    ],
+    "returncode": 0,
+    "seconds": 4.149676874978468,
+    "log": "research/readiness-20261021/first-steps/compact-erbb2.log",
+    "sha256": "b3049f37d138b0c237668a40367e234d5d4dd94b85cbd91aeaed065fac456edd"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-pik3ca",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/PIK3CA.json"
+    ],
+    "returncode": 0,
+    "seconds": 4.402227709069848,
+    "log": "research/readiness-20261021/first-steps/compact-pik3ca.log",
+    "sha256": "f4c871b6e14927d9f45efd1b84b6241a686ef238f4682d90c03b02dfa266d85a"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-smarca2",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/SMARCA2.json"
+    ],
+    "returncode": 0,
+    "seconds": 4.135449665947817,
+    "log": "research/readiness-20261021/first-steps/compact-smarca2.log",
+    "sha256": "aeb9ca668323a99d16cbbd699a502b6dd22597258ba13af313bcbf0c175066aa"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-smarca4",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/SMARCA4.json"
+    ],
+    "returncode": 0,
+    "seconds": 3.79766445804853,
+    "log": "research/readiness-20261021/first-steps/compact-smarca4.log",
+    "sha256": "9eaf4ec0a4270269614e5f32db8822bb5d055dfe22dba014f83fb77b7dc89c99"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-arid1b",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/ARID1B.json"
+    ],
+    "returncode": 0,
+    "seconds": 3.7403907920233905,
+    "log": "research/readiness-20261021/first-steps/compact-arid1b.log",
+    "sha256": "815efc7fa8b00fcd545a34015460114f2c38ee088d6847afae405cacd6fa0d4b"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-stag1",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/STAG1.json"
+    ],
+    "returncode": 0,
+    "seconds": 3.8889988330192864,
+    "log": "research/readiness-20261021/first-steps/compact-stag1.log",
+    "sha256": "f559606cf5c80c2f02685236fb3b45ed8ec03f9d9b162b180b4f9374187ef225"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-mdm2",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/MDM2.json"
+    ],
+    "returncode": 0,
+    "seconds": 3.827319666976109,
+    "log": "research/readiness-20261021/first-steps/compact-mdm2.log",
+    "sha256": "c414be8d1f71ce9a2a98aead28236378e918625b2a2b59164a035899ad2bf9ad"
+  },
+  {
+    "project": "dependencies",
+    "task": "compact-prmt5",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/PRMT5.json"
+    ],
+    "returncode": 0,
+    "seconds": 4.664918708964251,
+    "log": "research/readiness-20261021/first-steps/compact-prmt5.log",
+    "sha256": "9c908b9a7a67a4bdeff483b3c93f58533d6cd90fd3e3533658bd2b10b2bf1534"
+  }
+]

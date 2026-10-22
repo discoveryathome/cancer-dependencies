@@ -1,0 +1,26 @@
+{
+  "schema": "exploratory-transfer-result/v1",
+  "status": "completed-author-checked",
+  "public_intake": false,
+  "scientific_acceptance": "pending",
+  "source_scaffold_commit": "d111d08db07fe8f9b97006a7345759a6047f6fd1",
+  "models": 77,
+  "targets": 12,
+  "primary": {
+    "complete": true,
+    "conditional_identity_bootstrap_ci95": [
+      -0.10689399276811097,
+      0.018431770102222356
+    ],
+    "estimate": -0.04612525668683095,
+    "name": "macro target-wise Spearman difference: compact pair minus strong expression baseline",
+    "target_count": 12,
+    "total_bootstrap_draws": 2000,
+    "valid_bootstrap_draws": 2000
+  },
+  "conclusion": "No demonstrated compact-model advantage over the selected strong expression baseline; interval includes zero.",
+  "raw_data": "Present locally in ignored data/raw/transfer-trial-20261021; not published",
+  "sanger": "Reserved; no new Sanger outcomes loaded",
+  "report": "research/transfer-results-20261021/README.md",
+  "supersedes_status_only": "discover/transfer-trial.json"
+}

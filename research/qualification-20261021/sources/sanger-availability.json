@@ -1,0 +1,2562 @@
+[
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "5c37271712046501d1c0163f7fc973d9ed60c9e5934d1f2a3ac6a95d57a700fd",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0265-C18",
+    "sanger_ID": "WTSI-COLIVM_005"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "98670625153b06c98b2850e4940a27eb8400d41a786eaa4c57aba7a6709dae2e",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1315-C18",
+    "sanger_ID": "WTSI-COLIVM_018"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "78fc92cdf1b4d3d14303014e8ee969f13eaec944340b06e257f7fcd9bd9ffdd2",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1318-C20",
+    "sanger_ID": "WTSI-COLIVM_022"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c1baaed0bf19e959e4156cd9308860408751471a991e6181dbda07a60626b7f8",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1316-C18",
+    "sanger_ID": "WTSI-COLIVM_025"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "a3a0c436af62ff224cb89a240191dc01caa1d87f5b5e964f6dc07bc9f4373d36",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1317-C20",
+    "sanger_ID": "WTSI-COLIVM_026"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "166adfa549e5ff1fa54fd3fc096f359ca2574f60bcc75ccda8409e9a3e613e6a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1313-C18",
+    "sanger_ID": "WTSI-COLIVM_028"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "b693a58efa910c21b830a97df09338340dd567feb0f6891a0c3118d1f3281a01",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_031",
+    "sanger_ID": "WTSI-COLIVM_031"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "322ca4a189bf9155c181f82de921fbb82a8a950fbcf260282266580970d80df9",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_034",
+    "sanger_ID": "WTSI-COLIVM_034"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2d6f5e06ac6d1d358de9fe51d9544b940af80b283945405f0a2e8a606d12c81f",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_036",
+    "sanger_ID": "WTSI-COLIVM_036"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "3c9a5a4b3d560c8be8913201d650384d66407b54af56984e90ed3cf4e5b4dd59",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_040",
+    "sanger_ID": "WTSI-COLIVM_040"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "fe55899eb7539239d1b482b8f5cc3c3eb61b06e1075a8be5793af1d5f62a3982",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_041",
+    "sanger_ID": "WTSI-COLIVM_041"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "edd58c1c42eea10ca33d1ad66bb1d0b814dd80938a79e10fce21880c92722e57",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_045",
+    "sanger_ID": "WTSI-COLIVM_045"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "02cbd2bf7a30b156e0f534b9b7390cbb0ecd21d8ae108c5b07fee8c87f2065cf",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_046",
+    "sanger_ID": "WTSI-COLIVM_046"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "3ca1f05ed9063ef16d0244bca73cd2f5b3286048da3c4cbdc726e7875512194d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_048",
+    "sanger_ID": "WTSI-COLIVM_048"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "294d8f172e9f7dfaf0edcbcd4e6ce3ca8b205c52e45a0aa70cb2d531ba7b8ff1",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_051",
+    "sanger_ID": "WTSI-COLIVM_051"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2dfd7fd1040fbcecf8660d17e05ccc73b9cc35aa81e85efd8061864d4c868935",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_052",
+    "sanger_ID": "WTSI-COLIVM_052"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ded0f5b876ac0991a1af4e09665dc9ecab813be76e4d026eca69cc3052c48ffe",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_054",
+    "sanger_ID": "WTSI-COLIVM_054"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "b92e6ef359605a4a260261fcd5d0045ab448cc139c1ba86f28e46f0c0c0a2d91",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_057",
+    "sanger_ID": "WTSI-COLIVM_057"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "e355cbab5d9c03bd6946eb9a551f40e5ef9f1224bfcb5293038afb58420d37e4",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_058",
+    "sanger_ID": "WTSI-COLIVM_058"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ebab82015a8f2f9ebd6e53fb8a30c46fe7291a9c6218f56e6c224d5f2048250e",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_059",
+    "sanger_ID": "WTSI-COLIVM_059"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "842d9195d1672a62f4284c84394342c5c41c1e5aab75e26f66fe1d90b33327e1",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_060",
+    "sanger_ID": "WTSI-COLIVM_060"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "000e8a52d4f3252b6ad208e25174bea90670a8e019f09a3679765c3aca59e955",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_061",
+    "sanger_ID": "WTSI-COLIVM_061"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "9c92562cac7f2fb35711f702b12b7efa71ea68551f85ad37299aeddf312ac9f7",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_063",
+    "sanger_ID": "WTSI-COLIVM_063"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "1f8c5def233c1e121dbf92b7647cdd2e3ab6f3e2f2e35fca76693fd91284cfce",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_067",
+    "sanger_ID": "WTSI-COLIVM_067"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "17768f53ed48cdd613133d574bbe45b1bdf529fefecceaac65fef19664c7e1e3",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_068",
+    "sanger_ID": "WTSI-COLIVM_068"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "3aa2974f8288d2f9a9ac207f52bfdf43b50ef6b372d1376154ff79bc37548d06",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_069",
+    "sanger_ID": "WTSI-COLIVM_069"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "9b3008dd29ac57fd159a3c552b5adf14b8da6104dded0b0114dfbc0d7c6a1efa",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_072",
+    "sanger_ID": "WTSI-COLIVM_072"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "1d6e4701f18e63bba41eac383f2a7c835c991e75d32b480980372464421dd8e3",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_074",
+    "sanger_ID": "WTSI-COLIVM_074"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "1ec70aafd65c08432f9b1bdec757b0b061e744952c9653727216c8c7710b7aa0",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_077",
+    "sanger_ID": "WTSI-COLIVM_077"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d26c17cb80f9a44646086413f691682773fcadc6423e0e7be259c696c44272d7",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_080",
+    "sanger_ID": "WTSI-COLIVM_080"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "7d8e6f8ebb9cf50929c98f62c2b991c3116db8af7efca6447a1a6331b4253c32",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_082",
+    "sanger_ID": "WTSI-COLIVM_082"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "13809f76f486b96227b2e3ea70aa90df46f016ee4e3f1de69006c5929e0ece50",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_083",
+    "sanger_ID": "WTSI-COLIVM_083"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ff42f6accc51cd381e1201b8a24a4f6a53d6bb26252266810670dbffdbec8445",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_084",
+    "sanger_ID": "WTSI-COLIVM_084"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "8e73eb1419ddf4790ba6b2f48df396e7824ffd7aa50162333ceee2d90a639f3e",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_085",
+    "sanger_ID": "WTSI-COLIVM_085"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "e04d8b032c021d818e4a070410c7e0605fb821d9638f06bc38aa9d9942668278",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_086",
+    "sanger_ID": "WTSI-COLIVM_086"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "47e36d9c2ad8666446fdf676fa0e3021df4938d562819c4f6d1515a66e85eb0e",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_087",
+    "sanger_ID": "WTSI-COLIVM_087"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "1978055c6c3bd6ce71e6aafbcf26214d06276da8b4411a2c70bc2358a15a5833",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_089",
+    "sanger_ID": "WTSI-COLIVM_089"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d7ec8aba5d47446b2850a22b3f9c7d9a85049ecc84649f7bda1987f458efef94",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_090",
+    "sanger_ID": "WTSI-COLIVM_090"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ac703610fa7dae21abecda053022033dec1b07b37d85761a49215a81b317cab3",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_092",
+    "sanger_ID": "WTSI-COLIVM_092"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "596840e738502a3103494a79d86a72e5c31378167ff4b5f738c3fffd21b9102c",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_093",
+    "sanger_ID": "WTSI-COLIVM_093"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d3176429980e14955bfb93f6be957c5554149fb510a029c9db4a504a2b319d88",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLIVM_100",
+    "sanger_ID": "WTSI-COLIVM_100"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "559e0c879397f81e264ce92aafeaba9c79a60a2805c366d54016b735c54749e2",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0266-C20",
+    "sanger_ID": "WTSI-COLO_005"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "6c2405703792ba36baaa466cc72ea82267fa9cde280667856b9c5a0224097224",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0267-D12",
+    "sanger_ID": "WTSI-COLO_011"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "b9077c4ebe068935badd75f3a4f3dc2c7cdaf3b512b19a58b0415c3bd8b1ab8b",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0268-C18",
+    "sanger_ID": "WTSI-COLO_013"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "7cf217056cf8e7a160d2282550d708230da2f207131d89553303cac71941bd69",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0269-C18",
+    "sanger_ID": "WTSI-COLO_019"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "978c88d1dbfa067dc7c240e910f9346f21a178ef99670e08618a486d2d582a0b",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0270-C20",
+    "sanger_ID": "WTSI-COLO_021"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "a42ef53ebf4d21e1a0f587c6d8bb42fbe946488957eb83e2080ed07c515904e0",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0271-D12",
+    "sanger_ID": "WTSI-COLO_023"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "a861116611ef4f0c70e1347e319bce8d08abf83ca5537c3012c3310043509ee8",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0272-C20",
+    "sanger_ID": "WTSI-COLO_025"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "eeb2c3b2f5a0db2f1aa6addb3004356d2c1a1541cf19d076cbf6faa1605bfa7a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0273-C18",
+    "sanger_ID": "WTSI-COLO_027"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "f74182d417d2e9d6b626854df14276cf4e3772236645e70ba3e83aa83ca4d2d1",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0274-C18",
+    "sanger_ID": "WTSI-COLO_031"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "0b1607fe996d6e2ad8641f2a66854abd37bca5241db768c3e398d246be4c6e37",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0275-C18",
+    "sanger_ID": "WTSI-COLO_037"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "49639167caad1ffb33c97b9236da31ce9f25d144bd23a2d64dd8603a53e69f27",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0276-C18",
+    "sanger_ID": "WTSI-COLO_039"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "de5646f2f6b680f7aaf5fa94f944736287909ce6e8856f8e64e8364f17816ef3",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0277-C18",
+    "sanger_ID": "WTSI-COLO_041"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "58a4e54c1ae50baaae74cb11958215e3d7648d33bdceaf9825d1de098b352c8b",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_061",
+    "sanger_ID": "WTSI-COLO_061"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2ab14e79efa0262074dd674bed77e318bd07803dec084eacf9dbf4f0515ae10f",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0278-C20",
+    "sanger_ID": "WTSI-COLO_075"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2ee524bb9e60bf9face447e2b8c1b4b9216b2586877692969ab80240fd403a57",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0280-C18",
+    "sanger_ID": "WTSI-COLO_081"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "42a45db52f9ce2204773eefb92496e9ceb8ddabd64b78ef39a13a1264c41f138",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0281-C18",
+    "sanger_ID": "WTSI-COLO_085"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2ddb60a0560f35e83642f601a9c5b08b1a684eda5b806beabbb36afdc1465e45",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0522-C18",
+    "sanger_ID": "WTSI-COLO_093"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "a5a7a597a68b54d3a1462f05ea73facccacbe10d2ce3b4891609ca8ea1f8e98b",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0282-C18",
+    "sanger_ID": "WTSI-COLO_099"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "44f9ad0e3a7f153c7e372d219d6d59a5adbda353eee01d25de08d8f935ff84dc",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0529-C18",
+    "sanger_ID": "WTSI-COLO_109"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "503ac7202cd60626c913c6d4bf7ea097d980cda06374dc296d1a093849c8c1ad",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1087-C18",
+    "sanger_ID": "WTSI-COLO_115"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "6bf5147d2f4d4f73b19728082c5bcc53429ac6c1efcef224d940b67d957cd224",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0283-C18",
+    "sanger_ID": "WTSI-COLO_127"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2da9a5683609087de9badf6209a0c3313ab127a5a064a38949ba096eb4ddba6d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0551-C18",
+    "sanger_ID": "WTSI-COLO_131"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "dab01a89a0bb8d569b0aebc8f70447ff5b10fad9bc71835df8221763f9c82cd6",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0532-C20",
+    "sanger_ID": "WTSI-COLO_133"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "8bbf55a7354c127d53bb02684a2d1a59e4f4c93630025d47c22a2b475506baf3",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0284-C18",
+    "sanger_ID": "WTSI-COLO_141"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2311ffacb6ffee8e0e72c3fece38b9de3a95931c403aa019a19dd5de59f066a2",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1332-C18",
+    "sanger_ID": "WTSI-COLO_143"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "6973dfdec99ad9798bcb16a74962975c07dbf15bf5604e52937a90679ce8bb86",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0527-C18",
+    "sanger_ID": "WTSI-COLO_149"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "811d62c6332a778eebba8d2a2d4559ba26f24ff4c391c938902546d22558f262",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0285-C18",
+    "sanger_ID": "WTSI-COLO_151"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2c38747bac5731d12c1c3abedc34acf1808307a13c1f5ed2b62a2e6da69242dd",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0286-C20",
+    "sanger_ID": "WTSI-COLO_155"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "b6aec3a8a986270f8c656931e659eeb7fb0f892d5a368108cb42bb35f7684778",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0287-C20",
+    "sanger_ID": "WTSI-COLO_159"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "4ad08e805454aaebd57380da8d7cce6e8c0bde5e7a68afba37180fcf8450d900",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0534-C18",
+    "sanger_ID": "WTSI-COLO_163"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c57490195af57d1ae128542786e727c503e1c88ccf230d06d04c968a9987b24a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0533-C20",
+    "sanger_ID": "WTSI-COLO_167"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ec95360c7c0cfa83f0836915813a5b6bad35afee735f626326df1b258e762ec8",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0288-C18",
+    "sanger_ID": "WTSI-COLO_170"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "72ff7f2869be1237e457f3f4a56b62eb5eead985811cab9fe76c36dd5e497738",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0517-C20",
+    "sanger_ID": "WTSI-COLO_176"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "No",
+    "WGS_available": "Yes",
+    "individual_group": "e33c56331c6b954fd77c79b2308b7230488c704504bc5fcccd4102d51117958a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1085-C20",
+    "sanger_ID": "WTSI-COLO_187"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "6ee30bbc0e5c7da0a3ee4b44b5addaf7a953d89d11ef55f9789df10a8bfae812",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0518-C18",
+    "sanger_ID": "WTSI-COLO_191"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "64fc7b3c9c433d93c8184f1a70a9f0707acdd6a207c93f2f196fd3ed6f5abf9a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_198",
+    "sanger_ID": "WTSI-COLO_198"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "6e967a593f40691cd2d9e681fbe686ca602b8408db26753123971c032d12f09d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0541-C20",
+    "sanger_ID": "WTSI-COLO_206"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "a8fc1effc6d9e585fd0e23ff57102739739367b697b0e876513c8d2f959b6e1a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0519-C20",
+    "sanger_ID": "WTSI-COLO_214"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "97933ff25f3688a7333ccf136fa8ce8e26ba78c7937d02ac90c58282b155b884",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_216",
+    "sanger_ID": "WTSI-COLO_216"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2139826d95a078b152a2432d10888b3bd43d6539a913d8065622cb039ca07515",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0525-C18",
+    "sanger_ID": "WTSI-COLO_218"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ac51ea4ea8105aa0a36fe5e8c978892f16e35f62d3fb3b190c17fe5ba2dd6ac3",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0537-C18",
+    "sanger_ID": "WTSI-COLO_220"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c2685fa166223a2d2d0fab3bc2fd9f6fa8552d4255a66ed1b984d3b4e38c1eba",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0536-C18",
+    "sanger_ID": "WTSI-COLO_222"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c6fc3c137063becd62dd4c7960ca4653d49c9c177ba027e8971984e589dfa9d9",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1081-C20",
+    "sanger_ID": "WTSI-COLO_226"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "20616e55bc658e201e7e2c31c4ce833ae6aa4346d7b00dffbbde7648073d1272",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1086-C18",
+    "sanger_ID": "WTSI-COLO_240"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "775d1429f3636b3dd76efe812d89dd09132c7019d8e86f5426128e4cd6fb921f",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0535-C20",
+    "sanger_ID": "WTSI-COLO_242"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "fd03168c682fb2ed5ffcdd9139ba0ad78ff35e4356364569aded942dd5cf1e32",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0542-C18",
+    "sanger_ID": "WTSI-COLO_244"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "8e73eb1419ddf4790ba6b2f48df396e7824ffd7aa50162333ceee2d90a639f3e",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-0539-C18",
+    "sanger_ID": "WTSI-COLO_248"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "e5a172023b3c1adf6b16574ae80c325a8fb088e86238fd6d448800eac0af685d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1338-C20",
+    "sanger_ID": "WTSI-COLO_250"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d348e2dd2ac453ffeec8967dc67aea01e83e0cbda5df2da1ccde0a1624490f8f",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1091-C18",
+    "sanger_ID": "WTSI-COLO_270"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d05402ba20a96af8bafd27577efca1a984109b1ad94357ab367fd8ba3ae07c2e",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_272",
+    "sanger_ID": "WTSI-COLO_272"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c6b399831be7ab35178748a44e52f6df566dcdc002172580c4b3653c5295f09f",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1089-C18",
+    "sanger_ID": "WTSI-COLO_274"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "9c87da588170dfd6226819977bae19b7be07743fe16307e6ff6e191d1a3fdbdf",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_278",
+    "sanger_ID": "WTSI-COLO_278"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "167b98876a8ae7de67c2c81d935052f4ce372b6b04b553987216b9825876f230",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1088-C18",
+    "sanger_ID": "WTSI-COLO_290"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "f1d2a3afe77c1270b21a6494a2bb056e0fd6abd6f0125e30611b1215ea45d697",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1301-C20",
+    "sanger_ID": "WTSI-COLO_298"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "89017c69d9fb0b148e3dd5f55fa776d704ddd8525126d29bdb2c9e2fc978cc1c",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1334-C18",
+    "sanger_ID": "WTSI-COLO_302"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "63a08e6a72a527ff2048260e3313706a97588e497b8da7b7a40a219ef1fe48a5",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1093-C18",
+    "sanger_ID": "WTSI-COLO_312"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d82e8aaec75ecdfb50780f62df8052f18e460a0d6c0b2ee15a12a1f17fa44058",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_318",
+    "sanger_ID": "WTSI-COLO_318"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "a3f84173a151c42b3baaa542a4ca25fa1ca705eb9c54fd4997552492dc35c8f4",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1090-C18",
+    "sanger_ID": "WTSI-COLO_324"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "b737c54618935a37d7e7c9a903c3ebf65110bf7b419398770122dec80c853546",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1092-C18",
+    "sanger_ID": "WTSI-COLO_338"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "1d5a6bd5ba6cdc22d62ebaa0d969b0411c07a7bd6b22525e1c8ac811d9d1a8dc",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1330-C19",
+    "sanger_ID": "WTSI-COLO_340"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "06dc7cb8936fef968f466469d3aa0e89bca1f82d13bc44263a3588b58700287d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1321-C18",
+    "sanger_ID": "WTSI-COLO_346"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "5d551dca8878040dd8ce9a27bd956449ad57b2fd96764f740f6224f4497d8efe",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1339-C18",
+    "sanger_ID": "WTSI-COLO_356"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "133490b5b90a51eeeff93280239a9205f1be6671aa1eb6c8be60dafebcb00816",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1327-C18",
+    "sanger_ID": "WTSI-COLO_360"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "4abc8313eebf1d596a1b9932c7d82089be8f6b0e364edf8e425371f8739dfbe7",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1314-C18",
+    "sanger_ID": "WTSI-COLO_364"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "6ffce3ab9e61947ae2c8fe454a8f083d52d10ba7fc8ad0a46249afe9c6b43c76",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_376",
+    "sanger_ID": "WTSI-COLO_376"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "272707cba1535ad64379a89fb33f48b4331a5598c211373d4e99c187bbefa60a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1311-C18",
+    "sanger_ID": "WTSI-COLO_378"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "7b9bfb080c3feea84c955f88f5593c3c0fcdad3b093dac8c37a143e945f5bfeb",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1333-C20",
+    "sanger_ID": "WTSI-COLO_388"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "7afd8fd0bc3877903ef8cbef4279721cd17341c1fc7d8344a4db885b0b9ddabd",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1304-C20",
+    "sanger_ID": "WTSI-COLO_394"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ec4419c5113daec88f36e7d77a4e8476e162c0633ba9650beedb6a59f6785208",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1335-C18",
+    "sanger_ID": "WTSI-COLO_410"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "1fe5cf862e2721ae82ef751691c01acc36f1eea9e12543d72a4728dcdc0c79df",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_414",
+    "sanger_ID": "WTSI-COLO_414"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "273abf72ff881ba2624719819ff321805655b7b2e061908feb753b1041223395",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_425",
+    "sanger_ID": "WTSI-COLO_425"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "41842dc58fd72c77bd3f6e40ad56af230f408abc24c9e85edf97d0d5b9df35ee",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_427",
+    "sanger_ID": "WTSI-COLO_427"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "6588794fa69b4f8b9a02a637a422dc6d9dbe0652fc4808458c7ef9ae94b7a673",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1337-C18",
+    "sanger_ID": "WTSI-COLO_434"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d50aa6d4e07e4042c6a4c260e9f9f288770e66a6407a1f2b44ed4f1b3d03e9c0",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_435",
+    "sanger_ID": "WTSI-COLO_435"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "0153d9a2ba5e3d844f0e9e0bc9aff4faaa077b7053352f2eeb56c4164553c352",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_439",
+    "sanger_ID": "WTSI-COLO_439"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "335575d1791d9e38c26ab4eddd7b4839d199a5421a23f3732e99209535a98b16",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_446",
+    "sanger_ID": "WTSI-COLO_446"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "876e62bb965ca8602a5e01bb2efda2b1bd752de4e58758b3a48aacb478812001",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_449",
+    "sanger_ID": "WTSI-COLO_449"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "76e2b5d7b60c3077c0ad9b3442e99f4c822815d2cdca26d8a1c6b9040989fedf",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_452",
+    "sanger_ID": "WTSI-COLO_452"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "b72e6cb625cf32a94bdb20acc4338c25a09075788e75933ec9e871dd11f72ddd",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1300-C18",
+    "sanger_ID": "WTSI-COLO_454"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "7384f1e583fbde21d03e35b83ccc919e50fe4f23e2f4d25dcef75954224d632c",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_455",
+    "sanger_ID": "WTSI-COLO_455"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "1a170bcf57056a0882bc2021805f2a49e2ff872bbfa240c71d7311dc1ada6607",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "HCM-SANG-1312-C20",
+    "sanger_ID": "WTSI-COLO_456"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "8dda8dfaa1d6c2c57c867b3129ba9821455180d606c2bd3ecf62b792bfe4e0a4",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_457",
+    "sanger_ID": "WTSI-COLO_457"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "055c76eca21755833ab07be88d4e57e05ff13eb530c8e8d80c5d4d47a0df2fba",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_458",
+    "sanger_ID": "WTSI-COLO_458"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "15eecddf293c356df7421553a399cd668c108b73ddcb2fc86d7eb45c215c3351",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_466",
+    "sanger_ID": "WTSI-COLO_466"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "dbcf99d181862902327198f6773eb4b23b31a6ff6311c597fe94e576ab9ccf18",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_471",
+    "sanger_ID": "WTSI-COLO_471"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "efb57e06f085bfe7cd2b7bddbae7e835804f91224e573d2d707e8aca65d84f75",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_475",
+    "sanger_ID": "WTSI-COLO_475"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "294d8f172e9f7dfaf0edcbcd4e6ce3ca8b205c52e45a0aa70cb2d531ba7b8ff1",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_478",
+    "sanger_ID": "WTSI-COLO_478"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "37c6e803c8ea709df5f53e0bdbd7ec7290f0c94b95db102057fac06a8cb45ad0",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_491",
+    "sanger_ID": "WTSI-COLO_491"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "cf012a5e2e805eced9548441008485917fdcd562485e7ec16de42051ab6aaece",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_493",
+    "sanger_ID": "WTSI-COLO_493"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c49e5a6c31e6d49f16910008bb6307a1e27bd0b97eb0435d3e97f44753325ee7",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_494",
+    "sanger_ID": "WTSI-COLO_494"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "9fdedbaa7ed306fb8f544effda3c5a2ceec34ea5662867813bac8c550cecbbed",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Colorectal",
+    "sample_ID": "WTSI-COLO_502",
+    "sanger_ID": "WTSI-COLO_502"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "8d76fc4cb5635dc8a71703c8da3e9df514e9799ea22857b50b67464247d28ee3",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Gastric",
+    "sample_ID": "WTSI-GAST_183",
+    "sanger_ID": "WTSI-GAST_183"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c78c70087b37316f8fbe6fd3b614f9857a4b3311c7c04c5a78f48bb2d3488068",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Gastric",
+    "sample_ID": "WTSI-GAST_186",
+    "sanger_ID": "WTSI-GAST_186"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "8efcc7917c2b3726c761e5c622d9113316da74289070e6ac3ce1826678f74b02",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Gastric",
+    "sample_ID": "WTSI-GAST_187",
+    "sanger_ID": "WTSI-GAST_187"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "90d4cadedb4a095964c3edfdef247287eb7537d0b53003ff55e2f6fd92ca6a89",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Gastric",
+    "sample_ID": "WTSI-GAST_199",
+    "sanger_ID": "WTSI-GAST_199"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c54f9e655ed5d30000d9182719a1b1134ad6860e405e0dd9fffc925e0f942e1a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Gastric",
+    "sample_ID": "WTSI-GAST_200",
+    "sanger_ID": "WTSI-GAST_200"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "4433011d9325f44b6906b4196f90e531e01fe8d3f8ded543382da279c690d1a4",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Gastric",
+    "sample_ID": "WTSI-GAST_201",
+    "sanger_ID": "WTSI-GAST_201"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c1dd143bb70af06e3d1cf9499b359799abc0a69da975f54f70e07c32241a337f",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0289-C15",
+    "sanger_ID": "WTSI-OESO_003"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "f551bda59a8d6c609cf18f098e5a5f32ee2240523760870c374573934b9a0b6b",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_005",
+    "sanger_ID": "WTSI-OESO_005"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ba08cfd94dfc7b5c1c72f3307e478571472fb93dd47de1d20bf9a6f47632930e",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0291-C15",
+    "sanger_ID": "WTSI-OESO_009"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2e673911d48546ba5ecf14ea911cbf8c165e3f4b36f5cc95f7aa1e939f5085ba",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0292-C15",
+    "sanger_ID": "WTSI-OESO_013"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ccd42b52971d8ad0a93487bcef162a66135e686bdc0737fbfe6c838a2142dc7e",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0293-C15",
+    "sanger_ID": "WTSI-OESO_034"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "91b2fa770587325d0a5155c100ff5297a6f57856d6ee9382192f36204fb01d33",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0294-C15",
+    "sanger_ID": "WTSI-OESO_036"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "e7748e958a4114d10dda7aa71a6e02155cab6d77d3e48a65225a6f64ea45b7d2",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0295-C15",
+    "sanger_ID": "WTSI-OESO_040"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "78d8720af078535015b42968c7a94677c0ad696b8c85b04f26f4a798a1a6166b",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0296-C15",
+    "sanger_ID": "WTSI-OESO_082"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "e6fecf586dcade71aab34ac3edf7d2b91923cbacaadba43145bd2a09c9138344",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0297-C15",
+    "sanger_ID": "WTSI-OESO_088"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "8e704c51bbaa91faf4c86565b683122abdd165637fc0c9e3c88dd243a2fe06e5",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0298-C15",
+    "sanger_ID": "WTSI-OESO_091"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "f31f7991f92cda7c0437261684acf96fc6e6d2e7cd8554b4761812e5188483e4",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0299-C15-A",
+    "sanger_ID": "WTSI-OESO_095"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "4f57b7fbd6f7b5169f4f16d28b4768d612925d63281d0e0f2c61074531170c5d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1322-C15",
+    "sanger_ID": "WTSI-OESO_097"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "5247948aec53fdea8583324b87b91671f2b96e96a3d92157ff3c20a758ac9cf6",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0300-C15",
+    "sanger_ID": "WTSI-OESO_103"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "794003b7a2ceb5bde642d27d5984db740823c5fee132b563a67523e76190f248",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0302-C15",
+    "sanger_ID": "WTSI-OESO_106"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "79950620a59aabad8688073b14d133d5504940fb4854533bff2440143408a630",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0311-C15-B",
+    "sanger_ID": "WTSI-OESO_117"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "7b2ead7c13f92230318f8ad9e52be589e8b3777c44f9c7c315559100f14dbb8a",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0303-C15",
+    "sanger_ID": "WTSI-OESO_121"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "1172c888cf1fca0282d997a76fd7363421a802a45d3b60cf42beea0b19bffe2a",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0304-C15",
+    "sanger_ID": "WTSI-OESO_130"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "f31f7991f92cda7c0437261684acf96fc6e6d2e7cd8554b4761812e5188483e4",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0299-C15-B",
+    "sanger_ID": "WTSI-OESO_131"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d2376778d56106f0fd08180b02afc0e2d48d27999b99639dc4aa3e3e79539b68",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0306-C15",
+    "sanger_ID": "WTSI-OESO_135"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "377ee00d9534bf6868310e62e2d9dad510dc84499b0fb5366abc0caa4c032667",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0307-C15",
+    "sanger_ID": "WTSI-OESO_143"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "266170042a265a91d3448a45a2e33aa5d4c7c2e6ae6da096ef4c01f7393878ad",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0308-C15",
+    "sanger_ID": "WTSI-OESO_144"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "69df36488ff8d310b872cf857e2a46b056f0d9d2b8fcc3c6895d39629bb36f6a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0309-C15",
+    "sanger_ID": "WTSI-OESO_146"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ab44a8f299989cae9b8f2ea755885ad2b69eea0c51a026c0415d01d449ae2621",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0310-C15",
+    "sanger_ID": "WTSI-OESO_148"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "e95cdb4763f669446a34375ab156f4353a44f520cf8a6624160304f6eb873fff",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0530-C15",
+    "sanger_ID": "WTSI-OESO_149"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "79950620a59aabad8688073b14d133d5504940fb4854533bff2440143408a630",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0311-C15",
+    "sanger_ID": "WTSI-OESO_152"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "7c7b1ed77294f81fa9ab75b16e4737057d63a3fa9563e8eabfc6aad22bd220fb",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0312-C15",
+    "sanger_ID": "WTSI-OESO_164"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2fac242ed6f878f1f9e5be5b871db6498481ec746de9f8859fa19c5f219745b6",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0313-C15",
+    "sanger_ID": "WTSI-OESO_165"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "30836d5250da6cdb488fe95d406bed298de9dc75ccb4d83e583d410bbee648df",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0314-C15",
+    "sanger_ID": "WTSI-OESO_167"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "9268b7f78628e13f574f0fe5bdc858aab1a0bfcccb79b72ed6c6c4c7e41c0da9",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0549-C15",
+    "sanger_ID": "WTSI-OESO_170"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "7fd51536ff1c8b9057ed751f232ed1dec1d5c86e9c7a056a4d1a8c32a0f606fc",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0523-C15",
+    "sanger_ID": "WTSI-OESO_181"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "85e0ad0c136a70929d353fc5d58654bcf24e71237b0707a81491ea1fe9a09c0d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0526-C15",
+    "sanger_ID": "WTSI-OESO_185"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "1ed3ded5f3feba4b19cd6373bbf0b7260038d2acb8c3ab7dc0e829bd2f643f8f",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0543-C15",
+    "sanger_ID": "WTSI-OESO_191"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "fcaa631019af8e231981e66dc3d73ddeaf1fa0d7e223c269827b12a19b541229",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0546-C15",
+    "sanger_ID": "WTSI-OESO_195"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "a7bf857217cb589edab34322f30ed6e27ed3c0e3f552d1b09b32412c07ee5910",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0544-C15",
+    "sanger_ID": "WTSI-OESO_196"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2cbe77e5dbd5be931d51bcb5f07f9bf3e8364b8202dbe8b9019856d77e812ea3",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-0545-C15",
+    "sanger_ID": "WTSI-OESO_197"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "69b6801485604e53365c3750f77c3ed9aef0dca87011cfe6d840a9061f16a81d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_198",
+    "sanger_ID": "WTSI-OESO_198"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c18a9e20dd80116df97bfe72f5954dd369388aa5f0a71d1322ca91a508bdc1ca",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1082-C15",
+    "sanger_ID": "WTSI-OESO_202"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "9f55547dd531c2325209780472d1904c81d1cf39405c3b6bf5ec692adf94ad45",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1094-C16",
+    "sanger_ID": "WTSI-OESO_211"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "a4cd3207040494ca63b05cf461dc7c45b5c0382ac7a2c97541b2c4ba9712653f",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1329-C15",
+    "sanger_ID": "WTSI-OESO_223"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "4d8c93bf8bb11b54000c2a9bacc1b01ee640d397ad7e1d9cbe601c8a0ea1a981",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1083-C16",
+    "sanger_ID": "WTSI-OESO_224"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "4b703cc57d4d98a20adf5600263b230debabb703c3d57029644e399f613c0695",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_227",
+    "sanger_ID": "WTSI-OESO_227"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "5a0e4168aaa0a0c530d29cacee2f2df29786334d166c8798fe22fd1081cd179d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1084-C15",
+    "sanger_ID": "WTSI-OESO_233"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "22ceeb224b41ccd746c3c92cb68d2bfbaf4d309b19368ca8c2d31d87eab1d778",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1305-C15",
+    "sanger_ID": "WTSI-OESO_250"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "776f862e1ad2115b0d54517b428481af87778f11739b7cf30ba441f802fd0349",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1310-C15",
+    "sanger_ID": "WTSI-OESO_253"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "083cdb51129a7174648f3d05b796f288526282deab4ef2238597175d1aa1d193",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_256",
+    "sanger_ID": "WTSI-OESO_256"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "823359e173f026414ecbbcaa0886a1f923b9517e612eedc85d89fe08f0db3b8d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1302-C15",
+    "sanger_ID": "WTSI-OESO_257"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "219ad4a165679cc30749d735128904b80c9e6773b8efccb8710f0594a892be22",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1328-C15",
+    "sanger_ID": "WTSI-OESO_259"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "7f617244afefef6842c9987dad5a6a4521ad71f58a7ddad92d3ff06dcf09af47",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1323-C15",
+    "sanger_ID": "WTSI-OESO_264"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "a99fe0f7fda21a1cc245f068c871c66bace0894d312329f9d9b2ac18d4711ad1",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1326-C15",
+    "sanger_ID": "WTSI-OESO_268"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "36a4e0a50f7f70663b0cd99180c3f0bbf5ef335a741de379f6d96dee7c649054",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1299-C15",
+    "sanger_ID": "WTSI-OESO_269"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "eff77dab764787012689781062a73ad7ad65a1376d194dbe1ab29ce803195a4f",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_274",
+    "sanger_ID": "WTSI-OESO_274"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "9927a6afc382298898aa136a5672e99a6b7fbcd91257284aa57a09c548885f1b",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_286",
+    "sanger_ID": "WTSI-OESO_286"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "0853dccee5ec14098644b7f54615c1e770fc88f4148dc65d9a23e8c062200f7c",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1336-C15",
+    "sanger_ID": "WTSI-OESO_287"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "e24458d4236c1f93cc1e6d9893d23f735c7f970fa1fe10d359d2a04bea63f8ac",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_288",
+    "sanger_ID": "WTSI-OESO_288"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "aef9ac2be35ad89be7c7597d5c23c8ad5d2458f4cd91035329d3247efb03ad20",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "HCM-SANG-1325-C15",
+    "sanger_ID": "WTSI-OESO_291"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d139c2c760ba45b399b79baf1e7d552f811295b0b380b9ae0a3bf4d3c9260160",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_292",
+    "sanger_ID": "WTSI-OESO_292"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "3d58aae0ce5244a4a0e04d76c5a8d7281dcd7b895fefa2f76e8199a90b28f964",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_294",
+    "sanger_ID": "WTSI-OESO_294"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "f6ad712a5e95bc1911fce713c271cd5c69a2100bfe802078edf479368fd2c823",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_297",
+    "sanger_ID": "WTSI-OESO_297"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "87b6b85afacded43011a4ef1103a66676ac3e76e82ca16b66c12df1910d3dfe6",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_302",
+    "sanger_ID": "WTSI-OESO_302"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d89cdde17a31bed3f4601aa7c05668660db47f963bc99f59fd39f32eef9175dd",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_304",
+    "sanger_ID": "WTSI-OESO_304"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "832ca997967c937b82588f692f04f15900b22e9ed73e14c10bf2ea858eec983a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_305",
+    "sanger_ID": "WTSI-OESO_305"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "a76f0d7f6b0d7a6c5be1693fb7343611299bd305339da276becbcc1e8116cbce",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_308",
+    "sanger_ID": "WTSI-OESO_308"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d15ab243552e4aaadc59402ced163ba84afda4ec650d1ba6e6c27260473b28d1",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_309",
+    "sanger_ID": "WTSI-OESO_309"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "60a03bad7dd815380df17a4f7fac019632a78ab123ee81798407bedb5f002f80",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_311",
+    "sanger_ID": "WTSI-OESO_311"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "dd76023f2dbc4bf5f2685067334bb678a6baaa71668f9ecca656f981b7b0006a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_314",
+    "sanger_ID": "WTSI-OESO_314"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "2175c78772514f31ce3651465d05105515651b592f29fcd28e18ee1434af8302",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_319",
+    "sanger_ID": "WTSI-OESO_319"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "84e86bb0f2048120fa960903f7bcb351004b9ed11f83b9b5f10f8fd75b88817d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_323",
+    "sanger_ID": "WTSI-OESO_323"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "5254f25bfcc97e9ad5be9f09a68883497a1aa980b422491933b0f59a7c738cf1",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_324",
+    "sanger_ID": "WTSI-OESO_324"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "56ad1ba7a28df68ab5e60639082e6b497ea577d8aadefcd46665fb2894da6044",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_326",
+    "sanger_ID": "WTSI-OESO_326"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "42ba759a99b33a7f0c408986cb21f05e135eeb77a61807c72e728c3bcfbd6d36",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_328",
+    "sanger_ID": "WTSI-OESO_328"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c412f3c61d35f246e199516909b4e05fc4cdc6aec654c09bebd7d14ca158e50a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_331",
+    "sanger_ID": "WTSI-OESO_331"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "5700f7673bcb537fdb3365900a3920642c3c7b934c2f5d6cea88eb04d630afb9",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_339",
+    "sanger_ID": "WTSI-OESO_339"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "f5eb0baf8d240bf800f98bbdfc21fe4fa4b82922e2a5911116fccee09c95f7bd",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_354",
+    "sanger_ID": "WTSI-OESO_354"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "1ce0d3c487784e4d00c2bb6b985d75ae6745886f49b5b5be6afcf960a787ec7b",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_356",
+    "sanger_ID": "WTSI-OESO_356"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "f6f31bec5f6930f7ae3ece7b173edbb254d88160133faffec903335be7a3e64d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_358",
+    "sanger_ID": "WTSI-OESO_358"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "35b7f67686b3c8375c8cbdc6756e6ea0967512fb1bc7f098340e36e845a1afd8",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Oesophageal",
+    "sample_ID": "WTSI-OESO_361",
+    "sanger_ID": "WTSI-OESO_361"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "79210b3dfb58a6a838e6f96453745ad3e01481bbd8fa75873742928eb7626105",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_018",
+    "sanger_ID": "WTSI-OVAR_018"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "664edab1a2ee1993a489d07567c9fa74d8420826577444c30f6abfffdc7ffa45",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_025",
+    "sanger_ID": "WTSI-OVAR_025"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "6e5d42eaf4fbba46843228d07602858aed3761e9692570fcbc95303f5fa8104c",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_036",
+    "sanger_ID": "WTSI-OVAR_036"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "42fa0c838c1faaa6c89491d99a2cb4b0e223177331e5d1a8347e76c41d4d4eda",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_044",
+    "sanger_ID": "WTSI-OVAR_044"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "e2042c3ffce40ccb719e2413ead89213bbdee38a6b7aa2ff5a9af76f160e4064",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_062",
+    "sanger_ID": "WTSI-OVAR_062"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d2d75533acadf9b2b248c93f6483d2125e69ac664b80e00dc801ebb9fd772e45",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_063",
+    "sanger_ID": "WTSI-OVAR_063"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "cfdff1d9b982d647f35b5c535b3b9e6602b35cd4a4a3b64fcc9c83df0ba1b30b",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_067",
+    "sanger_ID": "WTSI-OVAR_067"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d467124e174a08bc804a5587dcdebe2e855346585e0ee263c494436a5f89f4cd",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_071",
+    "sanger_ID": "WTSI-OVAR_071"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "8ee5e2fcbfd2f52ca444d418169d8357ee568735cf0f826fa560e6290c1ed5d1",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_087",
+    "sanger_ID": "WTSI-OVAR_087"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "df4577599bfae611f144d79e0cea2add617eb9bd2966cc3763bdff47e4c5db42",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_091",
+    "sanger_ID": "WTSI-OVAR_091"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "689b6574fc5d33b4fa9ef4bf3ded0266fa62fe69b1ba988f37fd4abd0ae79770",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_094",
+    "sanger_ID": "WTSI-OVAR_094"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "35aef1ef394d2aa13a3c83083d88cbe7ae64f2f67d0bca1d121f7ec50f4cff99",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_095",
+    "sanger_ID": "WTSI-OVAR_095"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "8675b0d440ce5eef2e0dafc3446c45cb5c499e6af48660ad04ce683b3de9fd87",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_098",
+    "sanger_ID": "WTSI-OVAR_098"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "98e430ce15fea31eb7da3da22e1478102ff72c7d374b0dc9290d5b0d100f41c7",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_102",
+    "sanger_ID": "WTSI-OVAR_102"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "3c120e1465dd08bf607e03db767978318f849665747c96102526c24260b8c7b7",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_106",
+    "sanger_ID": "WTSI-OVAR_106"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "71c40f81cf93ce57cce05ceb06a039a1cf425c00b15b9c1af1a590f3f9cd219f",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_107",
+    "sanger_ID": "WTSI-OVAR_107"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "c59cee8990b63cfb447575e09acdf738bda23a17e7e26a83fe5f8267388a1fdf",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_108",
+    "sanger_ID": "WTSI-OVAR_108"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "e08edd4441ec43bb1e47f57dd20bbcb74ac245681d90723eabd998962aab248d",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVAR_109",
+    "sanger_ID": "WTSI-OVAR_109"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d467124e174a08bc804a5587dcdebe2e855346585e0ee263c494436a5f89f4cd",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVOMTM_001",
+    "sanger_ID": "WTSI-OVOMTM_001"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "689b6574fc5d33b4fa9ef4bf3ded0266fa62fe69b1ba988f37fd4abd0ae79770",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Ovarian",
+    "sample_ID": "WTSI-OVOMTM_006",
+    "sanger_ID": "WTSI-OVOMTM_006"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "4cee0598b5601f25c55a41a79f0b876b037d030762e1bcbd80c0137967f05fbe",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "WTSI-PALIVM_001",
+    "sanger_ID": "WTSI-PALIVM_001"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "186ea4a51af0fb8244b9904d2d6341a91f3ff4728e9f20aa19a2478361a7a8f1",
+    "overlap_Broad_DepMap": "Yes",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-0315-C25",
+    "sanger_ID": "WTSI-PANC_014"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ef95a26b6ce446667e5f07757e4c6c70fd447410f14f35c365122e0df14fe225",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "WTSI-PANC_034",
+    "sanger_ID": "WTSI-PANC_034"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "f6db731b52a5eb3a3d3c49621a9bba0736fff1a0368d552e34d0753be215ec36",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-0528-C25",
+    "sanger_ID": "WTSI-PANC_040"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "19ee07214c66fc78e78546f2e4769f95fd2a9cb8dda378fe5354cb247da62138",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "WTSI-PANC_044",
+    "sanger_ID": "WTSI-PANC_044"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "25da4ab188182d6cbc3ecd72d0bce9eba414a6a617888f899520ec14a9020f8a",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-1095-C25",
+    "sanger_ID": "WTSI-PANC_046"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "0d580f16787bf26fc63856676e1ba0f8ffe410a5909cccefb1339dec70fd9d9f",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-0778-C25",
+    "sanger_ID": "WTSI-PANC_047"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "6d82b19fd55fd33972016a71c26beb083c7f4ea9416af92cad962039272d75d4",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-0547-C25",
+    "sanger_ID": "WTSI-PANC_050"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "fb38b55b49d269b27db28499c54c98bff4990b9b4b617b4e7d4006abbde252bf",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-0548-C25",
+    "sanger_ID": "WTSI-PANC_052"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "cc769b3a00c55c4e0fb9522a52545af8c195f483b80ac5d423997aa984e2fbae",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-0552-C25",
+    "sanger_ID": "WTSI-PANC_058"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "0c626d4ca7b1af95734f5fd2ae6c2cc93c00f335498810d9b9adb16ada0a33f1",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "WTSI-PANC_060",
+    "sanger_ID": "WTSI-PANC_060"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "61f7e62024e67b1d6436a46f5d6bed54ff9188d2d76afc89b0b7d0ce87544e02",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "WTSI-PANC_067",
+    "sanger_ID": "WTSI-PANC_067"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "50e51ccf157f288e091a70eb44cb96a8d8b629ba17f041f7dde8a166cae3f2f8",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-1309-C25",
+    "sanger_ID": "WTSI-PANC_072"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "22624469d2fba6180f2a8277fb1de29ab194dc630d0db34be0fb29f7e10ad9eb",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-0780-C25",
+    "sanger_ID": "WTSI-PANC_077"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "828f29a7e19d5cab92572fffdaadb1a23bb191ceb1e159ee82adcc8aee5616bd",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-0779-C25",
+    "sanger_ID": "WTSI-PANC_079"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "d7f4c2ca28260531d33dd7a26ce364997966d51f307cf8118676e8480e5023e2",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-1306-C25",
+    "sanger_ID": "WTSI-PANC_086"
+  },
+  {
+    "CRISPR_available": "Yes",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "9702c7960c8a17a32ba83b47bd9135eeb38b23229becf79e511d480c7caebb23",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-1320-C25",
+    "sanger_ID": "WTSI-PANC_088"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "03a68e1bbd68a501d7f75672ce94d39f549e037a646bb38b4eeb9577ace291a3",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-1307-C25",
+    "sanger_ID": "WTSI-PANC_094"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "9e558e7c1cf8857fb9f1b37c49775ef2c716a7321d08680ae507c1cbc412fdf6",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "HCM-SANG-1308-C25",
+    "sanger_ID": "WTSI-PANC_098"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "584b3293a1305d1d6f62be57defc70457deb05f1fa7d2d540bb0839ec7619dd7",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "WTSI-PANC_109",
+    "sanger_ID": "WTSI-PANC_109"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ed62e5030051be42d965058359185b7a5627cf656f7c63e9515f141d6894e727",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "WTSI-PANC_128",
+    "sanger_ID": "WTSI-PANC_128"
+  },
+  {
+    "CRISPR_available": "No",
+    "RNAseq_available": "Yes",
+    "WGS_available": "Yes",
+    "individual_group": "ca268a605bd3f9f27dd242ae7a9971bc52b9783ed7ab32beb933c029de813142",
+    "overlap_Broad_DepMap": "No",
+    "primary_tumour_type": "Pancreatic",
+    "sample_ID": "WTSI-PANC_131",
+    "sanger_ID": "WTSI-PANC_131"
+  }
+]

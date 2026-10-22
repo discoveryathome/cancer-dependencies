@@ -1,0 +1,88 @@
+[
+  {
+    "task": "broader-expression-reference",
+    "command": [
+      ".venv/bin/python",
+      "src/wide_expression.py",
+      "check"
+    ],
+    "returncode": 0,
+    "stdout": "PASS bounded protocol and inherited model bindings;12targets;raw data needed for fitting, not this check\n",
+    "stderr": ""
+  },
+  {
+    "task": "compact-candidate",
+    "command": [
+      ".venv/bin/python",
+      "src/readiness.py",
+      "verify",
+      "--candidate",
+      "research/readiness-20261021/candidates/SMARCA2.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"interpretation\": \"Exploratory development comparison only. Fold models do not prove honest training; source/refit review and new confirmation are required.\",\n  \"lineages\": [\n    {\n      \"lineage\": \"Adrenal Gland\",\n      \"mse\": 0.24267292718058459,\n      \"n\": 1,\n      \"strong_linear_mse\": 0.11616011606007397,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Ampulla of Vater\",\n      \"mse\": 0.015591647390724077,\n      \"n\": 2,\n      \"strong_linear_mse\": 0.00867634160803998,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Biliary Tract\",\n      \"mse\": 0.07533577453061524,\n      \"n\": 25,\n      \"strong_linear_mse\": 0.08814025446896238,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Bladder/Urinary Tract\",\n      \"mse\": 0.020290565689520226,\n      \"n\": 25,\n      \"strong_linear_mse\": 0.027052961959970655,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Bone\",\n      \"mse\": 0.028453131370580104,\n      \"n\": 26,\n      \"strong_linear_mse\": 0.03490415773402355,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Bowel\",\n      \"mse\": 0.01864598459087169,\n      \"n\": 33,\n      \"strong_linear_mse\": 0.017913351845158933,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Breast\",\n      \"mse\": 0.02042581347715204,\n      \"n\": 35,\n      \"strong_linear_mse\": 0.0202185501182139,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"CNS/Brain\",\n      \"mse\": 0.027096300180488985,\n      \"n\": 65,\n      \"strong_linear_mse\": 0.03025313574222258,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Cervix\",\n      \"mse\": 0.12307392303107596,\n      \"n\": 14,\n      \"strong_linear_mse\": 0.09883245970794989,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Esophagus/Stomach\",\n      \"mse\": 0.09811159370744076,\n      \"n\": 41,\n      \"strong_linear_mse\": 0.1040965762539419,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Eye\",\n      \"mse\": 0.04058660230624443,\n      \"n\": 5,\n      \"strong_linear_mse\": 0.04404392604315713,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Head and Neck\",\n      \"mse\": 0.04486961753029115,\n      \"n\": 47,\n      \"strong_linear_mse\": 0.030686004960224576,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Kidney\",\n      \"mse\": 0.0667430564841624,\n      \"n\": 25,\n      \"strong_linear_mse\": 0.06109367873647405,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Liver\",\n      \"mse\": 0.06402969260042565,\n      \"n\": 17,\n      \"strong_linear_mse\": 0.09784060332562601,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Lung\",\n      \"mse\": 0.13553695642783625,\n      \"n\": 92,\n      \"strong_linear_mse\": 0.14194847607466618,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Lymphoid\",\n      \"mse\": 0.03406447835956559,\n      \"n\": 65,\n      \"strong_linear_mse\": 0.0311770648074769,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Myeloid\",\n      \"mse\": 0.049412893756045274,\n      \"n\": 27,\n      \"strong_linear_mse\": 0.053085024121731765,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Ovary/Fallopian Tube\",\n      \"mse\": 0.09660977589158648,\n      \"n\": 40,\n      \"strong_linear_mse\": 0.06840529809352607,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Pancreas\",\n      \"mse\": 0.013349859329285113,\n      \"n\": 28,\n      \"strong_linear_mse\": 0.017673402356299776,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Peripheral Nervous System\",\n      \"mse\": 0.03404376322276976,\n      \"n\": 27,\n      \"strong_linear_mse\": 0.034766256414569284,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Pleura\",\n      \"mse\": 0.03997002548855718,\n      \"n\": 15,\n      \"strong_linear_mse\": 0.017929173990483698,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Prostate\",\n      \"mse\": 0.035708391774742713,\n      \"n\": 6,\n      \"strong_linear_mse\": 0.01785304479846298,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Skin\",\n      \"mse\": 0.016080008537514085,\n      \"n\": 51,\n      \"strong_linear_mse\": 0.015946778601076888,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Soft Tissue\",\n      \"mse\": 0.0296431868168145,\n      \"n\": 27,\n      \"strong_linear_mse\": 0.030288663995265423,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Testis\",\n      \"mse\": 0.06412305593850663,\n      \"n\": 1,\n      \"strong_linear_mse\": 0.035599173181375864,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Thyroid\",\n      \"mse\": 0.03668689816304485,\n      \"n\": 9,\n      \"strong_linear_mse\": 0.02183658368800268,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Uterus\",\n      \"mse\": 0.015928417336885752,\n      \"n\": 22,\n      \"strong_linear_mse\": 0.01502449035513061,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    },\n    {\n      \"lineage\": \"Vulva/Vagina\",\n      \"mse\": 0.013356231899655957,\n      \"n\": 2,\n      \"strong_linear_mse\": 0.05288849686040018,\n      \"support\": \"descriptive; small groups are not confirmation\"\n    }\n  ],\n  \"max_features\": 2,\n  \"mse\": 0.053934115163444485,\n  \"n\": 773,\n  \"skill_vs\": {\n    \"lineage\": 0.28458317435526315,\n    \"mean\": 0.2928420378275206,\n    \"rule\": 0.15517362880930896,\n    \"strong_linear\": -0.01548810665212863\n  },\n  \"target\": \"SMARCA2\",\n  \"valid\": true\n}\n\n",
+    "stderr": ""
+  },
+  {
+    "task": "new-method-or-context",
+    "command": [
+      ".venv/bin/python",
+      "src/research_program.py",
+      "proposal",
+      "--path",
+      "research/program-v2-20261021/proposal-example.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"valid_declarations\": true,\n  \"status\": \"example\",\n  \"scientific_approval\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "task": "target-panel-expansion",
+    "command": [
+      ".venv/bin/python",
+      "src/research_program.py",
+      "proposal",
+      "--path",
+      "research/program-v2-20261021/proposal-example.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"valid_declarations\": true,\n  \"status\": \"example\",\n  \"scientific_approval\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "task": "assay-and-sample-audit",
+    "command": [
+      "python3",
+      "research/robustness-20261021/check_manifest.py"
+    ],
+    "returncode": 0,
+    "stdout": "PASS 33 robustness/input hashes; author-checked, scientific review pending\n",
+    "stderr": ""
+  },
+  {
+    "task": "published-reference",
+    "command": [
+      ".venv/bin/python",
+      "src/research_program.py",
+      "proposal",
+      "--path",
+      "research/program-v2-20261021/proposal-example.json"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"valid_declarations\": true,\n  \"status\": \"example\",\n  \"scientific_approval\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "task": "verifier-hardening",
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "pytest",
+      "tests/test_wide_expression.py",
+      "-q"
+    ],
+    "returncode": 0,
+    "stdout": "6 passed in10.08s (actual preflight command; also included in full48-test run)",
+    "stderr": ""
+  }
+]

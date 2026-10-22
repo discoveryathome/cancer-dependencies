@@ -1,0 +1,104 @@
+{
+  "schema": "exploratory-leads/v1",
+  "all_declared_targets_retained": true,
+  "targets": [
+    {
+      "target": "BRAF",
+      "development_delta": 0.10313752686943423,
+      "Broad_delta": 0.22480151427519846,
+      "Broad_wide_spearman": 0.20547873179452122,
+      "status": "exploratory lead; no target-level confirmation",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    },
+    {
+      "target": "KRAS",
+      "development_delta": 0.017169574351372896,
+      "Broad_delta": -0.037015615962984194,
+      "Broad_wide_spearman": 0.553946053946054,
+      "status": "retain negative/unsupported result",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    },
+    {
+      "target": "NRAS",
+      "development_delta": 0.09107432063828719,
+      "Broad_delta": -0.08670277091329721,
+      "Broad_wide_spearman": -0.1876281613123718,
+      "status": "retain negative/unsupported result",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    },
+    {
+      "target": "EGFR",
+      "development_delta": 0.07262129546824769,
+      "Broad_delta": -0.2351332877648667,
+      "Broad_wide_spearman": 0.20679320679320679,
+      "status": "retain negative/unsupported result",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    },
+    {
+      "target": "ERBB2",
+      "development_delta": 0.0007912028345918865,
+      "Broad_delta": -0.20098322729901674,
+      "Broad_wide_spearman": -0.15594931384405067,
+      "status": "retain negative/unsupported result",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    },
+    {
+      "target": "PIK3CA",
+      "development_delta": 0.13665003566310274,
+      "Broad_delta": -0.028602975971396993,
+      "Broad_wide_spearman": 0.28392659971607337,
+      "status": "retain negative/unsupported result",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    },
+    {
+      "target": "SMARCA2",
+      "development_delta": 0.0497138508195811,
+      "Broad_delta": -0.043587990956412,
+      "Broad_wide_spearman": -0.0008149744991850254,
+      "status": "retain negative/unsupported result",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    },
+    {
+      "target": "SMARCA4",
+      "development_delta": 0.00554244678242527,
+      "Broad_delta": -0.1542667858457332,
+      "Broad_wide_spearman": 0.01572112098427888,
+      "status": "retain negative/unsupported result",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    },
+    {
+      "target": "ARID1B",
+      "development_delta": 0.0038945448780671466,
+      "Broad_delta": -0.15245281034754718,
+      "Broad_wide_spearman": -0.0911456964088543,
+      "status": "retain negative/unsupported result",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    },
+    {
+      "target": "STAG1",
+      "development_delta": -0.000851347136229752,
+      "Broad_delta": 0.12408643987591353,
+      "Broad_wide_spearman": -0.20392765129607235,
+      "status": "retain negative/unsupported result",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    },
+    {
+      "target": "MDM2",
+      "development_delta": 0.11068694872811291,
+      "Broad_delta": 0.1923602713076397,
+      "Broad_wide_spearman": 0.40832851359167144,
+      "status": "exploratory lead; no target-level confirmation",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    },
+    {
+      "target": "PRMT5",
+      "development_delta": 0.03688568181632773,
+      "Broad_delta": 0.19033597980966405,
+      "Broad_wide_spearman": 0.2856354172143646,
+      "status": "exploratory lead; no target-level confirmation",
+      "selection_note": "Any prioritization using these Broad scores is post hoc and cannot be confirmed on Broad again."
+    }
+  ],
+  "not_a_selected_winner_panel": true,
+  "required_next_step": "A separately declared follow-up with development selection and appropriate new confirmation; no post hoc hybrid counted as gain."
+}

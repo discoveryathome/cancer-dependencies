@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-21T19:18:16.136991+00:00",
+  "evidence_level": "author-checked; no independent scientific review",
+  "checks": [
+    {
+      "check": "Frozen external score and verify",
+      "result": "Exact full replay, including target tables and all 2000 bootstrap draws; primary -0.04612525668683095, interval [-0.10689399276811097, 0.018431770102222356]"
+    },
+    {
+      "check": "Separate scipy.stats.spearmanr audit",
+      "result": "72 model/target rank correlations and MSEs, all 12 x 77 responses, primary contrast agree to 1e-12"
+    },
+    {
+      "check": "Full pytest suite",
+      "result": "33 passed"
+    },
+    {
+      "check": "Historical preparation, qualification and scaffold integrity",
+      "result": "82, 35 and 13 hashes passed"
+    }
+  ],
+  "freeze_unchanged": true,
+  "new_external_tuning": false,
+  "independent_newcomer_trial": false,
+  "raw_data_published": false
+}

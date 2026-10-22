@@ -1,0 +1,29 @@
+{
+  "release": "NextGen Model Manuscript 2026",
+  "expression_file": "next_gen_expression.csv",
+  "response_file": "screen_gene_effect.csv",
+  "expression_sha256": "b1405342268b1fe24b389268fadf997a8a037fd1a737709b15473fc12d8b73ed",
+  "response_sha256": "8691885812d1d128d98f6151a6df924ead8dc97f1d61011637eda0dcf57ec17f",
+  "expression_units": "log2(TPM+1)",
+  "response_units": "Chronos gene effect",
+  "expression_row_id": "ModelID",
+  "response_row_id": "ScreenID",
+  "source_url": "https://depmap.org/portal/data_page/?releasename=NextGen+Model+Manuscript+2026&tab=allData",
+  "terms_url": "https://depmap.org/portal/terms/",
+  "terms_status": "reviewed-for-local-research",
+  "notes": "Exact publisher downloads via Chrome after explicit user approval to accept terms. Headers inspected without response values. No release substitution or scale conversion. Terms revised April 2, 2026; internal research use permitted. No redistribution permission inferred.",
+  "downloaded_at": "2026-10-21T19:15:14.882208+00:00",
+  "attribution": "Neiswender, Maffa, Brenan et al. A dependency map enhanced with next-generation 3D cancer models. Nature (2026). https://doi.org/10.1038/s41586-026-10843-7",
+  "readme_sha256": "fbd3be4443a5bdc52c6e4b5eff69fa4a561df324a633b34f9258e1810db50444",
+  "file_bytes": {
+    "next_gen_expression.csv": 92238316,
+    "screen_gene_effect.csv": 557107782,
+    "README.txt": 26165
+  },
+  "publisher_checksum": "No publisher checksum exposed in inspected download UI; SHA-256 calculated locally, not represented as publisher-verified",
+  "measurement_evidence": {
+    "expression": "Publisher README next_gen_expression.csv: 309 models x 19215 genes, log2(TPM+1), unstranded RNA-seq; header uses SYMBOL (Entrez ID).",
+    "response": "Publisher README screen_gene_effect.csv: 1534 screens x 18435 genes; Chronos gene effects with library/copy-number/scale/screen-quality processing; header uses SYMBOL (Entrez ID).",
+    "identity": "Upstream manuscript analysis code and README distinguish expression models from response screens; exact selected identity coverage checked by the frozen pipeline."
+  }
+}

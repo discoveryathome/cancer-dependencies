@@ -1,0 +1,28 @@
+{
+  "protocol_recorded_at": "2026-10-21T20:54:24.111258+00:00",
+  "model_execution_started_at": "2026-10-21T20:59:05.015612+00:00",
+  "completed_at": "2026-10-21T21:09:58.995204+00:00",
+  "protocol_to_completion_minutes_including_interleaved_preparation": 15.5813991,
+  "execution_to_completion_minutes_including_review_and_packaging": 10.899659866666667,
+  "timing_interpretation": "These are wall intervals, not human-effort or CPU times; program preparation and candidate implementation were interleaved. No independent newcomer-time claim.",
+  "phase_wall_seconds": {
+    "train": 274.752200750052,
+    "predict": 2.71925108297728,
+    "score": 10.796396584017202,
+    "verify_fit": 308.954,
+    "verify_predictions_results": 14.138
+  },
+  "candidate_methods": 1,
+  "matched_reference_methods": 1,
+  "targets": 12,
+  "development_identities": 773,
+  "external_identities": 77,
+  "feature_universe": 18953,
+  "tests_passed": 50,
+  "full_refit": "passed at1e-10 numeric tolerance and exact structural/identity equality",
+  "separate_arithmetic_audit": "96 rho/MSE pairs and complete identity coverage passed",
+  "actor": "primary agent, author-checked with prior context",
+  "scientific_review": "pending",
+  "Sanger_outcomes_opened": false,
+  "published_or_pushed": false
+}

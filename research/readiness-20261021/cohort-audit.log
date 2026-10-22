@@ -1,0 +1,28 @@
+{
+  "candidate_identities": 135,
+  "excluded": {
+    "cohort annotation exclusion": 2,
+    "identity connected to any 24Q2 metadata model": 1964,
+    "same new identity component": 4
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "value": 1
+  },
+  "limitations": [
+    "Not yet an eligible confirmation cohort: feature/target availability and rule-branch support remain unknown.",
+    "Same-program release transfer is not independent-laboratory validation.",
+    "All known identifiers from the entire old release are excluded, including historical final and external cases. Unknown identity relationships can remain.",
+    "Independent curator approval, algorithm freeze and source-processing compatibility review required before loading outcomes."
+  ],
+  "new_release_metadata_models": 2105,
+  "old_metadata_models": 1959,
+  "passing_any_2ds": 17,
+  "passing_any_with_expression_profile": 13,
+  "passing_avana": 12,
+  "passing_avana_with_expression_profile": 9,
+  "source": "10.25452/figshare.plus.27993248.v1",
+  "status": "Metadata-only proposed reserve; no outcome or molecular-feature matrices downloaded or evaluated."
+}
+

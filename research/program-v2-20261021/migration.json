@@ -1,0 +1,35 @@
+{
+  "base_commit": "0feee1180839e3a4c1292ac7cea55531ab0949c0",
+  "recorded_at": "2026-10-21T20:54:24.103899+00:00",
+  "reason": "Broaden current project mission and catalogue while retaining byte-identical historical entry documents. Original numerical protocols/code/results/manifests unchanged. Historical hash checker resolves only these explicitly archived entry files.",
+  "archived_entries": {
+    "README.md": {
+      "snapshot": "research/program-v2-20261021/historical-entry/README.md",
+      "sha256": "d5017b66237e1ae0a3c6c944266b4505023894e051ae40848e9c80e19af50523"
+    },
+    "DISCOVERY.md": {
+      "snapshot": "research/program-v2-20261021/historical-entry/DISCOVERY.md",
+      "sha256": "71cc6b99e769efb85133b4b07ca50fb48e231bdeab6cd160bc7565ea05975146"
+    },
+    "QUICKSTART.md": {
+      "snapshot": "research/program-v2-20261021/historical-entry/QUICKSTART.md",
+      "sha256": "de8427e29a4a2f826d9538312f5d50dc92115eab5bccbaae4ad73fc470191c01"
+    },
+    "AGENTS.md": {
+      "snapshot": "research/program-v2-20261021/historical-entry/AGENTS.md",
+      "sha256": "9d59bf9400daf2f42e1436b640de2d7fee6220a6a6165688862ddd96f4652689"
+    },
+    "discover.json": {
+      "snapshot": "research/program-v2-20261021/historical-entry/discover.json",
+      "sha256": "b4b361d344431100ab3ddbf611f6b0adcf11153f68d5cebc7c2089e94d329b88"
+    },
+    "discover/catalog.json": {
+      "snapshot": "research/program-v2-20261021/historical-entry/discover/catalog.json",
+      "sha256": "d0d7a939cd957afec18355196309bcb066f6f6189cacec9adf147d59d3e0c77c"
+    },
+    "discover/priority-log.md": {
+      "snapshot": "research/program-v2-20261021/historical-entry/discover/priority-log.md",
+      "sha256": "d4d8fde446e71e13910a0eb7f274b1c14c0e136faaca914ca5be4de0287774d5"
+    }
+  }
+}

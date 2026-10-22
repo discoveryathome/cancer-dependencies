@@ -1,0 +1,22 @@
+{
+  "Avana": {
+    "eligible_screens": 1026,
+    "independent_groups": 967,
+    "models_before_identity_dedup": 989
+  },
+  "KY": {
+    "eligible_screens": 315,
+    "independent_groups": 248,
+    "models_before_identity_dedup": 249
+  },
+  "distinct_sanger_groups": 49,
+  "overlapping_sanger_groups": 199,
+  "split_counts": {
+    "development": 773,
+    "final": 194
+  },
+  "feature_count": 107,
+  "caveat": "Upstream Chronos screen preprocessing is not refit within model folds; this is prediction from released processed assays."
+}
+Open: novelty review, normal-cell selectivity, upstream preprocessing, assay-specific artifacts.
+

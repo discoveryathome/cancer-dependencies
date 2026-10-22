@@ -1,0 +1,17 @@
+{
+  "schema": "discover-research-update/v0",
+  "status": "completed local exploratory robustness attempt; author-checked",
+  "report": "research/robustness-20261021/README.md",
+  "matched_development_models": 770,
+  "expression_oof_error_reduction": 0.47508338800524763,
+  "primary_spearman_change": 0,
+  "adequate_rules_before": 3,
+  "adequate_rules_after": 3,
+  "scientific_acceptance": "pending",
+  "donor_intake": "closed",
+  "outside_help": [
+    "RNA-profile/sample mapping and assay comparability review",
+    "scientific owner"
+  ],
+  "Sanger": "reserved"
+}

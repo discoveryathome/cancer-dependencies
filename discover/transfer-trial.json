@@ -1,0 +1,16 @@
+{
+  "version": "exploratory-expression-transfer-v1",
+  "status": "frozen-scaffold-awaiting-verified-inputs",
+  "public_intake": false,
+  "scientific_acceptance": "pending",
+  "new_response_matrix_loaded": false,
+  "external_result_available": false,
+  "external_pool": "77 provisional Broad 3DO metadata models; completeness unverified",
+  "candidate_scope": "Original 12 targets and 30 expression genes; development-only fitted models",
+  "readme": "research/transfer-trial-20261021/README.md",
+  "handoff": "research/transfer-trial-20261021/HANDOFF.md",
+  "protocol": "research/transfer-trial-20261021/protocol.json",
+  "frozen_models": "research/transfer-trial-20261021/run/frozen.json",
+  "blocker": "Publisher human verification, exact input acquisition and source-term verification",
+  "sanger_policy": "Outcomes reserved and unopened by this pipeline"
+}

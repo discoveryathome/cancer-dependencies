@@ -1,0 +1,19 @@
+{
+  "schema": "transfer-scaffold-integrity/v1",
+  "status": "Prepared scaffold; new input matrices unavailable; no external result",
+  "files": {
+    "discover/transfer-trial.json": "1e0437847a24975b7555f1a78da7ae0a4155f34c54b3af42d5dc0147dae1ebee",
+    "requirements.lock": "2a8c976d4228733779011fe2212ce30171d4c539c9f6fc9d39477d1a7f2ab79c",
+    "research/transfer-trial-20261021/HANDOFF.md": "d55253ff0a426abf826bc291059b7f47d70cebd8e6ff968b2f86fa3fc24e5dd7",
+    "research/transfer-trial-20261021/README.md": "1381a14d9afbf392b88f1f6e53db0efece13f8d25b0c4e4864fa4d4aec462e05",
+    "research/transfer-trial-20261021/check_manifest.py": "ec3be52576b27f50d74db950c87b9e2a988861f6ef877dd6f98cd6bad40b7599",
+    "research/transfer-trial-20261021/protocol.json": "83af55fec65515f565674eeaea97b9ff7976b299dfa6c2c2cec7056243c71078",
+    "research/transfer-trial-20261021/run/frozen.json": "c9330b7bcd19a2fc53fa6acc49784a91a80eca7b9326399037dc37ff17243ad7",
+    "research/transfer-trial-20261021/source-manifest.template.json": "8de67907d5b23bfe8e161cf3296f3ee73ae45b26802fb3f077ed5b09efc1a72d",
+    "research/transfer-trial-20261021/superseded/frozen-initial.json": "437a3c04272fe35f07a31005d71cf8a6f1219800efe638ccda749dc1158895ca",
+    "research/transfer-trial-20261021/superseded/transfer_trial.py.txt": "ac2c05c09fd85d9aff1bc704a299b9c6e5d2a7c813a4462e5ecd4e0dac97f3a1",
+    "research/transfer-trial-20261021/validation.json": "351848d430c5e4b670841c8ff0040343154fccbd74a9c176063da59be358d6e6",
+    "src/transfer_trial.py": "574a3c9eeffd1b640e7af47a8718c4692f3fff7630267cfafcadb92085ce43a0",
+    "tests/test_transfer_trial.py": "2f0a1ddc54b8a8623e5a0b2a55ba0c2b3928d807e05f93a8c49ecd256b225487"
+  }
+}

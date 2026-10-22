@@ -1,0 +1,33 @@
+{
+  "schema": "program-preparation-evidence/v1",
+  "files": {
+    "AGENTS.md": "71da09d3747389dc9ceaffc659ceccc6fd0cb08cc07b0c98e4c1fd52c2f92c41",
+    "DISCOVERY.md": "210df5fd3cf09b8067abc67ff9d6a551d18c4797f81c0c110644052bf5234e5a",
+    "QUICKSTART.md": "05252fcd2b47088a267f474393a24adb4e0f5e911379946da8402cee967913f8",
+    "README.md": "4feb06fe6d1f76387862e27daee2d1dda8640bbc12ba1242e4ce37b270d1b058",
+    "discover.json": "744fc223ee00ee494588c2e7d5ebf0320d0ed0c400c5286534ac2b53dbf795ad",
+    "discover/catalog.json": "398cf71971019964135fd89907ca607b97cdb79c67dd1d6d3dcff49e2128412d",
+    "discover/priority-log.md": "1f3ca9eadd39d26e529117c5bd4af1d058fa2c9f2e0512fb717748c6d652467f",
+    "discover/program.json": "63d23c598954c510cef0ba3e781b0f65174e768a52d421ac6cf103e551ed3031",
+    "research/program-v2-20261021/CONTEXT.md": "7b55096967401e7170f3a42e8389aaa6ba03dc59af7922617348362da5a86779",
+    "research/program-v2-20261021/README.md": "179a16979d88255e9f671ebcbdafe7b8e4b3ccff736fb196809bc9763853f871",
+    "research/program-v2-20261021/check_manifest.py": "b071bb54a19bdd715c4dfcb06af0fe56ce44fc1ec12237967d4f63f73d3b8854",
+    "research/program-v2-20261021/checks.json": "3ad7bc8a550ecdc88969e7ca1320e25c54de63f3fadd213170e03b2a52b976ba",
+    "research/program-v2-20261021/first-step-checks.json": "cfbd4d20394f49674fd07d1eefa6ce29fee51e8dcfa7107988d1876a8891c6bc",
+    "research/program-v2-20261021/historical-entry/AGENTS.md": "9d59bf9400daf2f42e1436b640de2d7fee6220a6a6165688862ddd96f4652689",
+    "research/program-v2-20261021/historical-entry/DISCOVERY.md": "71cc6b99e769efb85133b4b07ca50fb48e231bdeab6cd160bc7565ea05975146",
+    "research/program-v2-20261021/historical-entry/QUICKSTART.md": "de8427e29a4a2f826d9538312f5d50dc92115eab5bccbaae4ad73fc470191c01",
+    "research/program-v2-20261021/historical-entry/README.md": "d5017b66237e1ae0a3c6c944266b4505023894e051ae40848e9c80e19af50523",
+    "research/program-v2-20261021/historical-entry/discover.json": "b4b361d344431100ab3ddbf611f6b0adcf11153f68d5cebc7c2089e94d329b88",
+    "research/program-v2-20261021/historical-entry/discover/catalog.json": "d0d7a939cd957afec18355196309bcb066f6f6189cacec9adf147d59d3e0c77c",
+    "research/program-v2-20261021/historical-entry/discover/priority-log.md": "d4d8fde446e71e13910a0eb7f274b1c14c0e136faaca914ca5be4de0287774d5",
+    "research/program-v2-20261021/migration.json": "bb552739affafd82aa19876aad885f3545baa51ebf2a251f2813962f28bf15e9",
+    "research/program-v2-20261021/proposal-example.json": "2dc93064074b6ee680606a2b57b0c53c817737c588546ab92b1ebed2f2f98ec6",
+    "research/program-v2-20261021/tests.log": "90e8688f4034cacee0b266dac84cacb3d043703c21d7d59f8c790ddb5cc9c2d3",
+    "src/check_history.py": "ba39c4a32a03d7454148ad77ebb32d73609831f6d549703f57f3e985c24e46c9",
+    "src/research_program.py": "b273e2809df62b2ceff34a23532795d628aa4953a93c638cbb09829f473c67df",
+    "tests/test_history_migration.py": "e62a3d9be3ce4b943dced1aeb6c7a7f069bb243faf02959f84075d2449e7afc1"
+  },
+  "raw_files": {},
+  "note": "CURRENT.md is an unbound mutable pointer; historical manifests remain unchanged."
+}

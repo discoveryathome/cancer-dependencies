@@ -1,0 +1,10 @@
+{
+  "version": "expression-bridge-followup-v1",
+  "recorded_at": "2026-10-21T19:36:31.505284+00:00",
+  "status": "Exploratory extension after inspecting support diagnostic; not preregistered confirmation",
+  "reason": "Units and extraction match, but within-lineage expression support shifts remain; use existing raw expression file to distinguish cohort composition from cross-release same-model differences",
+  "scope": "Intersect the 773 historical development ModelIDs with all 309 rows already in downloaded next_gen_expression.csv; compare all 30 expression genes and fixed 12 rules only",
+  "exclusions": "No historical final identity outcomes, Sanger data, or response matrices; no new model selection or calibration",
+  "interpretation": "Same ModelID across releases is a technical bridge, not independent validation. Distinct samples/culture/time/processing may differ, so this cannot by itself identify the causal source of shifts.",
+  "minimum_support_for_claim": "Report whatever count is available; descriptive only, no significance claims"
+}

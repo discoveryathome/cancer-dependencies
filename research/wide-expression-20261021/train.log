@@ -1,0 +1,14 @@
+FIT BRAF {'wide300': 0.2743, 'panel30': 0.1711, 'lineage': 0.2466}
+FIT KRAS {'wide300': 0.3707, 'panel30': 0.3536, 'lineage': 0.3063}
+FIT NRAS {'wide300': 0.1514, 'panel30': 0.0603, 'lineage': 0.1006}
+FIT EGFR {'wide300': 0.5496, 'panel30': 0.477, 'lineage': 0.437}
+FIT ERBB2 {'wide300': 0.39, 'panel30': 0.3892, 'lineage': 0.3434}
+FIT PIK3CA {'wide300': 0.4751, 'panel30': 0.3385, 'lineage': 0.3411}
+FIT SMARCA2 {'wide300': 0.1994, 'panel30': 0.1497, 'lineage': 0.002}
+FIT SMARCA4 {'wide300': 0.4278, 'panel30': 0.4223, 'lineage': 0.138}
+FIT ARID1B {'wide300': 0.1762, 'panel30': 0.1723, 'lineage': 0.1019}
+FIT STAG1 {'wide300': 0.1927, 'panel30': 0.1935, 'lineage': 0.1304}
+FIT MDM2 {'wide300': 0.6389, 'panel30': 0.5282, 'lineage': 0.2993}
+FIT PRMT5 {'wide300': 0.3187, 'panel30': 0.2818, 'lineage': 0.1081}
+PRIMARY 0.05227634014277671 {'wide300': 0.34706754657996464, 'panel30': 0.2947912064371879, 'lineage': 0.21288649451663308}
+PASS train seconds 274.752

@@ -1,0 +1,2 @@
+PASS: cohort completeness, outer metrics/rule predictions, paired CIs, selection-null p-values, BH correction and all decision gates recomputed.
+Null selections rerun: False ; full lineage fitting replay remains in the full benchmark command.

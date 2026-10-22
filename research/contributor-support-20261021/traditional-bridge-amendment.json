@@ -1,0 +1,16 @@
+{
+  "version": "traditional-expression-bridge-v1",
+  "recorded_at": "2026-10-21T19:37:35.840764+00:00",
+  "status": "Exploratory after diagnostic, not confirmation",
+  "prior_attempt": "No same ModelID among 773 historical development identities and 309 downloaded NextGen expression rows",
+  "reason": "A companion traditional-cell-line expression matrix in the same manuscript release can provide matched old-development ModelIDs across releases",
+  "additional_input": "traditional_expression.csv from NextGen Model Manuscript 2026, documented log2(TPM+1), 1616 models and 19215 genes",
+  "analyses": [
+    "Report exact-ID overlap and compare all 30 genes on matched development models",
+    "Report all 12 frozen rule branch changes on matched models across releases",
+    "Descriptive median paired shifts and paired Spearman; separate correlations from absolute calibration",
+    "Do not recalibrate candidates or score outcomes using inferred offsets in this session"
+  ],
+  "bounds": "One additional published expression matrix; no other new files, responses or Sanger data",
+  "interpretation": "Same ModelID may represent different molecular samples; release shifts cannot be labeled a processing bug or causal assay effect without sample-level verification"
+}

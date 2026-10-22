@@ -1,0 +1,4592 @@
+{
+  "bindings": {
+    "research/contributor-support-20261021/protocol.json": "f03e69b021b23384957b001b3bd5f0d549bd5466e5213bdf04f392544b9ee69d",
+    "research/readiness-20261021/development.csv": "6b627b6ac22637e3828382f57d4f31fa429bb82b4215d23042a7548fdd84e499",
+    "research/transfer-results-20261021/source-manifest.json": "9598a6d17b6689e7cd53e559e1d88c116411c86dfd59ced375989d9ad9cd0e1b",
+    "research/transfer-trial-20261021/run/frozen.json": "c9330b7bcd19a2fc53fa6acc49784a91a80eca7b9326399037dc37ff17243ad7",
+    "research/transfer-trial-20261021/run/predictions.json": "09e22b528b1b1aa6b8e7bbfb7513bb1832e7dd8441a8ead3bb5d17b47390952f",
+    "src/core.py": "b757116542c02200c8cd7b43ba18813a1037205d607acc76160d1804bd67bed8",
+    "src/support_diagnostic.py": "ca870ab8be38be61655109d2a4d7580e0a7a26f971b603b9c4ff05948a35356d",
+    "src/transfer_trial.py": "574a3c9eeffd1b640e7af47a8718c4692f3fff7630267cfafcadb92085ce43a0"
+  },
+  "expression_sha256": "b1405342268b1fe24b389268fadf997a8a037fd1a737709b15473fc12d8b73ed",
+  "external_n": 77,
+  "features": {
+    "ARID1A": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 4.7985430835424925,
+          "median": 3.3116731249106817,
+          "min": 1.4793754443943354,
+          "q05": 2.2471704327522493,
+          "q25": 2.8385746611048726,
+          "q75": 3.910655920763987,
+          "q95": 4.434066980525075
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -1.2634151586508144,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 6.96797551621,
+          "median": 4.74092756032,
+          "min": 0.333423733725,
+          "q05": 3.054153620784,
+          "q25": 4.11019617775,
+          "q75": 5.24145887127,
+          "q95": 6.038440089081999
+        }
+      }
+    },
+    "ARID1B": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 4.945364237214279,
+          "median": 3.356595990437182,
+          "min": 1.5975168723437474,
+          "q05": 2.2373770754600186,
+          "q25": 2.928864876542943,
+          "q75": 3.869239718776284,
+          "q95": 4.496561064229237
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -1.0190856719962986,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 6.52559910792,
+          "median": 4.28835856219,
+          "min": 0.111031312389,
+          "q05": 3.003960889696,
+          "q25": 3.80322703643,
+          "q75": 4.71753934339,
+          "q95": 5.423435812241999
+        }
+      }
+    },
+    "BRAF": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 3.872424945369336,
+          "median": 2.703395323143226,
+          "min": 1.591286858578154,
+          "q05": 1.8313740185297416,
+          "q25": 2.259769622641594,
+          "q75": 2.9464464097315464,
+          "q95": 3.5060595842623616
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.431345148657104,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 5.69738463076,
+          "median": 3.01970191444,
+          "min": 0.97085365434,
+          "q05": 1.99131666141,
+          "q25": 2.65764000521,
+          "q75": 3.3909427728,
+          "q95": 4.07758476857
+        }
+      }
+    },
+    "CCND1": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 7.654793535021067,
+          "median": 5.458427940766771,
+          "min": 1.0228507021138327,
+          "q05": 3.047688515382892,
+          "q25": 4.9575292714766706,
+          "q75": 6.165725059647559,
+          "q95": 7.221643212302474
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.4721886953120218,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 10.9671541943,
+          "median": 6.61117238004,
+          "min": 0.0285691521968,
+          "q05": 0.5868540620048001,
+          "q25": 5.16952419715,
+          "q75": 7.61080339489,
+          "q95": 9.036191187775998
+        }
+      }
+    },
+    "CDK4": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 8.336591356098639,
+          "median": 7.203719947644115,
+          "min": 5.416285791974843,
+          "q05": 5.842135610877711,
+          "q25": 6.771251751878142,
+          "q75": 7.569870794514609,
+          "q95": 8.143839070034245
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.5125612962327474,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 14.0606115018,
+          "median": 7.63350386641,
+          "min": 3.69041709553,
+          "q05": 6.208328765522,
+          "q25": 7.20496233054,
+          "q75": 8.04346481195,
+          "q95": 8.68977932997
+        }
+      }
+    },
+    "CDK6": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 6.176901171008409,
+          "median": 3.652314393793732,
+          "min": 1.531104436473302,
+          "q05": 2.027115157875882,
+          "q25": 2.8341934190393503,
+          "q75": 4.319791324626533,
+          "q95": 5.750671217153187
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.05912927060195862,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 9.2807939644,
+          "median": 3.75167794569,
+          "min": 0.0,
+          "q05": 0.5320592648112,
+          "q25": 2.84999925947,
+          "q75": 4.53044535469,
+          "q95": 5.9005639298779995
+        }
+      }
+    },
+    "CDKN2A": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 7.58978595402932,
+          "median": 3.5990916109047477,
+          "min": 0.0,
+          "q05": 0.0,
+          "q25": 1.5274507323504918,
+          "q75": 5.6271048423343935,
+          "q95": 6.868836776838748
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.08271521360805882,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 9.41358562063,
+          "median": 4.1093605594,
+          "min": 0.0,
+          "q05": 0.0,
+          "q25": 0.356143810225,
+          "q75": 6.5251292512,
+          "q95": 8.063434014108
+        }
+      }
+    },
+    "EGFR": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 5.64142753364308,
+          "median": 3.029399877034536,
+          "min": 0.002598837010550727,
+          "q05": 0.38100158097832226,
+          "q25": 2.2992124151654654,
+          "q75": 4.079045241566446,
+          "q95": 5.464377324025293
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.3030287554231828,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 10.5318687752,
+          "median": 4.31614574229,
+          "min": 0.0,
+          "q05": 0.051007851983240024,
+          "q25": 1.20789285164,
+          "q75": 5.45417589319,
+          "q95": 6.771964764076
+        }
+      }
+    },
+    "EPCAM": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 11.060128468117952,
+          "median": 9.2760057270913,
+          "min": 7.373430711968839,
+          "q05": 7.8855456050240305,
+          "q25": 8.677895784128363,
+          "q75": 9.87098112422465,
+          "q95": 10.476994111732283
+        }
+      },
+      "external_outside_training_range": 1,
+      "median_shift_in_training_iqr": 0.8480877757763691,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 10.9586252108,
+          "median": 3.41006969176,
+          "min": 0.0,
+          "q05": 0.0976107966264,
+          "q25": 0.748461233004,
+          "q75": 7.66512269527,
+          "q95": 9.315441230526
+        }
+      }
+    },
+    "ERBB2": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 10.66368262245992,
+          "median": 5.521726056680097,
+          "min": 2.531491257128298,
+          "q05": 3.891898141714858,
+          "q25": 4.973638825129901,
+          "q75": 6.098385868435131,
+          "q95": 6.606922555025463
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": 0.5119062828487276,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 11.8987525262,
+          "median": 4.59454854955,
+          "min": 0.0143552929771,
+          "q05": 1.633191483468,
+          "q25": 3.5484366247,
+          "q75": 5.35966172233,
+          "q95": 6.499425854632
+        }
+      }
+    },
+    "ESR1": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 4.050936965225225,
+          "median": 0.0052275008142425245,
+          "min": 0.0,
+          "q05": 0.0,
+          "q25": 0.0,
+          "q75": 0.04927388307379239,
+          "q95": 1.358609925771271
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.3667718848802271,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 6.1856683593,
+          "median": 0.124328135002,
+          "min": 0.0,
+          "q05": 0.0,
+          "q25": 0.0426443374085,
+          "q75": 0.367371065649,
+          "q95": 1.7162030719639991
+        }
+      }
+    },
+    "GATA3": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 7.49659816309734,
+          "median": 1.023901137627145,
+          "min": 0.0,
+          "q05": 0.03170007708174418,
+          "q25": 0.2672517254719346,
+          "q75": 2.627858937565642,
+          "q95": 4.4339260452257365
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.07157450306396625,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 9.02574863313,
+          "median": 1.20163386117,
+          "min": 0.0,
+          "q05": 0.0285691521968,
+          "q25": 0.20163386117,
+          "q75": 2.68481873755,
+          "q95": 6.287920018702
+        }
+      }
+    },
+    "KRAS": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 7.2463130699551535,
+          "median": 4.123525495377216,
+          "min": 1.780045475685394,
+          "q05": 2.986756902643108,
+          "q25": 3.7453986983891747,
+          "q75": 4.6338729026991246,
+          "q95": 6.15718438656863
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": 0.16130479590043953,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 10.56414949,
+          "median": 3.9772799235,
+          "min": 1.15055967658,
+          "q05": 2.808150448452,
+          "q25": 3.53231695933,
+          "q75": 4.4389581479,
+          "q95": 5.3112050371379995
+        }
+      }
+    },
+    "MDM2": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 8.356218655133475,
+          "median": 4.56031754729658,
+          "min": 1.900111338232513,
+          "q05": 3.3489588305522027,
+          "q25": 4.079898599279314,
+          "q75": 5.37608196665007,
+          "q95": 6.682920860496432
+        }
+      },
+      "external_outside_training_range": 1,
+      "median_shift_in_training_iqr": -0.02633636380939152,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 11.3484515374,
+          "median": 4.60110220338,
+          "min": 2.58255600301,
+          "q05": 3.33771109213,
+          "q25": 3.93262815702,
+          "q75": 5.48123434953,
+          "q95": 7.141962080396
+        }
+      }
+    },
+    "MITF": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 4.2848028210386335,
+          "median": 1.327859787542293,
+          "min": 0.0,
+          "q05": 0.08357419017633905,
+          "q25": 0.5469008787090474,
+          "q75": 2.1664133791948625,
+          "q95": 3.145948020336096
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.21867411198793113,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 8.32597997939,
+          "median": 1.77399632511,
+          "min": 0.0,
+          "q05": 0.0976107966264,
+          "q25": 0.823749360308,
+          "q75": 2.86393845042,
+          "q95": 5.648632056001996
+        }
+      }
+    },
+    "MTAP": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 6.73725410432433,
+          "median": 4.269885940180382,
+          "min": 0.0,
+          "q05": 0.0,
+          "q25": 3.559100188882891,
+          "q75": 4.9778706205250485,
+          "q95": 5.743128577583832
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": 0.022132177958436604,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 8.44638030956,
+          "median": 4.23496109484,
+          "min": 0.0,
+          "q05": 0.0285691521968,
+          "q25": 3.27947129564,
+          "q75": 4.85748342829,
+          "q95": 5.735612386483999
+        }
+      }
+    },
+    "MYC": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 8.603822894160311,
+          "median": 6.585000070415326,
+          "min": 1.47116664588097,
+          "q05": 4.427724885885652,
+          "q25": 5.987541437684469,
+          "q75": 7.283384735042355,
+          "q95": 7.924378687965893
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": 0.18720477167923363,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 10.7364864948,
+          "median": 6.26903314646,
+          "min": 0.0143552929771,
+          "q05": 2.933192247774,
+          "q25": 5.43496176019,
+          "q75": 7.122776238,
+          "q95": 8.593756450219999
+        }
+      }
+    },
+    "NKX2-1": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 2.3129410248594513,
+          "median": 0.0,
+          "min": 0.0,
+          "q05": 0.0,
+          "q25": 0.0,
+          "q75": 0.029491050882747165,
+          "q95": 0.7659382895149766
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.11266321768904715,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 7.39557697655,
+          "median": 0.0426443374085,
+          "min": 0.0,
+          "q05": 0.0,
+          "q25": 0.0,
+          "q75": 0.378511623254,
+          "q95": 3.908913729043998
+        }
+      }
+    },
+    "NRAS": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 9.205949604146276,
+          "median": 4.983431448866732,
+          "min": 0.5812239662023181,
+          "q05": 3.250630335563032,
+          "q25": 4.403635848961286,
+          "q75": 5.478531813000342,
+          "q95": 6.002698165413989
+        }
+      },
+      "external_outside_training_range": 2,
+      "median_shift_in_training_iqr": -0.10489653395809408,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 8.92145418348,
+          "median": 5.08108392869,
+          "min": 0.956056652412,
+          "q05": 3.784669147942,
+          "q25": 4.60821785302,
+          "q75": 5.53915881111,
+          "q95": 6.23322999577
+        }
+      }
+    },
+    "PIK3CA": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 4.059606204426957,
+          "median": 2.8422648478411205,
+          "min": 1.3996031538869675,
+          "q05": 2.0847060213649153,
+          "q25": 2.4262459659931737,
+          "q75": 3.2761095128614675,
+          "q95": 3.84138080486609
+        }
+      },
+      "external_outside_training_range": 1,
+      "median_shift_in_training_iqr": -0.598352470719101,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 5.82119997806,
+          "median": 3.30012372457,
+          "min": 1.55090066465,
+          "q05": 2.33626639401,
+          "q25": 2.92409988564,
+          "q75": 3.68929916054,
+          "q95": 4.28540221886
+        }
+      }
+    },
+    "PRMT5": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 6.99655822604146,
+          "median": 5.794605613759757,
+          "min": 3.117982555772308,
+          "q05": 4.175781918975246,
+          "q25": 5.175257114845255,
+          "q75": 6.301047998225702,
+          "q95": 6.722442559119117
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.7517824726313515,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 8.55719562453,
+          "median": 6.4013915448,
+          "min": 2.99819550315,
+          "q05": 5.2059395147180005,
+          "q25": 6.00112666545,
+          "q75": 6.8082563248,
+          "q95": 7.360627582102
+        }
+      }
+    },
+    "PTEN": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 6.443348057039324,
+          "median": 4.8823642644026615,
+          "min": 0.0,
+          "q05": 0.012442585806071329,
+          "q25": 4.046491060194033,
+          "q75": 5.168898720025469,
+          "q95": 6.002251930443011
+        }
+      },
+      "external_outside_training_range": 5,
+      "median_shift_in_training_iqr": 0.35488608455612963,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 7.45893970693,
+          "median": 4.53044535469,
+          "min": 0.0285691521968,
+          "q05": 2.8945264571019997,
+          "q25": 4.03913839391,
+          "q75": 5.03077747199,
+          "q95": 5.94386617886
+        }
+      }
+    },
+    "RB1": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 6.18048406351654,
+          "median": 4.138265655583984,
+          "min": 0.0,
+          "q05": 0.9670275132546664,
+          "q25": 3.3343179846934436,
+          "q75": 4.818277949242396,
+          "q95": 5.571444346144869
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": 0.046504472185290566,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 6.92647391126,
+          "median": 4.08746284125,
+          "min": 0.0,
+          "q05": 2.1170217655320003,
+          "q25": 3.49313492231,
+          "q75": 4.58556349846,
+          "q95": 5.37434398904
+        }
+      }
+    },
+    "SMARCA2": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 6.448185701812504,
+          "median": 4.551546778388367,
+          "min": 0.03049146432779951,
+          "q05": 2.6935939915810687,
+          "q25": 3.898643707853033,
+          "q75": 5.224653875816903,
+          "q95": 5.894216968330663
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.07048583079916002,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 8.39818788013,
+          "median": 4.65535182861,
+          "min": 0.0,
+          "q05": 1.00281334791,
+          "q25": 3.82374936031,
+          "q75": 5.29645740737,
+          "q95": 6.327950026427999
+        }
+      }
+    },
+    "SMARCA4": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 6.048704828449961,
+          "median": 4.750922662640562,
+          "min": 2.729587573080785,
+          "q05": 3.774465308315894,
+          "q25": 4.282588070259165,
+          "q75": 5.05738095183789,
+          "q95": 5.785435067214847
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -1.338841025899855,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 8.63459326845,
+          "median": 6.1737270989,
+          "min": 0.0,
+          "q05": 4.421576944398,
+          "q25": 5.59335377098,
+          "q75": 6.65606727373,
+          "q95": 7.670059360494
+        }
+      }
+    },
+    "SOX10": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 6.5806068076924165,
+          "median": 0.0,
+          "min": 0.0,
+          "q05": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "q95": 0.6630430294576453
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.4719572528230912,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 8.36828818553,
+          "median": 0.0703893278914,
+          "min": 0.0,
+          "q05": 0.0,
+          "q25": 0.0143552929771,
+          "q75": 0.163498732283,
+          "q95": 6.996271362897997
+        }
+      }
+    },
+    "STAG1": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 4.704744727304554,
+          "median": 2.9965460241758173,
+          "min": 0.7822022112284379,
+          "q05": 1.960917143072585,
+          "q25": 2.5214628766097764,
+          "q75": 3.4313327870453936,
+          "q95": 4.097607917721626
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.6936012221991339,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 5.85249829879,
+          "median": 3.63110428237,
+          "min": 0.0840642647885,
+          "q05": 2.369600231666,
+          "q25": 3.20945336563,
+          "q75": 4.124328135,
+          "q95": 4.719939064028
+        }
+      }
+    },
+    "STAG2": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 6.467507736933979,
+          "median": 5.034378608108462,
+          "min": 2.754667340788934,
+          "q05": 3.695016930407833,
+          "q25": 4.474423063481408,
+          "q75": 5.402285591869996,
+          "q95": 6.121236497914932
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.07764962111561859,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 7.52434581646,
+          "median": 5.10685079645,
+          "min": 0.310340120612,
+          "q05": 3.654601633314,
+          "q25": 4.65133876611,
+          "q75": 5.58466190794,
+          "q95": 6.23888905838
+        }
+      }
+    },
+    "TP53": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 7.0817976410978645,
+          "median": 5.121247540106676,
+          "min": 0.220785601180449,
+          "q05": 1.7298775969554125,
+          "q25": 3.8466337174089715,
+          "q75": 5.719588696515406,
+          "q95": 6.311073674566094
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -0.10992608903674782,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 7.55711902193,
+          "median": 5.30341546269,
+          "min": 0.0,
+          "q05": 2.3735064353640003,
+          "q25": 4.264536431,
+          "q75": 5.92172194701,
+          "q95": 6.720877084376
+        }
+      }
+    },
+    "VIM": {
+      "external": {
+        "finite": 77,
+        "missing": 0,
+        "n": 77,
+        "quantiles": {
+          "max": 9.263182330846844,
+          "median": 1.0600681417226276,
+          "min": 0.0,
+          "q05": 0.01052623020869441,
+          "q25": 0.23824635902257746,
+          "q75": 3.5456348308429293,
+          "q95": 6.806940352883583
+        }
+      },
+      "external_outside_training_range": 0,
+      "median_shift_in_training_iqr": -1.0755711453200052,
+      "training": {
+        "finite": 773,
+        "missing": 0,
+        "n": 773,
+        "quantiles": {
+          "max": 13.1375355434,
+          "median": 8.67743776892,
+          "min": 0.0,
+          "q05": 0.8726697686870001,
+          "q25": 3.56924802987,
+          "q75": 10.6514105259,
+          "q95": 12.081329694039999
+        }
+      }
+    }
+  },
+  "input_validation": "All 77 x 30 raw expression values reproduce the locked extract exactly by stable Entrez ID; no response file read",
+  "limitations": [
+    "Outcome-free support audit; no predictive improvement tested.",
+    "Common-lineage decomposition is descriptive and cannot separate biology from assay processing.",
+    "Broad was already exposed; same author, no independent confirmation.",
+    "Lineage labels are exact metadata strings; unresolved donor relationships remain.",
+    "Reference intervals condition on empirical training distributions; no training-distribution uncertainty or multiplicity adjustment."
+  ],
+  "rules": {
+    "ARID1B": {
+      "adequate_external_branches": false,
+      "constant_external_branch": true,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": 0.12068965517241381,
+        "composition_component": 0.02857497015307242,
+        "composition_reference_count_interval95": [
+          65.0,
+          74.0
+        ],
+        "composition_reference_expected_left_count": 69.90716925351072,
+        "external_common_left_fraction": 1.0,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.9078853149806586,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 2,
+            "training_left_fraction": 1.0,
+            "training_n": 2
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 25,
+            "training_left_fraction": 1.0,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 22,
+            "training_left_fraction": 0.88,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 12,
+            "training_left_fraction": 0.46153846153846156,
+            "training_n": 26
+          },
+          {
+            "external_left": 16,
+            "external_left_fraction": 1.0,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 29,
+            "training_left_fraction": 0.8787878787878788,
+            "training_n": 33
+          },
+          {
+            "external_left": 9,
+            "external_left_fraction": 1.0,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 29,
+            "training_left_fraction": 0.8285714285714286,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 55,
+            "training_left_fraction": 0.8461538461538461,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 14,
+            "training_left_fraction": 1.0,
+            "training_n": 14
+          },
+          {
+            "external_left": 18,
+            "external_left_fraction": 1.0,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 38,
+            "training_left_fraction": 0.926829268292683,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 4,
+            "training_left_fraction": 0.8,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 46,
+            "training_left_fraction": 0.9787234042553191,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 22,
+            "training_left_fraction": 0.88,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 13,
+            "training_left_fraction": 0.7647058823529411,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 70,
+            "training_left_fraction": 0.7608695652173914,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 33,
+            "training_left_fraction": 0.5076923076923077,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 16,
+            "training_left_fraction": 0.5925925925925926,
+            "training_n": 27
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 34,
+            "training_left_fraction": 0.85,
+            "training_n": 40
+          },
+          {
+            "external_left": 19,
+            "external_left_fraction": 1.0,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 26,
+            "training_left_fraction": 0.9285714285714286,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 9,
+            "training_left_fraction": 0.3333333333333333,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 14,
+            "training_left_fraction": 0.9333333333333333,
+            "training_n": 15
+          },
+          {
+            "external_left": 7,
+            "external_left_fraction": 1.0,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 6,
+            "training_left_fraction": 1.0,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 50,
+            "training_left_fraction": 0.9803921568627451,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 22,
+            "training_left_fraction": 0.8148148148148148,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 8,
+            "training_left_fraction": 0.8888888888888888,
+            "training_n": 9
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 15,
+            "training_left_fraction": 0.6818181818181818,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 2,
+            "training_left_fraction": 1.0,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 77,
+        "outside_reference_interval": true,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.8793103448275862,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.7994825355756792,
+        "within_lineage_component": 0.09211468501934139
+      },
+      "external_branch_counts": [
+        77,
+        0
+      ],
+      "feature": "expr:SMARCA4",
+      "kind": "rule",
+      "threshold": 6.805237253692,
+      "training_branch_counts": [
+        618,
+        155
+      ]
+    },
+    "BRAF": {
+      "adequate_external_branches": false,
+      "constant_external_branch": false,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": 0.08150470219435735,
+        "composition_component": -0.02543836529669874,
+        "composition_reference_count_interval95": [
+          55.0,
+          68.0
+        ],
+        "composition_reference_expected_left_count": 61.765383803188676,
+        "external_common_left_fraction": 0.9090909090909091,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.802147841599853,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 1,
+            "training_left_fraction": 0.5,
+            "training_n": 2
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 25,
+            "training_left_fraction": 1.0,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 21,
+            "training_left_fraction": 0.84,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 21,
+            "training_left_fraction": 0.8076923076923077,
+            "training_n": 26
+          },
+          {
+            "external_left": 16,
+            "external_left_fraction": 1.0,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 25,
+            "training_left_fraction": 0.7575757575757576,
+            "training_n": 33
+          },
+          {
+            "external_left": 5,
+            "external_left_fraction": 0.5555555555555556,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 24,
+            "training_left_fraction": 0.6857142857142857,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 56,
+            "training_left_fraction": 0.8615384615384616,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 14,
+            "training_left_fraction": 1.0,
+            "training_n": 14
+          },
+          {
+            "external_left": 16,
+            "external_left_fraction": 0.8888888888888888,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 31,
+            "training_left_fraction": 0.7560975609756098,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 2,
+            "training_left_fraction": 0.4,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 40,
+            "training_left_fraction": 0.851063829787234,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 20,
+            "training_left_fraction": 0.8,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 13,
+            "training_left_fraction": 0.7647058823529411,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 79,
+            "training_left_fraction": 0.8586956521739131,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 60,
+            "training_left_fraction": 0.9230769230769231,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 22,
+            "training_left_fraction": 0.8148148148148148,
+            "training_n": 27
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 37,
+            "training_left_fraction": 0.925,
+            "training_n": 40
+          },
+          {
+            "external_left": 19,
+            "external_left_fraction": 1.0,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 24,
+            "training_left_fraction": 0.8571428571428571,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 20,
+            "training_left_fraction": 0.7407407407407407,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 14,
+            "training_left_fraction": 0.9333333333333333,
+            "training_n": 15
+          },
+          {
+            "external_left": 7,
+            "external_left_fraction": 1.0,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 6,
+            "training_left_fraction": 1.0,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 10,
+            "training_left_fraction": 0.19607843137254902,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 25,
+            "training_left_fraction": 0.9259259259259259,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 8,
+            "training_left_fraction": 0.8888888888888888,
+            "training_n": 9
+          },
+          {
+            "external_left": 1,
+            "external_left_fraction": 0.5,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 19,
+            "training_left_fraction": 0.8636363636363636,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 1,
+            "training_left_fraction": 0.5,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 70,
+        "outside_reference_interval": true,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.8275862068965517,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.8007761966364813,
+        "within_lineage_component": 0.10694306749105609
+      },
+      "external_branch_counts": [
+        70,
+        7
+      ],
+      "feature": "expr:SOX10",
+      "kind": "rule",
+      "threshold": 0.18903382439,
+      "training_branch_counts": [
+        619,
+        154
+      ]
+    },
+    "EGFR": {
+      "adequate_external_branches": false,
+      "constant_external_branch": true,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": -0.25,
+        "composition_component": -0.08028100819041586,
+        "composition_reference_count_interval95": [
+          7.0,
+          19.0
+        ],
+        "composition_reference_expected_left_count": 13.068362369337978,
+        "external_common_left_fraction": 0.0,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.16971899180958414,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 1,
+            "training_left_fraction": 0.5,
+            "training_n": 2
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 7,
+            "training_left_fraction": 0.28,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 9,
+            "training_left_fraction": 0.36,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 26,
+            "training_left_fraction": 1.0,
+            "training_n": 26
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 3,
+            "training_left_fraction": 0.09090909090909091,
+            "training_n": 33
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 10,
+            "training_left_fraction": 0.2857142857142857,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 63,
+            "training_left_fraction": 0.9692307692307692,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 4,
+            "training_left_fraction": 0.2857142857142857,
+            "training_n": 14
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 9,
+            "training_left_fraction": 0.21951219512195122,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 5,
+            "training_left_fraction": 1.0,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 15,
+            "training_left_fraction": 0.3191489361702128,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 21,
+            "training_left_fraction": 0.84,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 14,
+            "training_left_fraction": 0.8235294117647058,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 35,
+            "training_left_fraction": 0.3804347826086957,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 64,
+            "training_left_fraction": 0.9846153846153847,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 24,
+            "training_left_fraction": 0.8888888888888888,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 19,
+            "training_left_fraction": 0.475,
+            "training_n": 40
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 3,
+            "training_left_fraction": 0.10714285714285714,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 26,
+            "training_left_fraction": 0.9629629629629629,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 15,
+            "training_left_fraction": 1.0,
+            "training_n": 15
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 47,
+            "training_left_fraction": 0.9215686274509803,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 27,
+            "training_left_fraction": 1.0,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 8,
+            "training_left_fraction": 0.8888888888888888,
+            "training_n": 9
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 6,
+            "training_left_fraction": 0.2727272727272727,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 2,
+            "training_left_fraction": 1.0,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 0,
+        "outside_reference_interval": true,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.25,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.6002587322121604,
+        "within_lineage_component": -0.16971899180958414
+      },
+      "external_branch_counts": [
+        0,
+        77
+      ],
+      "feature": "expr:EPCAM",
+      "kind": "rule",
+      "threshold": 5.953881613868,
+      "training_branch_counts": [
+        464,
+        309
+      ]
+    },
+    "ERBB2": {
+      "adequate_external_branches": true,
+      "constant_external_branch": false,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": -0.10568741603224358,
+        "composition_component": -0.027858513860611,
+        "composition_reference_count_interval95": [
+          34.0,
+          51.0
+        ],
+        "composition_reference_expected_left_count": 42.99282546721571,
+        "external_common_left_fraction": 0.4805194805194805,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.5583483826911131,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 1,
+            "training_left_fraction": 0.5,
+            "training_n": 2
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 15,
+            "training_left_fraction": 0.6,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 16,
+            "training_left_fraction": 0.64,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 26,
+            "training_left_fraction": 1.0,
+            "training_n": 26
+          },
+          {
+            "external_left": 8,
+            "external_left_fraction": 0.5,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 17,
+            "training_left_fraction": 0.5151515151515151,
+            "training_n": 33
+          },
+          {
+            "external_left": 4,
+            "external_left_fraction": 0.4444444444444444,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 19,
+            "training_left_fraction": 0.5428571428571428,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 59,
+            "training_left_fraction": 0.9076923076923077,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 12,
+            "training_left_fraction": 0.8571428571428571,
+            "training_n": 14
+          },
+          {
+            "external_left": 9,
+            "external_left_fraction": 0.5,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 20,
+            "training_left_fraction": 0.4878048780487805,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 5,
+            "training_left_fraction": 1.0,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 35,
+            "training_left_fraction": 0.7446808510638298,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 23,
+            "training_left_fraction": 0.92,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 12,
+            "training_left_fraction": 0.7058823529411765,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 73,
+            "training_left_fraction": 0.7934782608695652,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 65,
+            "training_left_fraction": 1.0,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 27,
+            "training_left_fraction": 1.0,
+            "training_n": 27
+          },
+          {
+            "external_left": 1,
+            "external_left_fraction": 0.5,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 30,
+            "training_left_fraction": 0.75,
+            "training_n": 40
+          },
+          {
+            "external_left": 8,
+            "external_left_fraction": 0.42105263157894735,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 17,
+            "training_left_fraction": 0.6071428571428571,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 26,
+            "training_left_fraction": 0.9629629629629629,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 15,
+            "training_left_fraction": 1.0,
+            "training_n": 15
+          },
+          {
+            "external_left": 7,
+            "external_left_fraction": 1.0,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 4,
+            "training_left_fraction": 0.6666666666666666,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 50,
+            "training_left_fraction": 0.9803921568627451,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 26,
+            "training_left_fraction": 0.9629629629629629,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 9,
+            "training_left_fraction": 1.0,
+            "training_n": 9
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 13,
+            "training_left_fraction": 0.5909090909090909,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 2,
+            "training_left_fraction": 1.0,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 37,
+        "outside_reference_interval": false,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.5862068965517241,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.7994825355756792,
+        "within_lineage_component": -0.07782890217163257
+      },
+      "external_branch_counts": [
+        37,
+        40
+      ],
+      "feature": "expr:ERBB2",
+      "kind": "rule",
+      "threshold": 5.508744718858,
+      "training_branch_counts": [
+        618,
+        155
+      ]
+    },
+    "KRAS": {
+      "adequate_external_branches": false,
+      "constant_external_branch": false,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": -0.4219659650694133,
+        "composition_component": -0.06647524630660084,
+        "composition_reference_count_interval95": [
+          28.0,
+          43.0
+        ],
+        "composition_reference_expected_left_count": 35.37278534473656,
+        "external_common_left_fraction": 0.1038961038961039,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.4593868226589164,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 1,
+            "training_left_fraction": 0.5,
+            "training_n": 2
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 15,
+            "training_left_fraction": 0.6,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 20,
+            "training_left_fraction": 0.8,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 26,
+            "training_left_fraction": 1.0,
+            "training_n": 26
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 5,
+            "training_left_fraction": 0.15151515151515152,
+            "training_n": 33
+          },
+          {
+            "external_left": 1,
+            "external_left_fraction": 0.1111111111111111,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 25,
+            "training_left_fraction": 0.7142857142857143,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 63,
+            "training_left_fraction": 0.9692307692307692,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 13,
+            "training_left_fraction": 0.9285714285714286,
+            "training_n": 14
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 0.1111111111111111,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 18,
+            "training_left_fraction": 0.43902439024390244,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 5,
+            "training_left_fraction": 1.0,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 44,
+            "training_left_fraction": 0.9361702127659575,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 25,
+            "training_left_fraction": 1.0,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 16,
+            "training_left_fraction": 0.9411764705882353,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 60,
+            "training_left_fraction": 0.6521739130434783,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 65,
+            "training_left_fraction": 1.0,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 26,
+            "training_left_fraction": 0.9629629629629629,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 29,
+            "training_left_fraction": 0.725,
+            "training_n": 40
+          },
+          {
+            "external_left": 3,
+            "external_left_fraction": 0.15789473684210525,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 10,
+            "training_left_fraction": 0.35714285714285715,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 27,
+            "training_left_fraction": 1.0,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 15,
+            "training_left_fraction": 1.0,
+            "training_n": 15
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 0.2857142857142857,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 6,
+            "training_left_fraction": 1.0,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 51,
+            "training_left_fraction": 1.0,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 27,
+            "training_left_fraction": 1.0,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 9,
+            "training_left_fraction": 1.0,
+            "training_n": 9
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 13,
+            "training_left_fraction": 0.5909090909090909,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 2,
+            "training_left_fraction": 1.0,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 8,
+        "outside_reference_interval": true,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.5258620689655172,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.7994825355756792,
+        "within_lineage_component": -0.35549071876281246
+      },
+      "external_branch_counts": [
+        8,
+        69
+      ],
+      "feature": "expr:EPCAM",
+      "kind": "rule",
+      "threshold": 8.083638402774,
+      "training_branch_counts": [
+        618,
+        155
+      ]
+    },
+    "MDM2": {
+      "adequate_external_branches": true,
+      "constant_external_branch": false,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": -0.04405508284818627,
+        "composition_component": 0.04457602208320366,
+        "composition_reference_count_interval95": [
+          61.0,
+          72.0
+        ],
+        "composition_reference_expected_left_count": 66.82459507971703,
+        "external_common_left_fraction": 0.7792207792207793,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.8678518841521692,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 2,
+            "training_left_fraction": 1.0,
+            "training_n": 2
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 18,
+            "training_left_fraction": 0.72,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 24,
+            "training_left_fraction": 0.96,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 25,
+            "training_left_fraction": 0.9615384615384616,
+            "training_n": 26
+          },
+          {
+            "external_left": 16,
+            "external_left_fraction": 1.0,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 26,
+            "training_left_fraction": 0.7878787878787878,
+            "training_n": 33
+          },
+          {
+            "external_left": 7,
+            "external_left_fraction": 0.7777777777777778,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 29,
+            "training_left_fraction": 0.8285714285714286,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 57,
+            "training_left_fraction": 0.8769230769230769,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 7,
+            "training_left_fraction": 0.5,
+            "training_n": 14
+          },
+          {
+            "external_left": 14,
+            "external_left_fraction": 0.7777777777777778,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 37,
+            "training_left_fraction": 0.9024390243902439,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 2,
+            "training_left_fraction": 0.4,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 43,
+            "training_left_fraction": 0.9148936170212766,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 12,
+            "training_left_fraction": 0.48,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 16,
+            "training_left_fraction": 0.9411764705882353,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 84,
+            "training_left_fraction": 0.9130434782608695,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 38,
+            "training_left_fraction": 0.5846153846153846,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 26,
+            "training_left_fraction": 0.9629629629629629,
+            "training_n": 27
+          },
+          {
+            "external_left": 1,
+            "external_left_fraction": 0.5,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 33,
+            "training_left_fraction": 0.825,
+            "training_n": 40
+          },
+          {
+            "external_left": 12,
+            "external_left_fraction": 0.631578947368421,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 27,
+            "training_left_fraction": 0.9642857142857143,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 26,
+            "training_left_fraction": 0.9629629629629629,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 10,
+            "training_left_fraction": 0.6666666666666666,
+            "training_n": 15
+          },
+          {
+            "external_left": 4,
+            "external_left_fraction": 0.5714285714285714,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 5,
+            "training_left_fraction": 0.8333333333333334,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 32,
+            "training_left_fraction": 0.6274509803921569,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 16,
+            "training_left_fraction": 0.5925925925925926,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 9,
+            "training_left_fraction": 1.0,
+            "training_n": 9
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 14,
+            "training_left_fraction": 0.6363636363636364,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 60,
+        "outside_reference_interval": true,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.8232758620689655,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.8007761966364813,
+        "within_lineage_component": -0.08863110493138993
+      },
+      "external_branch_counts": [
+        60,
+        17
+      ],
+      "feature": "expr:MDM2",
+      "kind": "rule",
+      "threshold": 5.7238315665,
+      "training_branch_counts": [
+        619,
+        154
+      ]
+    },
+    "NRAS": {
+      "adequate_external_branches": false,
+      "constant_external_branch": false,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": 0.00011195700850873472,
+        "composition_component": -0.0031342751670867634,
+        "composition_reference_count_interval95": [
+          0.0,
+          4.0
+        ],
+        "composition_reference_expected_left_count": 1.7500401224791469,
+        "external_common_left_fraction": 0.025974025974025976,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.022727793798430478,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 2
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 1,
+            "training_left_fraction": 0.04,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 3,
+            "training_left_fraction": 0.11538461538461539,
+            "training_n": 26
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 1,
+            "training_left_fraction": 0.030303030303030304,
+            "training_n": 33
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 1,
+            "training_left_fraction": 0.02857142857142857,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 8,
+            "training_left_fraction": 0.12307692307692308,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 14
+          },
+          {
+            "external_left": 1,
+            "external_left_fraction": 0.05555555555555555,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 2,
+            "training_left_fraction": 0.04878048780487805,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 1,
+            "training_left_fraction": 0.2,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 3,
+            "training_left_fraction": 0.06382978723404255,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 3,
+            "training_left_fraction": 0.12,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 1,
+            "training_left_fraction": 0.058823529411764705,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 15,
+            "training_left_fraction": 0.16304347826086957,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 63,
+            "training_left_fraction": 0.9692307692307692,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 26,
+            "training_left_fraction": 0.9629629629629629,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 1,
+            "training_left_fraction": 0.025,
+            "training_n": 40
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 16,
+            "training_left_fraction": 0.5925925925925926,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 15
+          },
+          {
+            "external_left": 1,
+            "external_left_fraction": 0.14285714285714285,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 5,
+            "training_left_fraction": 0.09803921568627451,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 3,
+            "training_left_fraction": 0.1111111111111111,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 1,
+            "training_left_fraction": 0.1111111111111111,
+            "training_n": 9
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 1,
+            "training_left_fraction": 0.5,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 2,
+        "outside_reference_interval": false,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.02586206896551724,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.20051746442432083,
+        "within_lineage_component": 0.003246232175595498
+      },
+      "external_branch_counts": [
+        2,
+        75
+      ],
+      "feature": "expr:ERBB2",
+      "kind": "rule",
+      "threshold": 3.098924583226,
+      "training_branch_counts": [
+        155,
+        618
+      ]
+    },
+    "PIK3CA": {
+      "adequate_external_branches": false,
+      "constant_external_branch": false,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": 0.336038961038961,
+        "composition_component": 0.08300972757577119,
+        "composition_reference_count_interval95": [
+          47.0,
+          62.0
+        ],
+        "composition_reference_expected_left_count": 54.516749023334384,
+        "external_common_left_fraction": 0.961038961038961,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.7080097275757712,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 1,
+            "training_left_fraction": 0.5,
+            "training_n": 2
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 16,
+            "training_left_fraction": 0.64,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 18,
+            "training_left_fraction": 0.72,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 4,
+            "training_left_fraction": 0.15384615384615385,
+            "training_n": 26
+          },
+          {
+            "external_left": 16,
+            "external_left_fraction": 1.0,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 30,
+            "training_left_fraction": 0.9090909090909091,
+            "training_n": 33
+          },
+          {
+            "external_left": 7,
+            "external_left_fraction": 0.7777777777777778,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 24,
+            "training_left_fraction": 0.6857142857142857,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 4,
+            "training_left_fraction": 0.06153846153846154,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 10,
+            "training_left_fraction": 0.7142857142857143,
+            "training_n": 14
+          },
+          {
+            "external_left": 18,
+            "external_left_fraction": 1.0,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 30,
+            "training_left_fraction": 0.7317073170731707,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 1,
+            "training_left_fraction": 0.2,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 34,
+            "training_left_fraction": 0.723404255319149,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 8,
+            "training_left_fraction": 0.47058823529411764,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 50,
+            "training_left_fraction": 0.5434782608695652,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 15,
+            "training_left_fraction": 0.23076923076923078,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 8,
+            "training_left_fraction": 0.2962962962962963,
+            "training_n": 27
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 13,
+            "training_left_fraction": 0.325,
+            "training_n": 40
+          },
+          {
+            "external_left": 19,
+            "external_left_fraction": 1.0,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 18,
+            "training_left_fraction": 0.6428571428571429,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 5,
+            "training_left_fraction": 0.18518518518518517,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 15
+          },
+          {
+            "external_left": 7,
+            "external_left_fraction": 1.0,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 4,
+            "training_left_fraction": 0.6666666666666666,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 5,
+            "training_left_fraction": 0.09803921568627451,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 9
+          },
+          {
+            "external_left": 1,
+            "external_left_fraction": 0.5,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 9,
+            "training_left_fraction": 0.4090909090909091,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 1,
+            "training_left_fraction": 0.5,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 74,
+        "outside_reference_interval": true,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.625,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.3997412677878396,
+        "within_lineage_component": 0.25302923346318984
+      },
+      "external_branch_counts": [
+        74,
+        3
+      ],
+      "feature": "expr:VIM",
+      "kind": "rule",
+      "threshold": 7.282050478538,
+      "training_branch_counts": [
+        309,
+        464
+      ]
+    },
+    "PRMT5": {
+      "adequate_external_branches": false,
+      "constant_external_branch": false,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": -0.016569637259292447,
+        "composition_component": 0.003492082248103351,
+        "composition_reference_count_interval95": [
+          7.0,
+          20.0
+        ],
+        "composition_reference_expected_left_count": 13.544752402069475,
+        "external_common_left_fraction": 0.15584415584415584,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.17590587535155164,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 2
+          },
+          {
+            "external_left": 1,
+            "external_left_fraction": 0.5,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 5,
+            "training_left_fraction": 0.2,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 10,
+            "training_left_fraction": 0.4,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 4,
+            "training_left_fraction": 0.15384615384615385,
+            "training_n": 26
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 2,
+            "training_left_fraction": 0.06060606060606061,
+            "training_n": 33
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 9,
+            "training_left_fraction": 0.2571428571428571,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 21,
+            "training_left_fraction": 0.3230769230769231,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 14
+          },
+          {
+            "external_left": 3,
+            "external_left_fraction": 0.16666666666666666,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 6,
+            "training_left_fraction": 0.14634146341463414,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 1,
+            "training_left_fraction": 0.2,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 3,
+            "training_left_fraction": 0.06382978723404255,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 3,
+            "training_left_fraction": 0.12,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 4,
+            "training_left_fraction": 0.23529411764705882,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 17,
+            "training_left_fraction": 0.18478260869565216,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 20,
+            "training_left_fraction": 0.3076923076923077,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 10,
+            "training_left_fraction": 0.37037037037037035,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 7,
+            "training_left_fraction": 0.175,
+            "training_n": 40
+          },
+          {
+            "external_left": 8,
+            "external_left_fraction": 0.42105263157894735,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 10,
+            "training_left_fraction": 0.35714285714285715,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 1,
+            "training_left_fraction": 0.037037037037037035,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 8,
+            "training_left_fraction": 0.5333333333333333,
+            "training_n": 15
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 6,
+            "training_left_fraction": 0.11764705882352941,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 5,
+            "training_left_fraction": 0.18518518518518517,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 2,
+            "training_left_fraction": 0.2222222222222222,
+            "training_n": 9
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 1,
+            "training_left_fraction": 0.045454545454545456,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 12,
+        "outside_reference_interval": false,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.1724137931034483,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.20051746442432083,
+        "within_lineage_component": -0.020061719507395798
+      },
+      "external_branch_counts": [
+        12,
+        65
+      ],
+      "feature": "expr:MTAP",
+      "kind": "rule",
+      "threshold": 1.6949987377880027,
+      "training_branch_counts": [
+        155,
+        618
+      ]
+    },
+    "SMARCA2": {
+      "adequate_external_branches": false,
+      "constant_external_branch": false,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": 0.6674876847290641,
+        "composition_component": -0.015826094723454726,
+        "composition_reference_count_interval95": [
+          7.0,
+          20.0
+        ],
+        "composition_reference_expected_left_count": 13.384838982156054,
+        "external_common_left_fraction": 0.8571428571428571,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.17382907769033837,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 1,
+            "training_left_fraction": 0.5,
+            "training_n": 2
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 7,
+            "training_left_fraction": 0.28,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 4,
+            "training_left_fraction": 0.16,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 5,
+            "training_left_fraction": 0.19230769230769232,
+            "training_n": 26
+          },
+          {
+            "external_left": 15,
+            "external_left_fraction": 0.9375,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 3,
+            "training_left_fraction": 0.09090909090909091,
+            "training_n": 33
+          },
+          {
+            "external_left": 6,
+            "external_left_fraction": 0.6666666666666666,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 4,
+            "training_left_fraction": 0.11428571428571428,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 5,
+            "training_left_fraction": 0.07692307692307693,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 8,
+            "training_left_fraction": 0.5714285714285714,
+            "training_n": 14
+          },
+          {
+            "external_left": 17,
+            "external_left_fraction": 0.9444444444444444,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 6,
+            "training_left_fraction": 0.14634146341463414,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 1,
+            "training_left_fraction": 0.2,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 22,
+            "training_left_fraction": 0.46808510638297873,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 5,
+            "training_left_fraction": 0.2,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 2,
+            "training_left_fraction": 0.11764705882352941,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 24,
+            "training_left_fraction": 0.2608695652173913,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 4,
+            "training_left_fraction": 0.06153846153846154,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 27
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 14,
+            "training_left_fraction": 0.35,
+            "training_n": 40
+          },
+          {
+            "external_left": 17,
+            "external_left_fraction": 0.8947368421052632,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 7,
+            "training_left_fraction": 0.25,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 6,
+            "training_left_fraction": 0.2222222222222222,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 2,
+            "training_left_fraction": 0.13333333333333333,
+            "training_n": 15
+          },
+          {
+            "external_left": 4,
+            "external_left_fraction": 0.5714285714285714,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 1,
+            "training_left_fraction": 0.16666666666666666,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 15,
+            "training_left_fraction": 0.29411764705882354,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 3,
+            "training_left_fraction": 0.1111111111111111,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 2,
+            "training_left_fraction": 0.2222222222222222,
+            "training_n": 9
+          },
+          {
+            "external_left": 1,
+            "external_left_fraction": 0.5,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 1,
+            "training_left_fraction": 0.045454545454545456,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 2,
+            "training_left_fraction": 1.0,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 66,
+        "outside_reference_interval": true,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.1896551724137931,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.20051746442432083,
+        "within_lineage_component": 0.6833137794525187
+      },
+      "external_branch_counts": [
+        66,
+        11
+      ],
+      "feature": "expr:SMARCA4",
+      "kind": "rule",
+      "threshold": 5.441350595018,
+      "training_branch_counts": [
+        155,
+        618
+      ]
+    },
+    "SMARCA4": {
+      "adequate_external_branches": true,
+      "constant_external_branch": false,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": -0.09740259740259738,
+        "composition_component": -0.03419513017865894,
+        "composition_reference_count_interval95": [
+          27.0,
+          44.0
+        ],
+        "composition_reference_expected_left_count": 35.86697497624326,
+        "external_common_left_fraction": 0.4025974025974026,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.46580486982134106,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 1,
+            "external_left_fraction": 0.5,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 2
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 14,
+            "training_left_fraction": 0.56,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 9,
+            "training_left_fraction": 0.36,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 7,
+            "training_left_fraction": 0.2692307692307692,
+            "training_n": 26
+          },
+          {
+            "external_left": 5,
+            "external_left_fraction": 0.3125,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 15,
+            "training_left_fraction": 0.45454545454545453,
+            "training_n": 33
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 12,
+            "training_left_fraction": 0.34285714285714286,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 12,
+            "training_left_fraction": 0.18461538461538463,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 6,
+            "training_left_fraction": 0.42857142857142855,
+            "training_n": 14
+          },
+          {
+            "external_left": 11,
+            "external_left_fraction": 0.6111111111111112,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 24,
+            "training_left_fraction": 0.5853658536585366,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 1,
+            "training_left_fraction": 0.2,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 27,
+            "training_left_fraction": 0.574468085106383,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 12,
+            "training_left_fraction": 0.48,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 13,
+            "training_left_fraction": 0.7647058823529411,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 48,
+            "training_left_fraction": 0.5217391304347826,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 6,
+            "training_left_fraction": 0.09230769230769231,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 4,
+            "training_left_fraction": 0.14814814814814814,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": 0.0,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 26,
+            "training_left_fraction": 0.65,
+            "training_n": 40
+          },
+          {
+            "external_left": 8,
+            "external_left_fraction": 0.42105263157894735,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 12,
+            "training_left_fraction": 0.42857142857142855,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 14,
+            "training_left_fraction": 0.5185185185185185,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 5,
+            "training_left_fraction": 0.3333333333333333,
+            "training_n": 15
+          },
+          {
+            "external_left": 4,
+            "external_left_fraction": 0.5714285714285714,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 3,
+            "training_left_fraction": 0.5,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 12,
+            "training_left_fraction": 0.23529411764705882,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 11,
+            "training_left_fraction": 0.4074074074074074,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 1,
+            "training_left_fraction": 1.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 3,
+            "training_left_fraction": 0.3333333333333333,
+            "training_n": 9
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 10,
+            "training_left_fraction": 0.45454545454545453,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 2,
+            "training_left_fraction": 1.0,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 31,
+        "outside_reference_interval": false,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.5,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.40103492884864167,
+        "within_lineage_component": -0.06320746722393844
+      },
+      "external_branch_counts": [
+        31,
+        46
+      ],
+      "feature": "expr:SMARCA2",
+      "kind": "rule",
+      "threshold": 4.36946648365,
+      "training_branch_counts": [
+        310,
+        463
+      ]
+    },
+    "STAG1": {
+      "adequate_external_branches": false,
+      "constant_external_branch": true,
+      "decomposition": {
+        "common_lineages": [
+          "Ampulla of Vater",
+          "Biliary Tract",
+          "Bowel",
+          "Breast",
+          "Esophagus/Stomach",
+          "Ovary/Fallopian Tube",
+          "Pancreas",
+          "Prostate",
+          "Uterus"
+        ],
+        "common_total_shift": 0.2801724137931034,
+        "composition_component": 0.016594286714817996,
+        "composition_reference_count_interval95": [
+          49.0,
+          64.0
+        ],
+        "composition_reference_expected_left_count": 56.70448421497202,
+        "external_common_left_fraction": 1.0,
+        "external_common_n": 77,
+        "external_unmatched_ids": [],
+        "lineage_reweighted_training_left_fraction": 0.7364218729217146,
+        "lineages": [
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Adrenal Gland",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Ampulla of Vater",
+            "training_left": 2,
+            "training_left_fraction": 1.0,
+            "training_n": 2
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Biliary Tract",
+            "training_left": 24,
+            "training_left_fraction": 0.96,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bladder/Urinary Tract",
+            "training_left": 13,
+            "training_left_fraction": 0.52,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Bone",
+            "training_left": 8,
+            "training_left_fraction": 0.3076923076923077,
+            "training_n": 26
+          },
+          {
+            "external_left": 16,
+            "external_left_fraction": 1.0,
+            "external_n": 16,
+            "lineage": "Bowel",
+            "training_left": 27,
+            "training_left_fraction": 0.8181818181818182,
+            "training_n": 33
+          },
+          {
+            "external_left": 9,
+            "external_left_fraction": 1.0,
+            "external_n": 9,
+            "lineage": "Breast",
+            "training_left": 20,
+            "training_left_fraction": 0.5714285714285714,
+            "training_n": 35
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "CNS/Brain",
+            "training_left": 40,
+            "training_left_fraction": 0.6153846153846154,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Cervix",
+            "training_left": 12,
+            "training_left_fraction": 0.8571428571428571,
+            "training_n": 14
+          },
+          {
+            "external_left": 18,
+            "external_left_fraction": 1.0,
+            "external_n": 18,
+            "lineage": "Esophagus/Stomach",
+            "training_left": 25,
+            "training_left_fraction": 0.6097560975609756,
+            "training_n": 41
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Eye",
+            "training_left": 4,
+            "training_left_fraction": 0.8,
+            "training_n": 5
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Head and Neck",
+            "training_left": 44,
+            "training_left_fraction": 0.9361702127659575,
+            "training_n": 47
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Kidney",
+            "training_left": 20,
+            "training_left_fraction": 0.8,
+            "training_n": 25
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Liver",
+            "training_left": 10,
+            "training_left_fraction": 0.5882352941176471,
+            "training_n": 17
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lung",
+            "training_left": 36,
+            "training_left_fraction": 0.391304347826087,
+            "training_n": 92
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Lymphoid",
+            "training_left": 16,
+            "training_left_fraction": 0.24615384615384617,
+            "training_n": 65
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Myeloid",
+            "training_left": 4,
+            "training_left_fraction": 0.14814814814814814,
+            "training_n": 27
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Ovary/Fallopian Tube",
+            "training_left": 27,
+            "training_left_fraction": 0.675,
+            "training_n": 40
+          },
+          {
+            "external_left": 19,
+            "external_left_fraction": 1.0,
+            "external_n": 19,
+            "lineage": "Pancreas",
+            "training_left": 24,
+            "training_left_fraction": 0.8571428571428571,
+            "training_n": 28
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Peripheral Nervous System",
+            "training_left": 10,
+            "training_left_fraction": 0.37037037037037035,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Pleura",
+            "training_left": 9,
+            "training_left_fraction": 0.6,
+            "training_n": 15
+          },
+          {
+            "external_left": 7,
+            "external_left_fraction": 1.0,
+            "external_n": 7,
+            "lineage": "Prostate",
+            "training_left": 4,
+            "training_left_fraction": 0.6666666666666666,
+            "training_n": 6
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Skin",
+            "training_left": 46,
+            "training_left_fraction": 0.9019607843137255,
+            "training_n": 51
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Soft Tissue",
+            "training_left": 17,
+            "training_left_fraction": 0.6296296296296297,
+            "training_n": 27
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Testis",
+            "training_left": 0,
+            "training_left_fraction": 0.0,
+            "training_n": 1
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Thyroid",
+            "training_left": 6,
+            "training_left_fraction": 0.6666666666666666,
+            "training_n": 9
+          },
+          {
+            "external_left": 2,
+            "external_left_fraction": 1.0,
+            "external_n": 2,
+            "lineage": "Uterus",
+            "training_left": 14,
+            "training_left_fraction": 0.6363636363636364,
+            "training_n": 22
+          },
+          {
+            "external_left": 0,
+            "external_left_fraction": null,
+            "external_n": 0,
+            "lineage": "Vulva/Vagina",
+            "training_left": 2,
+            "training_left_fraction": 1.0,
+            "training_n": 2
+          }
+        ],
+        "observed_common_left_count": 77,
+        "outside_reference_interval": true,
+        "reference_interpretation": "Empirical old-cohort distributions fixed within exact lineage labels; descriptive only, no causal attribution or significance claim",
+        "training_common_left_fraction": 0.7198275862068966,
+        "training_common_n": 232,
+        "training_full_left_fraction": 0.6002587322121604,
+        "within_lineage_component": 0.26357812707828543
+      },
+      "external_branch_counts": [
+        77,
+        0
+      ],
+      "feature": "expr:ARID1A",
+      "kind": "rule",
+      "threshold": 4.932706672794,
+      "training_branch_counts": [
+        464,
+        309
+      ]
+    }
+  },
+  "schema": "expression-support-diagnostic/v1",
+  "small_training_lineages": [
+    "Ampulla of Vater",
+    "Prostate"
+  ],
+  "training_n": 773
+}

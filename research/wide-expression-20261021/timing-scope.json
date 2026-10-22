@@ -1,0 +1,7 @@
+{
+  "recorded_at": "2026-10-21T21:03:19.875632+00:00",
+  "clarification": "session-start.json records the start of model execution, after the new candidate implementation and input controls were written. It is not the start of all contributor effort.",
+  "earliest_trial_record": "2026-10-21T20:54:24.111258+00:00",
+  "implementation_and_program_preparation": "Interleaved between protocol and model-execution start; no precise separate human-effort durations claimed.",
+  "reporting": "Report the full protocol-to-completion wall interval including interleaved preparation, plus separately measured train/predict/score times. Do not claim an independently measured newcomer time."
+}

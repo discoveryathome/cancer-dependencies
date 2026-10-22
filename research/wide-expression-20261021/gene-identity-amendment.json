@@ -1,0 +1,77 @@
+{
+  "recorded_at": "2026-10-21T20:58:36.835896+00:00",
+  "stage": "input validation, before any model fitting or new outcome scoring",
+  "finding": "Old expression has17 ambiguous EntrezIDs, each mapping to two columns; NextGen headers have no such duplicateIDs.",
+  "rule": "Exclude an EntrezID if ambiguous in either matrix; retain all unambiguous common IDs. Never choose an alias using values/outcomes. Original30 predictors unaffected.",
+  "excluded_old_ids": {
+    "10535": [
+      "RNASEH2A (10535)",
+      "THSD8 (10535)"
+    ],
+    "1124": [
+      "CHN2 (1124)",
+      "AC004593.2 (1124)"
+    ],
+    "6013": [
+      "RLN2 (6013)",
+      "RLN1 (6013)"
+    ],
+    "8622": [
+      "PDE8B (8622)",
+      "AC022414.1 (8622)"
+    ],
+    "1394": [
+      "CRHR1 (1394)",
+      "LINC02210-CRHR1 (1394)"
+    ],
+    "11046": [
+      "SLC35D2 (11046)",
+      "AL160269.1 (11046)"
+    ],
+    "54816": [
+      "ZNF280D (54816)",
+      "AC090517.4 (54816)"
+    ],
+    "8916": [
+      "HERC3 (8916)",
+      "AC098582.1 (8916)"
+    ],
+    "29970": [
+      "SCHIP1 (29970)",
+      "IQCJ-SCHIP1 (29970)"
+    ],
+    "255027": [
+      "MPV17L (255027)",
+      "AC140504.1 (255027)"
+    ],
+    "552900": [
+      "BOLA2B (552900)",
+      "BOLA2 (552900)"
+    ],
+    "883": [
+      "KYAT1 (883)",
+      "AL441992.2 (883)"
+    ],
+    "221468": [
+      "TMEM217 (221468)",
+      "AL353579.1 (221468)"
+    ],
+    "55486": [
+      "PARL (55486)",
+      "AC131160.1 (55486)"
+    ],
+    "220074": [
+      "LRTOMT (220074)",
+      "AP000812.4 (220074)"
+    ],
+    "440519": [
+      "ZNF724 (440519)",
+      "AC092329.3 (440519)"
+    ],
+    "284391": [
+      "ZNF844 (284391)",
+      "AC008770.4 (284391)"
+    ]
+  },
+  "new_methods_added": 0
+}

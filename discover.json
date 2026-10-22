@@ -1,7 +1,7 @@
 {
   "schema": "discover/v0",
-  "title": "Reproducible cancer-cell genetic dependencies",
-  "summary": "A local benchmark for compact molecular rules predicting held-out CRISPR gene effects, with lineage, leakage, uncertainty and novelty audits. Computational hypotheses only.",
+  "title": "Reliable cancer-dependency prediction",
+  "summary": "Predict cancer dependencies across biological contexts using comparable improvements and bounded exploration; assess accuracy, coverage and practical experimental relevance. Private pilot; scientific review pending.",
   "domains": [
     "cancer biology",
     "functional genomics",
@@ -14,7 +14,7 @@
     "agents": "AGENTS.md",
     "project": "DISCOVERY.md",
     "contributing": "DISCOVERY.md",
-    "brief": "setup/RESEARCH_BRIEF.md"
+    "brief": "research/program-v2-20261021/CONTEXT.md"
   },
   "frontier": "discover/frontier.json",
   "catalog": "discover/catalog.json",
@@ -51,9 +51,9 @@
   },
   "requirements": {
     "ram_gb": 4,
-    "disk_gb": 2,
+    "disk_gb": 4,
     "gpu": "none",
-    "note": "Compact extraction replay is much smaller than full source acquisition. Python 3.12; measured resource details in reports."
+    "note": "Compact replay uses committed extracts. Broader fitting uses pinned local publisher matrices; no GPU. 4GB disk allowance is a planning estimate, not measured peak usage."
   },
-  "process_changed_on": "2026-10-20"
+  "process_changed_on": "2026-10-21"
 }

@@ -1,0 +1,19 @@
+{
+  "schema": "support-contributor-trial/v1",
+  "status": "completed-author-diagnostic",
+  "base_commit": "eb77423",
+  "independent_newcomer": false,
+  "new_predictor_claim": false,
+  "targets": 12,
+  "panel_genes": 30,
+  "external_models": 77,
+  "matched_lineage_development_models": 232,
+  "main_finding": "Several frozen rule-support failures persist within common lineage support after lineage reweighting; source of differences unresolved",
+  "exact_id_bridge_available": false,
+  "companion_download": "blocked-by-Chrome; no bypass",
+  "scientific_acceptance": "pending",
+  "public_intake": false,
+  "sanger_outcomes_opened": false,
+  "report": "research/contributor-support-20261021/README.md",
+  "first_step": ".venv/bin/python src/support_diagnostic.py verify --inputs data/raw/transfer-trial-20261021"
+}

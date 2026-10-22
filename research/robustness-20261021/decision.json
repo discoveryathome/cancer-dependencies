@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-10-21T20:31:57.547065+00:00",
+  "decision": "Proceed with one explicitly conditional release-bridge sensitivity test, not an accepted technical correction",
+  "audit_sha256": "b8fc12a771d76633e7fa4c426857a412cecb1f8ebcdbd5b4e8d09a98157e5f2b",
+  "evidence": {
+    "complete_matched_models": 770,
+    "original_development": 773,
+    "oof_normalized_mae_reduction": 0.47508338800524763,
+    "genes_improved": 27
+  },
+  "provenance_limits": [
+    "All770 are annotated traditional2D and have an old Broad default RNA profile, but the manuscript supplies no RNA ProfileIDs or ModelConditions.",
+    "Old default RNA metadata flags277 stranded and493 unstranded despite the historical matrix being documented unstranded. Default-profile metadata is not a demonstrated provenance map for that unstranded matrix. Do not equate these defaults to exact matrix source samples.",
+    "Matched models support empirical release differences but do not isolate processing changes; traditional-to-organoid offset transportability remains unverified."
+  ],
+  "expected_invariance": "All compact and strong frozen models are linear with complete inputs. Adding a constant per feature shifts only each model intercept, preserving rankings and therefore Spearman exactly up to floating precision. This attempt can test absolute-prediction sensitivity and rule support; it cannot rescue the negative compact-versus-strong rank endpoint. No alternative scaling will be selected to create a rank improvement.",
+  "all_targets_retained": true,
+  "offsets_fitted_with_organoid_values_or_outcomes": false,
+  "new_outcomes_opened_before_decision": false
+}

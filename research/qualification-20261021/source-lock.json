@@ -1,0 +1,63 @@
+{
+  "audit_inputs": {
+    "data/model-metadata.csv": "f9482614f2a5a1702f71f5a0c7ae249030e57c8b046c78129a61ec90fbffab01",
+    "research/qualification-20261021/sources/broad-aliases.json": "94c154d17abe62bd1dcd6f29e71f6a360d4b4c9db23d528d78a8a03fd0bd0c2a",
+    "research/qualification-20261021/sources/broad-figshare.json": "e37758968f3d6d6e66dea401eaa20ea7db28ddf4b5b251682b49d58904135990",
+    "research/qualification-20261021/sources/broad-model_metadata.csv": "a000a5ee1ebe2b2488a146b2a413ec4b93472488e6ad31b56126f522d652557c",
+    "research/qualification-20261021/sources/broad-screen_metadata.csv": "af29e349dd19676029950d6799fec4efcefcb9b314f7622b4fcc6d564803472a",
+    "research/qualification-20261021/sources/sanger-availability.json": "08f1d6ef6c4eae4b44e357b75cab26fe51f2f2a88c37e0b492436172989440cd",
+    "research/qualification-20261021/sources/sanger-figshare.json": "65973b7f5e3ac4d90b86c68e3b78078e010ad27a6af188d91dd8da1f4283b647",
+    "research/readiness-20261021/sources/Model.csv": "b7a0c1385e6cef30132b56aff61f1261d11e3f490490b355c430d32ee0dbdcfa"
+  },
+  "base_commit": "8cb3c6b959845e5fbfe0c2f3443700d39c938084",
+  "boundary": "Only metadata ZIP byte ranges retrieved; dependency tables 5/6 and biomarker tables 7/8 not extracted or scored. Initial workbook reconnaissance printed a few non-outcome metadata rows; no clinical inference performed. Committed extracts contain identity and availability only.",
+  "raw_metadata_files": {
+    "broad-supplementary-table1.xlsx": {
+      "bytes": 252997,
+      "sha256": "41cb8e26e8d8109855f7d2a993e5b585ba4575679fb7b61e383c0a9c713e9262"
+    },
+    "sanger-zip-metadata.bin": {
+      "bytes": 116710,
+      "sha256": "f7a314a993722c08e99b2deaaf96999bce7733c991aab4d8f981579385cee2d9"
+    },
+    "sanger-zip-table2.bin": {
+      "bytes": 86713,
+      "sha256": "b1d103636af71fd46e73ff5df1093077159616b04879c4036c674d7e59b4c10a"
+    },
+    "sanger-zip-tail.bin": {
+      "bytes": 65536,
+      "sha256": "3250762af14d93d4c2a773768f94192e6e0847ce545e288f9a252657eddf961d"
+    },
+    "supplementary_table_10_revision.xlsx": {
+      "bytes": 113598,
+      "sha256": "09965fa1391440de1083f0505ada9c86638155ec3801713b022af738c742db37"
+    },
+    "supplementary_table_2_revision.xlsx": {
+      "bytes": 266158,
+      "sha256": "5b319152fd3d708ad6be4de62d3655b860cb2ecb08bfb3de9892a25898559cc9"
+    }
+  },
+  "retrieved_at": "2026-10-21T16:42:15.658372+00:00",
+  "sanger_zip": {
+    "audit_sheet": "supplementary_table_2_revision.xlsx:data_availability",
+    "bytes": 127226341,
+    "etag": "a7a69edc5b7dcdfe83b12d68e3d310a3",
+    "opened_entries": [
+      "supplementary_table_1_revision.xlsx",
+      "supplementary_table_2_revision.xlsx",
+      "supplementary_table_10_revision.xlsx"
+    ],
+    "ranges": {
+      "sanger-zip-metadata.bin": "0-116709",
+      "sanger-zip-table2.bin": "116710-203422",
+      "sanger-zip-tail.bin": "-65536"
+    }
+  },
+  "sources": {
+    "broad_figshare": "https://api.figshare.com/v2/articles/29472362/versions/1",
+    "broad_supplement": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10843-7/MediaObjects/41586_2026_10843_MOESM3_ESM.xlsx",
+    "sanger_figshare": "https://api.figshare.com/v2/articles/28339340/versions/1",
+    "sanger_supplement": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10830-y/MediaObjects/41586_2026_10830_MOESM3_ESM.zip"
+  },
+  "version": 1
+}

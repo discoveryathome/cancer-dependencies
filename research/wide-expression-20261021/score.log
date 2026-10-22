@@ -1,0 +1,30 @@
+TRANSFER {
+  "aggregate": {
+    "compact_expression_pair": 0.0837273468499831,
+    "panel30": 0.1272937588727062,
+    "strong_expression": 0.12985260353681402,
+    "wide300": 0.11003032055663635
+  },
+  "contrasts": {
+    "panel30": {
+      "ci95": [
+        -0.08977030383681217,
+        0.048643549941801936
+      ],
+      "estimate": -0.017263438316069843,
+      "total_bootstrap_draws": 2000,
+      "valid_bootstrap_draws": 2000
+    },
+    "strong_expression": {
+      "ci95": [
+        -0.09042160697322575,
+        0.046161178242241176
+      ],
+      "estimate": -0.019822282980177672,
+      "total_bootstrap_draws": 2000,
+      "valid_bootstrap_draws": 2000
+    }
+  }
+}
+
+PASS score seconds 10.796

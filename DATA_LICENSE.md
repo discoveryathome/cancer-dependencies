@@ -23,3 +23,16 @@ imply endorsement by the Broad Institute, Sanger Institute, or original investig
 
 Setup instructions and schemas fetched from Discovery@Home are preserved solely as
 provenance and retain their original authorship/terms; they are not pilot-authored prose.
+
+## Preparation metadata from a later release
+
+DepMap, Broad (2024). **DepMap 24Q4 Public**, version 1.
+https://doi.org/10.25452/figshare.plus.27993248.v1 — CC BY 4.0, as declared in
+`research/readiness-20261021/sources/depmap-24q4-v1.json`.
+
+Only Model.csv, CRISPRScreenMap.csv, AchillesScreenQCReport.csv and
+OmicsDefaultModelProfiles.csv were fetched for a metadata-only eligibility audit.
+They are unchanged publisher files. `cohort-reserve.json` is our derived identity
+and availability analysis. Source checksums and retrieval URLs are retained; no new
+gene-effect or molecular-feature matrices were downloaded. This permission record
+applies to this pinned release and does not establish terms for newer releases.

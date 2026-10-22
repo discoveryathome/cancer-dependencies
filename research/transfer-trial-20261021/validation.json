@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-21T17:43:14.560368+00:00",
+  "scope": "Local author validation; no new biological outcome evaluation or independent scientific review",
+  "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "threadpoolctl": "3.7.0",
+    "pytest": "8.3.5"
+  },
+  "freeze_sha256": "c9330b7bcd19a2fc53fa6acc49784a91a80eca7b9326399037dc37ff17243ad7",
+  "checks": [
+    {
+      "command": ".venv/bin/python -m pytest -q",
+      "result": "33 passed"
+    },
+    {
+      "command": ".venv/bin/python src/transfer_trial.py verify-fit --out research/transfer-trial-20261021/run",
+      "result": "All 12 source refits and cohort selection matched exactly"
+    },
+    {
+      "command": "python3 research/readiness-20261021/check_manifest.py",
+      "result": "82 hashes passed"
+    },
+    {
+      "command": "python3 research/qualification-20261021/check_manifest.py",
+      "result": "35 hashes passed"
+    }
+  ],
+  "training_n_per_target": {
+    "ARID1B": 773,
+    "BRAF": 773,
+    "EGFR": 773,
+    "ERBB2": 773,
+    "KRAS": 773,
+    "MDM2": 773,
+    "NRAS": 773,
+    "PIK3CA": 773,
+    "PRMT5": 773,
+    "SMARCA2": 773,
+    "SMARCA4": 773,
+    "STAG1": 773
+  },
+  "provisional_metadata_models": 77,
+  "new_expression_loaded": false,
+  "new_responses_loaded": false,
+  "initial_attempt": {
+    "freeze_sha256": "437a3c04272fe35f07a31005d71cf8a6f1219800efe638ccda749dc1158895ca",
+    "status": "Superseded before outcomes after tuple/list serialization mismatch in tuning diagnostics; source and artifact retained"
+  },
+  "remaining": [
+    "Publisher human verification and exact matrix acquisition",
+    "Actual release schema and local-use terms check",
+    "Expression coverage and single frozen outcome evaluation",
+    "Scientific identity/assay review and independent contributor trial"
+  ]
+}

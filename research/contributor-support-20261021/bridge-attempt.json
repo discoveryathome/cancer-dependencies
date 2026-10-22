@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-21T19:38:15.776827+00:00",
+  "nextgen_exact_modelid_overlap": 0,
+  "nextgen_models": 309,
+  "historical_development_models": 773,
+  "companion_file": "traditional_expression.csv",
+  "companion_attempt": "Publisher UI download action reached Chrome ERR_BLOCKED_BY_CLIENT for storage.googleapis.com",
+  "bypass_attempted": false,
+  "scientific_consequence": "Paired cross-release expression comparison remains unavailable; do not attribute residual shifts to processing or biology."
+}

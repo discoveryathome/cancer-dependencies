@@ -1,0 +1,59 @@
+{
+  "schema": "wide-expression-trial/v1",
+  "recorded_at": "2026-10-21T20:54:24.111258+00:00",
+  "task": "broader-expression-reference",
+  "selection": "Deliberate priority task after user-authorized program expansion, not a random task draw",
+  "actor": "same primary agent; author-performed trial, not independent newcomer",
+  "question": "Does removing the original30-gene restriction improve prediction on development folds and the already exposed Broad77?",
+  "development": "exact773 historical development identities only; target-specific finite outcomes; no historicalfinal or Sanger",
+  "targets": [
+    "BRAF",
+    "KRAS",
+    "NRAS",
+    "EGFR",
+    "ERBB2",
+    "PIK3CA",
+    "SMARCA2",
+    "SMARCA4",
+    "ARID1B",
+    "STAG1",
+    "MDM2",
+    "PRMT5"
+  ],
+  "candidate": "ridge with top300 absolute training Pearson-correlated expression genes, selected afresh inside every inner-training and outer-training fold",
+  "reference": "ridge on original30 expression genes, with identical folds/preprocessing/alpha selection; lineage baseline; frozen originalstrong comparator retained for external context",
+  "feature_universe": "stable EntrezID intersection of old expression and manuscript nextgen expression headers; no selection by new expression values or outcomes",
+  "gene_eligibility": "at least90percent observed in current training fold and nonconstant after training-median imputation; reference requires all30 eligible; wide requires at least300",
+  "preprocessing": "training-fold median imputation, population standard deviation scaling; no release correction or new cohort recalibration",
+  "alphas": [
+    1,
+    10,
+    100,
+    1000
+  ],
+  "inner_folds": 3,
+  "inner_seed": 817,
+  "outer_folds": 5,
+  "outer_seed": 1701,
+  "selection_metric": "minimum pooled inner-OOF MSE, exact ties choose larger alpha",
+  "primary": "macro target-wise Spearman difference wide minus panel30 on complete development OOF predictions, all12 targets",
+  "secondary": "all77 Broad transfer wide vs panel30, lineage and frozen originalstrong; pertarget rho/MSE, coverage, selectedfeature counts; no pass-dependent evaluation selection",
+  "bootstrap": "2000 shared identity draws seed20261021 for Broad wide-minus-panel30 and wide-minus-originalstrong; conditional, exploratory, no claim of fresh confirmation",
+  "coverage": "all frozen77organoid rows; selectedfeature missingness imputed from development and reported; no outcome-based target/row exclusion; unexpected nonfinite data or incomplete target coverage fails",
+  "freeze": "model bundles, source/protocol bindings, all predictions locked before opening Broad responses this round; Broad has already been exposed historically",
+  "limits": {
+    "training_wall_minutes": 15,
+    "contributor_session_upper_minutes": 90,
+    "new_methods": 1,
+    "new_data_downloads": 0
+  },
+  "success": "a reproducible broader-feature reference and a falsifiable breadth comparison; negative result counts as investigation, not a performance gain",
+  "not_claimed": [
+    "exact reproduction of a published method",
+    "state of the art",
+    "biomarker novelty",
+    "practical experimental utility",
+    "independent confirmation"
+  ],
+  "reserved": "Sanger outcomes not opened; newtargets/modalities require a separate declared task rather than post-score expansion"
+}
