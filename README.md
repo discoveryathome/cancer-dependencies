@@ -19,6 +19,13 @@ Python 3.12, no GPU; use the existing locked environment or install requirements
 in a local virtual environment. The compact historical replay needs committed
 extracts; broader-expression fitting also requires the pinned local publisher files.
 
+**Data and model reuse:** code is MIT, but this repository also includes data
+extracts and research artifacts governed by separate terms. Before using or
+redistributing them, read [DATA_LICENSE.md](DATA_LICENSE.md) and the
+[full DepMap terms](licenses/DEPMAP_TERMS_2026-04-02.md). NextGen portal data are
+not offered under MIT or a blanket CC BY license. Users of those materials must
+comply with the publisher's use, attribution, privacy and onward-sharing terms.
+
 ```sh
 .venv/bin/python src/research_program.py check
 python3 src/check_history.py
