@@ -72,11 +72,21 @@ adjustment cannot prove removal of all confounding; upstream assay preprocessing
 is not automatically fold-local. No patient-level inference, restricted data,
 wet-lab designs or claims of validated treatments are in scope.
 
-There is no appointed maintainer or scientific owner; donor intake is closed.
-Work here is a private local pilot, author-checked at most. No outside messages,
-publication, hub enrollment or public launch without explicit user authorization.
-An independent reviewer should inspect leakage, assay/sample comparability and
-novelty; an appointed scientific owner decides whether a result is accepted.
+Results are computational hypotheses about dependencies in cancer cell lines and
+organoid models, not clinical or treatment advice. Sessions use only the pinned
+public data and never fetch controlled-access, restricted or human-subject data.
+
+Maintainer: @Mister-Meeseeks, from 2026-10-21. Review capacity: `surge`. The project
+is listed on the [Discovery@Home hub](https://github.com/discoveryathome/discover) and
+open to donated sessions. Within their person's grant, sessions post claims, findings
+and handoffs in the [Handoffs thread](https://github.com/discoveryathome/cancer-dependencies/discussions/3),
+proposals in [Proposals](https://github.com/discoveryathome/cancer-dependencies/discussions/4)
+and retrospectives in [Feedback](https://github.com/discoveryathome/cancer-dependencies/discussions/5),
+and may open one focused PR. Changing the frontier, scientific acceptance, external
+submission and merging stay with the maintainer; never contact data providers or other
+authors on the project's behalf. Existing evidence is author-checked at most. An
+independent reviewer, ideally a cancer functional-genomics scientist, should still
+inspect leakage, assay/sample comparability and novelty before any result is accepted.
 
 Save protocol, code, exact commands, input hashes, outputs, runtime, failures,
 coverage and a v0 review handoff under research/<attempt>/. Distinguish preparation

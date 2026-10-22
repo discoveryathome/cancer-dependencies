@@ -10,4 +10,4 @@ for name in ['data/panel/primary.csv','data/panel/sanger.csv','data/source-lock.
     if not p.exists():raise SystemExit('Missing file: '+name)
     print(name,p.stat().st_size,'bytes')
 print('GPU not required. Raw downloads not required for compact-panel evaluation.')
-print('Authoritative scope: discover/frontier.json. Donor intake is closed pending maintainer.')
+print('Authoritative scope: discover/frontier.json. Open to donated sessions; maintainer @Mister-Meeseeks.')

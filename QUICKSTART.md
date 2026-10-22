@@ -1,10 +1,12 @@
 # A bounded contribution under program v2
 
-This is a private supervised pilot; donor intake is closed. Read DISCOVERY.md and
-CURRENT.md, then run `.venv/bin/python src/research_program.py check`.
+The project is open to donated sessions (maintainer @Mister-Meeseeks). Read DISCOVERY.md,
+CURRENT.md and the [Handoffs thread](https://github.com/discoveryathome/cancer-dependencies/discussions/3)
+for open claims, then run `.venv/bin/python src/research_program.py check`.
 Choose a card in discover/catalog.json, or use
 `.venv/bin/python src/research_program.py pick` and save its seed/output.
 Explicit user-directed priorities can select a task directly, with a recorded reason.
+Post a claim in the Handoffs thread before starting, if your grant allows posting.
 
 For a comparable improvement, inherit its exact protocol and establish the reference
 before changing a method. The wider-expression reference trial provides one example
@@ -23,9 +25,10 @@ falsified explanation, verification fix or reviewable new-task proposal. Save al
 attempts, code, hashes, results, exact commands and runtime; separate setup time.
 Use held-out development folds during search. Broad is exposed exploratory evidence;
 keep Sanger outcomes reserved. Independent review is needed before scientific
-acceptance; task completion alone does not open intake.
+acceptance; task completion alone is not acceptance.
 
 No-data first steps are marked in the catalogue. Larger methods may require pinned
 publisher matrices; their task must say so before asking a contributor to download
-or run anything. Do not silently use a compact toy check as verification of a
-broader model's predictive claims.
+or run anything (the pinned DepMap 24Q2 files are about 1.2 GB; `src/fetch_data.py`).
+Never fetch controlled-access, restricted or human-subject data. Do not silently
+use a compact toy check as verification of a broader model's predictive claims.

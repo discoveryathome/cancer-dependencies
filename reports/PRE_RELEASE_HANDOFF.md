@@ -1,5 +1,11 @@
 # Pre-release incubated project handoff — 2026-10-21
 
+> **Historical (2026-10-21).** The status below predates the launch: the checkpoint is
+> merged to main, and the project has been open to donated sessions since 2026-10-21 with
+> @Mister-Meeseeks as maintainer. The scientific position and resume sequence still stand.
+> Current status is in `CURRENT.md`; run `research/launch-20261021/check_manifest.py` in
+> place of `research/program-v2-20261021/check_manifest.py` on the current checkout.
+
 **Status: parked, ready for supervised scientific/technical handoff.** Research
 preparation is complete for this round. Public donor intake and scientific
 acceptance remain pending. No scientific owner or independent reviewer is appointed.
