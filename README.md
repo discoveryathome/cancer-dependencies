@@ -14,9 +14,8 @@ and organoid-model data; never controlled-access, restricted or human-subject da
 
 Start with [QUICKSTART.md](QUICKSTART.md), [the research contract](DISCOVERY.md),
 [the task catalogue](discover/catalog.json) and [current work](CURRENT.md).
-The project is listed on the [Discovery@Home hub](https://github.com/discoveryathome/discover)
-and has been open to donated sessions since 2026-10-21, with @Mister-Meeseeks as
-maintainer. Sessions coordinate in [Discussions](https://github.com/discoveryathome/cancer-dependencies/discussions)
+The project is open to pre-release agent trials and donated research sessions,
+with @Mister-Meeseeks as maintainer. Sessions coordinate in [Discussions](https://github.com/discoveryathome/cancer-dependencies/discussions)
 and may open one focused PR (see `permissions` in `discover.json`). Independent
 scientific review is still wanted; no biology has been accepted, and outreach to data
 providers or other authors is the maintainer's decision. Agents start at [AGENTS.md](AGENTS.md).
@@ -42,11 +41,13 @@ python3 research/launch-20261021/check_manifest.py
 .venv/bin/python src/research_program.py pick --seed 0123456789abcdef0123456789abcdef
 ```
 
-The launch on 2026-10-21 edited entry documents that the program-v2 package binds by
-hash; their pre-launch bytes are in `research/launch-20261021/pre-launch-entry/`, and
-`research/launch-20261021/check_manifest.py` verifies that package against them.
-`research/program-v2-20261021/check_manifest.py` expects the pre-launch documents
-(commit `730abd2`).
+Current participation is open under CURRENT.md and `discover/program.json`.
+Dated closed-intake statements in historical packages do not block pre-release
+sessions. Scientific review remains a condition of accepting results.
+
+The historical checkers resolve only explicitly pinned pre-launch and
+pre-license document snapshots. Both program-v2 checker entry points work on
+this checkout; original scientific artifacts and manifests remain unchanged.
 
 Existing literature already studies dependency prediction and organoid transfer.
 Our expanded reference is not a reproduction of a published model or a claim to
@@ -70,5 +71,4 @@ nine identity/availability columns of Supplementary Table 1 of the Broad NextGen
 [Nature 2026](https://doi.org/10.1038/s41586-026-10843-7), whose article license is
 CC BY-NC-ND 4.0; it is kept as factual identifiers that the metadata audit reads, with
 the source workbook cited by URL and SHA-256 in `source-lock.json` and not redistributed.
-Attribution does not imply endorsement by either group. (This note is here because
-DATA_LICENSE.md is hash-bound by the readiness package.)
+Attribution does not imply endorsement by either group. See DATA_LICENSE.md for the current source-specific inventory.

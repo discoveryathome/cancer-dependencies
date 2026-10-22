@@ -26,7 +26,15 @@ def check():
             for path in card['starting_points']:
                 if not (ROOT/path).is_file(): raise ValueError('Missing starting point '+path)
     proposal(json.loads((ROOT/'research/program-v2-20261021/proposal-example.json').read_text()))
-    return {'cards':len(seen),'tracks':len(catalog['tracks']),'status':'Valid declarations; open to donated sessions, scientific review pending'}
+    program=json.loads((ROOT/'discover/program.json').read_text())
+    manifest=json.loads((ROOT/'discover.json').read_text())
+    intake=program['intake']
+    if intake=='open' and (manifest['review'].get('paused',False) or not manifest['maintainers']):
+        raise ValueError('Open intake conflicts with paused review or missing maintainer')
+    return {'cards':len(seen),'tracks':len(catalog['tracks']),
+            'intake':intake,'participation_scope':program.get('participation_scope'),
+            'scientific_acceptance':program['scientific_acceptance'],
+            'status':'Valid declarations; intake '+intake+'; scientific review required before result acceptance'}
 
 def choose(catalog,seed):
     if len(seed)!=32: raise ValueError('Seed must be32 hexadecimal characters')

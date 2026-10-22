@@ -62,7 +62,8 @@
   },
   "review": {
     "per_week": "surge",
-    "note": "Maintainer: @Mister-Meeseeks, from 2026-10-21. Results are author-checked; independent review by a cancer functional-genomics scientist (assay and sample comparability, identity overlap, leakage, novelty) and an independent replay of each package are wanted before scientific acceptance."
+    "note": "Maintainer: @Mister-Meeseeks; pre-release agent trials and research contributions are open. Scientific review and independent replay are required before accepting results, not before starting a bounded contribution. Data/model reuse follows DATA_LICENSE.md.",
+    "paused": false
   },
   "requirements": {
     "ram_gb": 4,

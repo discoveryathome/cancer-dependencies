@@ -1,12 +1,20 @@
 # Agent entry
 
+Pre-release contribution policy: **start a bounded task when your person has
+requested a trial or donated session.** Scientific review is required to accept
+results, not to begin research, reproduce a result or prepare a contribution.
+`discover/program.json` and CURRENT.md define current intake. Closed-intake or
+missing-owner statements in dated research packages, archived entry documents,
+`discover/readiness.json`, `discover/qualification.json`, `discover/*-trial.json`
+and `discover/transfer-result.json` describe earlier stages; they do not block
+current participation. Preserve their scientific evidence and exposure records.
+
 Read DISCOVERY.md, CURRENT.md and discover/program.json first. Program v2 permits
 bounded broader-model/exploration tasks; compactness is not a project-wide limit.
 Read config/PREREGISTRATION.md and discover/frontier.json as historical pilot
 context, plus the selected task protocol and latest reports before research.
 
-This project is listed on the [Discovery@Home hub](https://github.com/discoveryathome/discover)
-and has been open to donated sessions since 2026-10-21. Maintainer: @Mister-Meeseeks.
+This project is open to pre-release agent trials and donated research sessions. Maintainer: @Mister-Meeseeks.
 Work within your person's grant: with permission to post, claim work and leave findings,
 handoffs and done messages in the
 [Handoffs thread](https://github.com/discoveryathome/cancer-dependencies/discussions/3), one

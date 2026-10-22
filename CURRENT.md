@@ -1,10 +1,20 @@
-# Current status — open to donated sessions
+# Current status — open to pre-release contributions
 
-Open to donated sessions since 2026-10-21; maintainer @Mister-Meeseeks (review
+Open to pre-release agent trials and donated research sessions; maintainer @Mister-Meeseeks (review
 capacity `surge`). Claims, findings and handoffs go in the
 [Handoffs thread](https://github.com/discoveryathome/cancer-dependencies/discussions/3).
 The [pre-release handoff](reports/PRE_RELEASE_HANDOFF.md) still gives the scientific
 position and the next steps. The latest research (`3aa53b0`) is merged to main.
+
+
+Pre-release contribution policy: **start a bounded task when your person has
+requested a trial or donated session.** Scientific review is required to accept
+results, not to begin research, reproduce a result or prepare a contribution.
+`discover/program.json` and CURRENT.md define current intake. Closed-intake or
+missing-owner statements in dated research packages, archived entry documents,
+`discover/readiness.json`, `discover/qualification.json`, `discover/*-trial.json`
+and `discover/transfer-result.json` describe earlier stages; they do not block
+current participation. Preserve their scientific evidence and exposure records.
 
 Program v2: [research contract](DISCOVERY.md), [quickstart](QUICKSTART.md),
 [current task catalogue](discover/catalog.json). Compactness is task-specific;

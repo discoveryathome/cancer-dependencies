@@ -79,10 +79,17 @@ The following source records declare CC BY 4.0 for their pinned Figshare deposit
 The associated open-access article supplements are identified in
 `research/qualification-20261021/source-lock.json` and `DATASETS.md` in that
 directory: [Broad article](https://doi.org/10.1038/s41586-026-10843-7) and
-[Sanger article](https://doi.org/10.1038/s41586-026-10830-y). Their CC BY 4.0 terms
-are subject to any separately marked third-party exceptions. Derived identity,
-eligibility and availability audits preserve this attribution and record the
-transformations; they do not imply endorsement or independently verified identity.
+[Sanger article](https://doi.org/10.1038/s41586-026-10830-y). The Sanger article/supplement is recorded under CC BY 4.0, subject to separately
+marked third-party exceptions. The Broad article instead carries
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), as confirmed
+on its publisher rights-and-permissions page on 2026-10-22. That article license
+does not authorize sharing adaptations. `broad-aliases.json` records factual
+identity/availability fields extracted from its Supplementary Table 1; the source
+workbook is not redistributed. This project does not claim a CC BY grant for
+that extract or resolve any copyright/database rights in it. Further reuse must
+respect applicable rights; the metadata deposit's different license must not be
+used to infer permission. Derived identity and availability audits preserve source
+attribution and transformations without implying endorsement or verified identity.
 Permission for these deposits does not establish permission for portal matrices.
 
 ## NextGen Model Manuscript 2026 portal inputs and artifacts
