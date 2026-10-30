@@ -23,6 +23,7 @@ def main():
     ids=dev.model_id.tolist();checked=0;worst=0.
     for t,row in res['targets'].items():
         y=dev['y:'+t].to_numpy(float);assert np.isfinite(y).all() and len(y)==773
+        assert adapted[t]['max_abs_difference_from_stage1_path']<=1e-9,'stage 2 differs from stage 1 path '+t
         seen=[i for f in adapted[t]['folds'] for i in f['test_ids']]
         assert sorted(seen)==sorted(ids) and len(seen)==len(set(seen)),'coverage '+t
         saved=[f['test_ids'] for f in wide['targets'][t]['folds']]

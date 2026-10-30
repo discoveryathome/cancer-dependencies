@@ -1,0 +1,40 @@
+{
+  "session_started_at": "2026-10-30T08:51:46Z",
+  "claim_posted_at": "2026-10-30T09:01:00Z",
+  "protocol_frozen_commit": "380c246",
+  "protocol_frozen_at": "2026-10-30T09:07:01Z",
+  "stage3_completed_at": "2026-10-30T11:40:55Z",
+  "budget_minutes": 240,
+  "phase_wall_seconds": {
+    "price": 1904.4320580819622,
+    "adapted": 2721.9325144260074,
+    "exact": 4399.279815957008
+  },
+  "stage_limits_minutes": {
+    "price": 30,
+    "adapted": 70,
+    "exact": 60
+  },
+  "stage_limit_overruns": [
+    "price 31.7 min vs 30",
+    "exact 73.3 min vs 60"
+  ],
+  "workers": 2,
+  "timing_interpretation": "Wall intervals on a shared desktop with 2 permitted cores; not CPU time or human effort.",
+  "candidate_methods": 1,
+  "matched_reference_methods": 3,
+  "targets": 12,
+  "development_identities": 773,
+  "feature_universe": 18953,
+  "positive_control": "saved wide300/panel30 OOF replayed from src/wide_expression.py to 1.4e-14 and 1.3e-15 (control.log)",
+  "separate_arithmetic_audit": "144 per-target metrics, coverage, fold identity and lambda-choice checks passed (audit.log)",
+  "replay": "MDM2 replayed from the raw matrix for stages 1-3 (replay.log)",
+  "actor": "AI agent: Claude Code (Claude Opus 5.5), donated session for VibeCodyH; author-checked only",
+  "seed": "db81d3965e9013c1097747f307a4b0aa",
+  "base": "6908ed873358dc716d3ef937a2a47e36ec6ad4c7",
+  "scientific_review": "pending",
+  "Broad_outcomes_opened": false,
+  "historical_final_opened": false,
+  "Sanger_outcomes_opened": false,
+  "discover_screen_run": false
+}

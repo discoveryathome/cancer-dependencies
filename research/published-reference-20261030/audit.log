@@ -1,0 +1,2 @@
+PASS 144 per-target metrics, 12 targets x 773 identities, max abs difference 5.551115123125783e-17
+mean Spearman {'elastic_net': 0.310295, 'wide300': 0.347068, 'panel30': 0.294791, 'lineage': 0.212886}

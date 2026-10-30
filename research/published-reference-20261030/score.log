@@ -1,0 +1,44 @@
+{
+  "schema": "published-reference-results/v1",
+  "protocol_sha256": "8d8320b7a22e5f21ff76f3ec16785fee0573bda4a4528cc8a20f641a12a8a726",
+  "aggregate": {
+    "elastic_net": {
+      "spearman": 0.3102949237223682,
+      "pearson": 0.42436298726112315
+    },
+    "wide300": {
+      "spearman": 0.34706754657996464,
+      "pearson": 0.45235200664647635
+    },
+    "panel30": {
+      "spearman": 0.2947912064371879,
+      "pearson": 0.4040395013071636
+    },
+    "lineage": {
+      "spearman": 0.21288649451663308,
+      "pearson": 0.2978337523422421
+    }
+  },
+  "primary_elastic_net_minus_wide300": -0.036772622857596415,
+  "elastic_net_minus_panel30": 0.015503717285180296,
+  "bootstrap_95": {
+    "wide300": [
+      -0.05307413407606491,
+      -0.02190039084398639
+    ],
+    "panel30": [
+      -0.002232820754827275,
+      0.03284046205608468
+    ]
+  },
+  "stage1_ceiling_mean_spearman": 0.3582967561584431,
+  "price_rule_triggered": false,
+  "exact_mean_resubstitution_pearson": 0.6735701926840579,
+  "exact_mean_cv_at_lambda_min_pearson": 0.45038285243289006,
+  "r_above_0_2": {
+    "resubstitution": 12,
+    "cv_at_lambda_min": 10,
+    "adapted_oof": 10
+  },
+  "h2_resubstitution_minus_oof_pearson": 0.24920720542293479
+}
