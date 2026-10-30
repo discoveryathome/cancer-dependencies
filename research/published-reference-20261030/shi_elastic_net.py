@@ -190,16 +190,65 @@ def run(kind,targets,workers):
     func={'price':price_target,'adapted':adapted_target,'exact':exact_target}[kind]
     out=HERE/f'{kind}.json'
     if out.exists():raise SystemExit('Refusing to overwrite '+out.name)
-    start=time.perf_counter()
+    start=time.perf_counter();code=sha256(Path(__file__))
     with multiprocessing.get_context('fork').Pool(workers) as pool:
         results=dict(pool.imap_unordered(func,targets))
     if kind=='price':
         np.savez(PATHS,**{t:results[t].pop('path_oof') for t in targets})
     for t in targets:print(kind.upper(),t,round(results[t]['seconds'],1),'s',flush=True)
     record={'schema':f'published-reference-{kind}/v1','protocol_sha256':sha256(HERE/'protocol.json'),
-            'code_sha256':sha256(Path(__file__)),'expression_sha256':sha256(OLD),
+            'code_sha256':code,'expression_sha256':sha256(OLD),
             'wall_seconds':time.perf_counter()-start,'workers':workers,'targets':{t:results[t] for t in targets}}
     out.write_text(dumps(record))
+
+
+def score():
+    p=protocol();frame=pd.read_csv(DEVELOPMENT);w=wide();out=HERE/'results.json'
+    if out.exists():raise SystemExit('Refusing to overwrite results.json')
+    price=json.loads((HERE/'price.json').read_text())['targets']
+    adapted=json.loads((HERE/'adapted.json').read_text())['targets'];exact=json.loads((HERE/'exact.json').read_text())['targets']
+    preds={t:{'elastic_net':np.array(adapted[t]['oof']),**{s:np.array(w['targets'][t]['oof_predictions'][s]) for s in ['wide300','panel30','lineage']}} for t in p['targets']}
+    ys={t:outcome(frame,t) for t in p['targets']}
+    for t in p['targets']:
+        if w['targets'][t]['model_ids']!=frame.model_id.tolist():raise ValueError('Row order differs '+t)
+    families=['elastic_net','wide300','panel30','lineage'];per={}
+    for t in p['targets']:
+        y=ys[t];row={}
+        for s in families:
+            v=preds[t][s];row[s]={'spearman':rho(y,v),'pearson':float(pearsonr(y,v).statistic),'mse':float(np.mean((y-v)**2))}
+        if abs(row['wide300']['spearman']-w['targets'][t]['metrics']['wide300']['spearman'])>1e-12:raise ValueError('Saved metric mismatch '+t)
+        row['elastic_net'].update({'nonzero_by_fold':[f['nonzero'] for f in adapted[t]['folds']],
+            'lambda_index_by_fold':[f['lambda_index'] for f in adapted[t]['folds']],
+            'boundary_hits':sum(f['lambda_boundary'] for f in adapted[t]['folds']),
+            'convergence_warnings':sum(f['convergence_warnings'] for f in adapted[t]['folds'])})
+        row['stage1_ceiling_spearman']=price[t]['best_spearman'];row['stage1_ceiling_position']=price[t]['best_position']
+        row['exact']={k:exact[t][k] for k in ['resubstitution_pearson','resubstitution_spearman','cv_at_lambda_min_pearson',
+            'cv_at_lambda_min_spearman','nonzero','lambda_index','lambda_boundary','convergence_warnings']}
+        per[t]=row
+    mean=lambda key,s:float(np.mean([per[t][s][key] for t in p['targets']]))
+    aggregate={s:{'spearman':mean('spearman',s),'pearson':mean('pearson',s)} for s in families}
+    ceiling=float(np.mean([per[t]['stage1_ceiling_spearman'] for t in p['targets']]))
+    rng=np.random.default_rng(20261030);n=len(frame);draws={'wide300':[],'panel30':[]}
+    for _ in range(2000):
+        idx=rng.integers(0,n,n)
+        en=np.mean([rho(ys[t][idx],preds[t]['elastic_net'][idx]) for t in p['targets']])
+        for s in draws:draws[s].append(en-np.mean([rho(ys[t][idx],preds[t][s][idx]) for t in p['targets']]))
+    interval={s:[float(np.percentile(v,2.5)),float(np.percentile(v,97.5))] for s,v in draws.items()}
+    passes=lambda vals:sum(v is not None and v>0.2 for v in vals)
+    record={'schema':'published-reference-results/v1','protocol_sha256':sha256(HERE/'protocol.json'),
+        'aggregate':aggregate,'primary_elastic_net_minus_wide300':aggregate['elastic_net']['spearman']-aggregate['wide300']['spearman'],
+        'elastic_net_minus_panel30':aggregate['elastic_net']['spearman']-aggregate['panel30']['spearman'],
+        'bootstrap_95':interval,'stage1_ceiling_mean_spearman':ceiling,
+        'price_rule_triggered':ceiling<=aggregate['wide300']['spearman'],
+        'exact_mean_resubstitution_pearson':float(np.mean([per[t]['exact']['resubstitution_pearson'] for t in p['targets']])),
+        'exact_mean_cv_at_lambda_min_pearson':float(np.mean([per[t]['exact']['cv_at_lambda_min_pearson'] for t in p['targets']])),
+        'r_above_0_2':{'resubstitution':passes([per[t]['exact']['resubstitution_pearson'] for t in p['targets']]),
+            'cv_at_lambda_min':passes([per[t]['exact']['cv_at_lambda_min_pearson'] for t in p['targets']]),
+            'adapted_oof':passes([per[t]['elastic_net']['pearson'] for t in p['targets']])},
+        'targets':per}
+    record['h2_resubstitution_minus_oof_pearson']=record['exact_mean_resubstitution_pearson']-aggregate['elastic_net']['pearson']
+    out.write_text(dumps(record))
+    return {k:v for k,v in record.items() if k!='targets'}
 
 
 def control(target):
@@ -218,11 +267,12 @@ def control(target):
 
 def main():
     a=argparse.ArgumentParser()
-    a.add_argument('action',choices=['extract','control','price','adapted','exact'])
+    a.add_argument('action',choices=['extract','control','price','adapted','exact','score'])
     a.add_argument('--target',default='MDM2');a.add_argument('--targets',nargs='*');a.add_argument('--workers',type=int,default=2)
     args=a.parse_args()
     if args.action=='extract':print(json.dumps(extract(),indent=2))
     elif args.action=='control':print(json.dumps(control(args.target),indent=2))
+    elif args.action=='score':print(json.dumps(score(),indent=2))
     else:run(args.action,args.targets or protocol()['targets'],args.workers)
 
 
