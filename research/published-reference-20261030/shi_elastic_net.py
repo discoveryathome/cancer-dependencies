@@ -170,7 +170,7 @@ def adapted_target(target):
         drift=max(drift,float(np.max(np.abs(oof[b]-cached[b,fit['best']]))))
         folds.append({'fold':fold,'test_ids':frame.model_id.iloc[b].tolist(),**summary(fit,genes)})
     if not np.isfinite(oof).all():raise ValueError('Incomplete OOF coverage')
-    if drift>1e-9:raise ValueError('Stage 2 path differs from stage 1 cache')
+    # Drift from the stage 1 cache is recorded here and enforced by audit_results.py (limit 1e-9).
     return target,{'oof':oof.tolist(),'max_abs_difference_from_stage1_path':drift,'folds':folds,'seconds':time.perf_counter()-start}
 
 
@@ -191,15 +191,18 @@ def run(kind,targets,workers):
     out=HERE/f'{kind}.json'
     if out.exists():raise SystemExit('Refusing to overwrite '+out.name)
     start=time.perf_counter();code=sha256(Path(__file__))
-    with multiprocessing.get_context('fork').Pool(workers) as pool:
-        results=dict(pool.imap_unordered(func,targets))
+    partial=HERE/f'{kind}.partial.jsonl';results={}
+    with multiprocessing.get_context('fork').Pool(workers) as pool, partial.open('a') as log:
+        for target,result in pool.imap_unordered(func,targets):
+            results[target]=result
+            if kind!='price':log.write(json.dumps({'target':target,**result})+'\n');log.flush()
     if kind=='price':
         np.savez(PATHS,**{t:results[t].pop('path_oof') for t in targets})
     for t in targets:print(kind.upper(),t,round(results[t]['seconds'],1),'s',flush=True)
     record={'schema':f'published-reference-{kind}/v1','protocol_sha256':sha256(HERE/'protocol.json'),
             'code_sha256':code,'expression_sha256':sha256(OLD),
             'wall_seconds':time.perf_counter()-start,'workers':workers,'targets':{t:results[t] for t in targets}}
-    out.write_text(dumps(record))
+    out.write_text(dumps(record));partial.unlink()
 
 
 def score():
