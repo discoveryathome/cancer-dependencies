@@ -1,0 +1,36 @@
+{
+  "schema": "published-reference-evidence/v1",
+  "files": {
+    "data/source-lock.json": "1f80c423b4deb24aa1f677ec30275fe23f0bb8f21ad21f8da736dd0e5dd94c8b",
+    "requirements.lock": "2a8c976d4228733779011fe2212ce30171d4c539c9f6fc9d39477d1a7f2ab79c",
+    "research/published-reference-20261030/HANDOFF.md": "e0125f3806eb53c5bc00bfefe340d84aa8b8bd15d162043361fc7935b260fd70",
+    "research/published-reference-20261030/README.md": "957b8e7c4225fe64af4ef814433703e4ad9292d8a67d068e3dd444d753d64beb",
+    "research/published-reference-20261030/adapted.json": "670a759d17d6d2d0f1cff18fe5b827d3965673785c84c2e954418c541512064b",
+    "research/published-reference-20261030/adapted.log": "7d709d4d8fedfdf8611cae10ca3679dfd26b39e9be78bd196a13516da7a85345",
+    "research/published-reference-20261030/audit.log": "f78923254a692d448ce780d1427d70340f9a6db20eb69c4ac4aae541da3e8795",
+    "research/published-reference-20261030/audit_results.py": "873e60f8a34994c4994565c03d25d7e472282cf953e45ba48a62a12b4a521ad3",
+    "research/published-reference-20261030/check_manifest.py": "b52d30e3a75109e2742b91316929ff3b013d88e825e9b586ae55446c1383c6ae",
+    "research/published-reference-20261030/control.log": "d746ca28a4a8b5020e1a8cb7505ef418c3b5c0ba34dbd919183d3a82fa5685cc",
+    "research/published-reference-20261030/exact.json": "3299c642f131a2d786392fb0338758be633a3c2731d6b329ed2a037b9941c242",
+    "research/published-reference-20261030/exact.log": "79cd18fb6d9d9fbe76d0b4f5d804e66cc2224099ac11efaef88b80ce3ff02053",
+    "research/published-reference-20261030/price.json": "e640780f0050ee45054d1ed61993e44bd8eba7c37e84b47b381ddc3f128d9071",
+    "research/published-reference-20261030/price.log": "2c340f418ddd12947092dde3afc7ebc91f457e8d5058a172367bcc9cd3247651",
+    "research/published-reference-20261030/proposal.json": "155a089b5c2ff13f36eafcbce7ad4ba2dbd0948e4a1d0ea7f4d1ce4c3e844799",
+    "research/published-reference-20261030/protocol.json": "8d8320b7a22e5f21ff76f3ec16785fee0573bda4a4528cc8a20f641a12a8a726",
+    "research/published-reference-20261030/replay.log": "91406bf2fdd468d75f89a9c2f0ab72e6e7da287d24565069aa1faa5f828a5051",
+    "research/published-reference-20261030/replay_check.py": "d34faab518f0cd4fcb5cdb6792d8868b32685815493738ef2cd34614b34c56c2",
+    "research/published-reference-20261030/results.json": "8979ef266fec92688a6edeefc65ee0cfecc3472fc459f3a62d4053c355abf4df",
+    "research/published-reference-20261030/score.log": "a04e3cc5c1758dcecb700594166cb71a0d8c9e13bdcdc8e0725a412310d00c87",
+    "research/published-reference-20261030/session.json": "25fa2f593e277b06f7358122789a944dc1876cf40829f0a6957e927ff0a44ce0",
+    "research/published-reference-20261030/shi_elastic_net.py": "fd6ae2e33690c77d67faf0674936497cc476a37687e3897b67d54f13961ebfba",
+    "research/readiness-20261021/development.csv": "6b627b6ac22637e3828382f57d4f31fa429bb82b4215d23042a7548fdd84e499",
+    "research/wide-expression-20261021/models.json": "80af8429bdd7e9c1d377f759b017384ebe579dac278272bdb01409c28d45bb72",
+    "src/core.py": "b757116542c02200c8cd7b43ba18813a1037205d607acc76160d1804bd67bed8",
+    "src/models.py": "f70fabe7e9c9760e5ef5b5d697aeade482bfba74a317451a7f3647e2fa38ad45",
+    "src/wide_expression.py": "957bf111c75b482dcf3b10b87a2c36330895f1bd37b27e108486784dac95d2cd"
+  },
+  "raw_files": {
+    "data/raw/OmicsExpressionProteinCodingGenesTPMLogp1.csv": "39eff342bbbbe0a40208545e93a69cc85a945899592f9d683f87e3b2bb121670"
+  },
+  "scope": "Author-checked, development-only exploratory reproduction of a published fitting recipe; no Broad, historical-final or Sanger outcome opened; no scientific acceptance."
+}

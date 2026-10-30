@@ -1,0 +1,6 @@
+REPLAY adapted MDM2 max_abs_difference 5.551115123125783e-17 selection_identical True
+PASS replay adapted ['MDM2']
+REPLAY exact MDM2 max_abs_difference 0.0 selection_identical True
+PASS replay exact ['MDM2']
+REPLAY price MDM2 max_abs_difference 8.881784197001252e-16 selection_identical True
+PASS replay price ['MDM2']

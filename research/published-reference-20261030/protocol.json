@@ -1,0 +1,58 @@
+{
+  "schema": "published-reference-protocol/v1",
+  "status": "frozen before any outer-fold scoring",
+  "task": "published-reference",
+  "selection": "seed db81d3965e9013c1097747f307a4b0aa via src/research_program.py pick (exploration track, card index 3)",
+  "published_method": {
+    "paper": "Shi X. et al. Building a translational cancer dependency map for The Cancer Genome Atlas. Nature Cancer 5, 1176-1194 (2024). https://doi.org/10.1038/s43018-024-00789-y",
+    "code": "https://github.com/xushiabbvie/TDtool/blob/6d7ef3a05cd10b237c46560bcaa8e67a32bbcda6/build_model_predict_TCGADEPMAP.R",
+    "code_license": "none declared; reimplemented from the method, no code copied",
+    "recipe": "genome-wide expression, per-gene z-score, glmnet alpha 0.5 (sklearn l1_ratio 0.5, identical objective with sklearn alpha = glmnet lambda), standardize=TRUE, lambda.min from 10-fold cv.glmnet over the default 100-lambda path, script reports cor(in-sample fitted, y)"
+  },
+  "adaptations": [
+    "Expression is DepMap 24Q2 log2(TPM+1) without Celligner/TCGA alignment (the paper used aligned 21Q1 expression; TCGA data are out of scope here).",
+    "Gene universe is the saved wide300 universe of 18,953 unambiguous EntrezIDs, not the paper's 19,005 genes.",
+    "Adapted arm: imputation and z-scoring learned inside every training fold (the script z-scores across all cell lines).",
+    "Adapted arm: 3 inner folds (seed 817, as in the saved wide300/panel30 references) instead of 10, because one full path takes about 28 s here and 10-fold nested selection would need about 2.3 h on the 2 permitted cores.",
+    "sklearn coordinate descent (tol 1e-4, max_iter 1000) instead of glmnet; no glmnet early path stopping; lambda grid computed as glmnet's default (100 values, lambda.min.ratio 0.01 because n < p)."
+  ],
+  "targets": ["BRAF","KRAS","NRAS","EGFR","ERBB2","PIK3CA","SMARCA2","SMARCA4","ARID1B","STAG1","MDM2","PRMT5"],
+  "cohort": "exact 773 development identities of research/readiness-20261021/development.csv in saved wide300 row order; all targets finite for all rows",
+  "l1_ratio": 0.5,
+  "n_lambda": 100,
+  "lambda_min_ratio": 0.01,
+  "max_iter": 1000,
+  "tol": 0.0001,
+  "outer_folds": 5,
+  "outer_seed": 1701,
+  "inner_folds": 3,
+  "inner_seed": 817,
+  "exact_cv_folds": 10,
+  "exact_cv_seed": 20261030,
+  "selection_metric": "minimum pooled inner squared error over the 100-lambda grid computed on the training set; exact ties choose the larger lambda",
+  "stages": {
+    "1_price": "Favorable, fully charged best case. Genome-wide fold-local paths on the 5 saved outer folds; per target, the best pooled-OOF Spearman over the 100 common path positions, i.e. lambda chosen with test outcomes. Optimistic ceiling, never reported as a result.",
+    "2_adapted": "Nested inner-CV lambda per outer fold; OOF predictions scored against the saved wide300, panel30 and lineage OOF predictions on identical rows.",
+    "3_exact": "Published recipe on all 773 identities with 10-fold CV: in-sample (resubstitution) Pearson as the script reports it, plus the CV prediction at lambda.min."
+  },
+  "price_rule": "If the stage 1 ceiling (mean over 12 targets) is at or below the saved wide300 development mean Spearman 0.347068, record that no lambda on this path lets the published elastic net beat the local wide300 reference on development, and run stages 2-3 only as the reproduction and reported-metric audit; no improvement claim is possible. Otherwise stage 2 tests how much of the ceiling honest lambda selection keeps.",
+  "primary": "all-12-target mean development OOF Spearman, adapted elastic net minus saved wide300",
+  "secondary": "minus panel30 and lineage; per-target Spearman and MSE; Pearson (the published metric); nonzero coefficients; lambda boundary hits; exact-arm resubstitution minus adapted OOF Pearson; count of targets passing the paper's R > 0.2 rule under each estimate",
+  "bootstrap": "2000 paired identity resamples, seed 20261030, of the 12-target mean Spearman difference (adapted minus wide300, adapted minus panel30); conditional on fitted predictions, exploratory, not a significance test",
+  "limits": {
+    "workers": 2,
+    "price_wall_minutes": 30,
+    "adapted_wall_minutes": 70,
+    "exact_wall_minutes": 60,
+    "new_methods": 1,
+    "new_data_downloads": 1
+  },
+  "not_opened": "Broad organoid, historical-final and Sanger outcomes",
+  "not_claimed": [
+    "exact reproduction of the paper's TCGA-aligned models",
+    "state of the art",
+    "transfer to organoids or unseen lineages",
+    "biomarker novelty or practical experimental utility",
+    "independent confirmation"
+  ]
+}
